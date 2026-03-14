@@ -1,0 +1,2066 @@
+Patient_ID,Start_Date,End_Date,Unplanned,Retention_Event,Event_Category
+28b91d07-64b9-4159-bd33-477d97afca61,2022-08-22,2022-10-02,True,True,CV admission other than HF
+9883c34a-29bb-41bb-ba68-80eb161d6678,2020-12-20,2022-10-30,False,Unknown,Unknown
+9883c34a-29bb-41bb-ba68-80eb161d6678,2023-07-21,2023-09-24,False,Unknown,Unknown
+9883c34a-29bb-41bb-ba68-80eb161d6678,2024-08-09,2024-08-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+740f0c64-ea97-43b0-8125-47679df6c2c7,2023-10-04,2023-10-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+9983bc25-bb34-46e8-a3de-c802ce18e5cc,2022-01-07,2022-05-20,False,Unknown,Unknown
+9983bc25-bb34-46e8-a3de-c802ce18e5cc,2022-07-30,2022-11-22,False,Unknown,Unknown
+9983bc25-bb34-46e8-a3de-c802ce18e5cc,2023-03-26,2024-01-15,False,Unknown,Unknown
+4a82d6d1-44f8-4cb7-ab4d-e07bd7cd7e13,2020-09-17,2020-10-15,True,True,HF Admission
+4a82d6d1-44f8-4cb7-ab4d-e07bd7cd7e13,2020-10-31,2023-02-14,False,Unknown,Unknown
+4a82d6d1-44f8-4cb7-ab4d-e07bd7cd7e13,2023-04-13,2023-05-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+4a82d6d1-44f8-4cb7-ab4d-e07bd7cd7e13,2024-03-08,2024-04-24,False,Unknown,Unknown
+4f354cb2-0998-450c-9c8d-4af90eddbffd,2020-12-26,2021-09-07,True,True,Other non-CV admissions
+4f354cb2-0998-450c-9c8d-4af90eddbffd,2023-08-02,2023-10-27,True,True,Infection management
+f707ad3f-6558-46e9-8c4c-36bc6a63f998,2021-09-02,2021-12-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+f707ad3f-6558-46e9-8c4c-36bc6a63f998,2022-04-05,2022-04-17,True,True,HF Admission
+7e1a5ee9-f801-4c2d-99f1-9022666b5501,2023-01-06,2023-03-04,False,Unknown,Unknown
+747cbc75-5a61-472d-aa06-a1dbde2b5971,2020-03-14,2020-06-18,False,Unknown,Unknown
+747cbc75-5a61-472d-aa06-a1dbde2b5971,2020-06-20,2021-10-14,False,Unknown,Unknown
+747cbc75-5a61-472d-aa06-a1dbde2b5971,2022-03-01,2022-06-10,False,Unknown,Unknown
+7b24e9b2-4946-410f-b86e-7bccd6455add,2021-11-05,2023-03-15,True,False,Unknown
+7b24e9b2-4946-410f-b86e-7bccd6455add,2023-03-23,2023-03-28,False,Unknown,Unknown
+9731ce33-3cc6-44d1-8532-f73d9a010ea4,2021-05-02,2021-06-26,False,Unknown,Unknown
+9731ce33-3cc6-44d1-8532-f73d9a010ea4,2021-08-25,2022-03-23,False,Unknown,Unknown
+b0fd7fb4-791c-4bcd-8506-aa2454541893,2022-12-16,2023-05-31,True,True,HF Admission
+b0fd7fb4-791c-4bcd-8506-aa2454541893,2023-06-16,2023-07-05,True,True,HF Admission
+b0fd7fb4-791c-4bcd-8506-aa2454541893,2023-12-29,2024-01-01,False,Unknown,Unknown
+8f4132c5-1204-4034-a4ff-46afccea5474,2021-06-19,2021-06-30,True,True,Device-related complications
+8f4132c5-1204-4034-a4ff-46afccea5474,2021-11-04,2021-11-06,True,True,CV admission other than HF
+84e44ac5-6d06-4b43-9e4a-09559440e8a4,2021-02-28,2021-06-26,False,Unknown,Unknown
+84e44ac5-6d06-4b43-9e4a-09559440e8a4,2023-06-04,2023-09-24,False,Unknown,Unknown
+93e644dc-53ba-4e6a-8eb9-82c3b13e3bd5,2023-09-05,2023-09-30,False,Unknown,Unknown
+93e644dc-53ba-4e6a-8eb9-82c3b13e3bd5,2024-04-15,2024-08-19,False,Unknown,Unknown
+75f97de6-1dff-4db3-a4f1-e528c6dfe481,2021-01-31,2021-03-14,True,False,Unknown
+75f97de6-1dff-4db3-a4f1-e528c6dfe481,2021-04-14,2021-07-04,True,False,Unknown
+75f97de6-1dff-4db3-a4f1-e528c6dfe481,2022-01-01,2022-04-25,False,Unknown,Unknown
+1667a323-57d3-4095-8142-bf58c011c7a6,2021-05-08,2021-08-03,True,True,HF Admission
+1667a323-57d3-4095-8142-bf58c011c7a6,2021-09-03,2021-09-21,False,Unknown,Unknown
+1667a323-57d3-4095-8142-bf58c011c7a6,2022-08-02,2023-02-09,False,Unknown,Unknown
+c5da70b2-64b2-4bb4-8dcf-276ca6d69117,2022-08-24,2022-10-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+c5da70b2-64b2-4bb4-8dcf-276ca6d69117,2022-11-15,2022-12-05,False,Unknown,Unknown
+e084380d-1189-41d7-97ff-998c86c8e5e9,2022-06-29,2022-07-25,False,Unknown,Unknown
+943cde57-c5d1-43ac-9667-da994a2d753d,2024-06-28,2024-10-31,True,True,HF Admission
+a6cb0096-dccc-4ced-99d8-a8b16698b87b,2020-10-18,2021-03-15,False,Unknown,Unknown
+a6cb0096-dccc-4ced-99d8-a8b16698b87b,2022-02-01,2023-10-02,False,Unknown,Unknown
+f49da48f-3840-448a-adeb-de22708b7439,2020-06-02,2020-08-28,False,Unknown,Unknown
+9b32d03f-8d0b-4dfd-b2a0-9594cbef465b,2021-11-24,2022-05-01,True,True,HF Admission
+9b32d03f-8d0b-4dfd-b2a0-9594cbef465b,2022-05-20,2022-06-13,False,Unknown,Unknown
+51fd2ce8-bb08-4281-beb4-6c3ff1ea7947,2024-01-12,2024-01-20,False,Unknown,Unknown
+6a388add-fac8-4451-a122-78e3613d8f0b,2021-02-08,2021-03-08,True,False,Unknown
+6a388add-fac8-4451-a122-78e3613d8f0b,2021-03-16,2021-10-19,False,Unknown,Unknown
+6a388add-fac8-4451-a122-78e3613d8f0b,2022-02-13,2022-03-04,False,Unknown,Unknown
+7ee9d666-b848-4ab8-8e84-2eff64d0e7c7,2020-04-13,2020-06-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+77384379-7dd1-483f-98e0-6fd68871c15f,2020-09-26,2021-04-10,False,Unknown,Unknown
+16839e77-0438-4212-90c9-9cb6218afc1b,2019-12-19,2022-02-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+16839e77-0438-4212-90c9-9cb6218afc1b,2022-12-29,2023-05-15,True,True,HF Admission
+d1132e5e-1641-4cea-9537-d12cb555d6a2,2019-11-22,2019-12-26,True,False,Unknown
+d1132e5e-1641-4cea-9537-d12cb555d6a2,2021-03-09,2021-08-12,False,Unknown,Unknown
+177ce27b-9dde-458e-aca6-5e959e875e4c,2020-02-15,2020-08-04,True,False,Unknown
+177ce27b-9dde-458e-aca6-5e959e875e4c,2021-04-24,2021-10-27,True,True,CV admission other than HF
+177ce27b-9dde-458e-aca6-5e959e875e4c,2022-01-04,2022-09-02,False,Unknown,Unknown
+93baee6d-c8d2-4722-9c18-d96943598dd7,2021-05-20,2021-10-04,True,True,Rejection episode
+93baee6d-c8d2-4722-9c18-d96943598dd7,2023-10-20,2024-05-15,False,Unknown,Unknown
+0ac6e9fe-6343-4bb4-9ea0-609e4b738d02,2021-10-12,2021-12-20,False,Unknown,Unknown
+0ac6e9fe-6343-4bb4-9ea0-609e4b738d02,2022-02-23,2022-05-03,False,Unknown,Unknown
+838b6171-f4ec-44f9-9a9d-f32eaa6f9e57,2019-12-03,2019-12-26,False,Unknown,Unknown
+838b6171-f4ec-44f9-9a9d-f32eaa6f9e57,2020-07-05,2021-08-30,True,True,HF decompensation needing iv. Diuretic-inotropes
+838b6171-f4ec-44f9-9a9d-f32eaa6f9e57,2021-10-04,2021-11-22,True,True,HF Admission
+0502fa12-590c-4d16-847a-ab18c08b3ef8,2020-06-07,2020-07-06,False,Unknown,Unknown
+a9f71c4c-648d-4de4-86c2-d55360fa8499,2021-05-21,2021-06-11,False,Unknown,Unknown
+a9f71c4c-648d-4de4-86c2-d55360fa8499,2022-01-30,2022-02-24,True,False,Unknown
+845fd177-58f3-4b46-b62b-cd4203c6b475,2020-02-27,2020-05-14,False,Unknown,Unknown
+845fd177-58f3-4b46-b62b-cd4203c6b475,2020-06-23,2020-10-22,True,True,CV admission other than HF
+891dfb3b-305c-4079-ae08-569d4c49dad5,2019-11-21,2020-01-16,False,Unknown,Unknown
+7623b782-e364-47fc-adf8-33d5277e4cbd,2021-04-29,2021-07-03,False,Unknown,Unknown
+0ba0e3e7-5984-4308-bf4c-9a2b1398bc80,2021-07-22,2021-09-17,True,False,Unknown
+0ba0e3e7-5984-4308-bf4c-9a2b1398bc80,2021-10-10,2022-07-02,False,Unknown,Unknown
+bba0547f-7ab8-4b73-b1f1-17af6887e6d4,2021-04-15,2021-05-09,False,Unknown,Unknown
+bba0547f-7ab8-4b73-b1f1-17af6887e6d4,2024-03-19,2024-04-30,True,True,HF Admission
+fc572a02-be4e-4449-ba86-7c4b36799517,2019-11-29,2020-04-17,False,Unknown,Unknown
+fc572a02-be4e-4449-ba86-7c4b36799517,2022-04-27,2022-07-28,False,Unknown,Unknown
+6a0dcd1d-9c73-4691-80c7-3e9bf1390b69,2021-06-08,2021-07-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+6a0dcd1d-9c73-4691-80c7-3e9bf1390b69,2021-07-26,2022-02-16,False,Unknown,Unknown
+6a0dcd1d-9c73-4691-80c7-3e9bf1390b69,2022-11-21,2023-08-07,True,True,HF Admission
+02ff7ffa-8168-4d5c-9120-6c53f40dbef6,2023-03-24,2023-03-27,True,False,Unknown
+8bc7fc8c-692b-45d7-b340-668b513db466,2020-04-27,2021-05-22,False,Unknown,Unknown
+8bc7fc8c-692b-45d7-b340-668b513db466,2021-06-21,2022-05-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+8bc7fc8c-692b-45d7-b340-668b513db466,2023-03-24,2023-04-11,True,True,HF Admission
+babb0964-60ff-4b3d-9f27-60a1ede66d12,2022-02-04,2022-10-18,False,Unknown,Unknown
+babb0964-60ff-4b3d-9f27-60a1ede66d12,2023-11-19,2024-01-10,True,False,Unknown
+be13fe01-1eb3-44b2-9822-fa25737070f2,2022-01-26,2022-03-24,True,True,CV admission other than HF
+be13fe01-1eb3-44b2-9822-fa25737070f2,2022-04-12,2022-05-26,True,False,Unknown
+24da7b05-f6fb-46d1-a5e3-c3c3e6803601,2022-07-29,2023-05-05,True,True,HF Admission
+87292027-a661-472a-8fce-842bff7b415c,2020-02-16,2020-10-16,False,Unknown,Unknown
+87292027-a661-472a-8fce-842bff7b415c,2022-12-28,2023-01-27,False,Unknown,Unknown
+c3427231-5924-412a-879a-6ee0a1321352,2020-04-26,2020-12-30,False,Unknown,Unknown
+c3427231-5924-412a-879a-6ee0a1321352,2022-07-21,2022-10-05,True,True,HF Admission
+c3427231-5924-412a-879a-6ee0a1321352,2022-12-13,2023-02-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+1e3ca81a-7ffd-4ada-9a30-39e11c00a07d,2020-02-17,2020-05-07,False,Unknown,Unknown
+1e3ca81a-7ffd-4ada-9a30-39e11c00a07d,2021-01-12,2021-06-13,True,False,Unknown
+1e3ca81a-7ffd-4ada-9a30-39e11c00a07d,2022-09-05,2024-08-26,False,Unknown,Unknown
+e8304969-7126-4e21-a8c7-34325679dd57,2020-09-13,2020-11-02,False,Unknown,Unknown
+e8304969-7126-4e21-a8c7-34325679dd57,2023-06-23,2023-07-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+e77730cd-4aff-4292-a53a-09db559a2c9f,2023-04-18,2023-04-19,False,Unknown,Unknown
+e77730cd-4aff-4292-a53a-09db559a2c9f,2023-07-19,2023-09-12,False,Unknown,Unknown
+13ebebc1-7118-4bdf-8819-d3cf09e4b9df,2020-02-09,2020-04-27,True,True,HF Admission
+13ebebc1-7118-4bdf-8819-d3cf09e4b9df,2020-05-12,2022-08-31,True,True,HF Admission
+53357e5b-48b7-4f61-9f51-09bbac4a466a,2023-05-16,2023-12-12,False,Unknown,Unknown
+53357e5b-48b7-4f61-9f51-09bbac4a466a,2023-12-13,2024-02-03,False,Unknown,Unknown
+7e7874de-3d8d-4c71-bf4f-cdc6c4bbdc0c,2022-10-23,2022-11-11,False,Unknown,Unknown
+7e7874de-3d8d-4c71-bf4f-cdc6c4bbdc0c,2022-11-12,2023-01-25,True,True,HF Admission
+7e7874de-3d8d-4c71-bf4f-cdc6c4bbdc0c,2023-06-28,2023-07-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+ae9965dc-047a-4494-b2c1-a59468ef79aa,2020-05-19,2020-07-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+ae9965dc-047a-4494-b2c1-a59468ef79aa,2022-10-04,2024-05-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+f240b774-9e5e-49ff-84d5-050d30b9b98f,2021-10-06,2021-11-28,True,False,Unknown
+f240b774-9e5e-49ff-84d5-050d30b9b98f,2023-04-05,2023-08-22,True,False,Unknown
+6226ca34-8b18-4566-b02f-acdde42ebe21,2021-04-07,2021-08-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+6226ca34-8b18-4566-b02f-acdde42ebe21,2023-05-19,2023-09-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+803e61b1-9fee-4ea7-b7f5-9ce5c1f22788,2021-04-12,2022-04-11,False,Unknown,Unknown
+803e61b1-9fee-4ea7-b7f5-9ce5c1f22788,2022-07-05,2023-01-15,False,Unknown,Unknown
+803e61b1-9fee-4ea7-b7f5-9ce5c1f22788,2024-02-05,2024-06-14,False,Unknown,Unknown
+9b1475fd-899c-4de1-8edb-92b794cd1bed,2022-03-05,2022-03-25,True,True,HF Admission
+9b1475fd-899c-4de1-8edb-92b794cd1bed,2023-06-28,2023-10-31,True,True,HF decompensation needing iv. Diuretic-inotropes
+630e9180-f5d4-4441-b39f-0337f9736342,2020-07-06,2020-08-01,False,Unknown,Unknown
+630e9180-f5d4-4441-b39f-0337f9736342,2020-09-20,2020-11-05,True,True,Other non-CV admissions
+630e9180-f5d4-4441-b39f-0337f9736342,2021-05-24,2021-06-07,False,Unknown,Unknown
+4af7c07d-03d2-40a5-9a91-14a01d08d826,2020-09-23,2020-11-14,True,True,CV admission other than HF
+7db464d4-1d74-4813-bf3b-be3afacd526e,2020-05-08,2020-10-14,True,False,Unknown
+7db464d4-1d74-4813-bf3b-be3afacd526e,2022-03-02,2022-10-12,False,Unknown,Unknown
+c8496531-d2bc-44c5-b53e-8a186143b3bd,2023-05-10,2023-07-23,False,Unknown,Unknown
+c8496531-d2bc-44c5-b53e-8a186143b3bd,2023-08-26,2023-09-13,False,Unknown,Unknown
+0a9cf8ab-acb1-4b91-aef1-4dce2c67f6b5,2019-11-23,2020-10-14,False,Unknown,Unknown
+0a9cf8ab-acb1-4b91-aef1-4dce2c67f6b5,2021-06-02,2021-12-26,False,Unknown,Unknown
+0a9cf8ab-acb1-4b91-aef1-4dce2c67f6b5,2023-07-22,2023-10-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+bcea4a02-a1ce-4f6a-8bb2-aa474d29d1aa,2021-10-08,2021-10-22,True,False,Unknown
+93acbb56-0910-49cf-b8c0-7a464b6e4e28,2021-01-17,2021-03-01,True,True,HF Admission
+93acbb56-0910-49cf-b8c0-7a464b6e4e28,2022-07-20,2023-04-21,True,True,HF Admission
+72703878-76c5-4afc-8546-ce09b2a9bde5,2019-12-05,2019-12-14,False,Unknown,Unknown
+72703878-76c5-4afc-8546-ce09b2a9bde5,2023-07-04,2023-09-27,True,False,Unknown
+4ea8f9ef-2ae8-49f1-8442-b86534cf82c9,2022-06-09,2022-09-02,True,False,Unknown
+4ea8f9ef-2ae8-49f1-8442-b86534cf82c9,2022-10-24,2023-03-26,True,False,Unknown
+53f02683-1a35-4343-b896-fb735c1a9388,2022-08-04,2022-08-10,True,True,HF Admission
+53f02683-1a35-4343-b896-fb735c1a9388,2023-09-11,2023-11-12,True,True,HF Admission
+b2d1b20d-31e6-4c28-b72d-721c9e863925,2020-05-11,2020-07-15,True,True,HF Admission
+b2d1b20d-31e6-4c28-b72d-721c9e863925,2020-08-13,2020-08-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+b2d1b20d-31e6-4c28-b72d-721c9e863925,2020-08-17,2020-08-19,False,Unknown,Unknown
+3805a245-66a2-433d-abd1-28f36481c529,2021-06-05,2022-08-09,False,Unknown,Unknown
+3805a245-66a2-433d-abd1-28f36481c529,2022-09-12,2023-07-08,True,True,HF decompensation needing iv. Diuretic-inotropes
+2b337dce-31db-4449-8225-7cfc46f7dbca,2021-05-17,2022-03-20,True,True,Other non-CV admissions
+2b337dce-31db-4449-8225-7cfc46f7dbca,2023-09-15,2023-12-30,True,False,Unknown
+2179d4c5-cecf-46f2-84e1-434c17b8f0b9,2021-05-17,2022-01-31,False,Unknown,Unknown
+392c9c90-924f-4a48-b79e-716d4b55e7a8,2020-02-26,2021-02-14,False,Unknown,Unknown
+392c9c90-924f-4a48-b79e-716d4b55e7a8,2022-10-21,2022-11-29,True,True,CV admission other than HF
+392c9c90-924f-4a48-b79e-716d4b55e7a8,2024-05-10,2024-05-29,False,Unknown,Unknown
+a083c721-4cd0-4355-8f7f-9a85c47058d4,2021-05-03,2022-01-21,True,False,Unknown
+0776e6dd-3553-4152-ba36-a94b64304362,2022-03-29,2022-08-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+729d5a45-329d-4ba7-a2fa-2c5804a5e869,2021-01-08,2021-04-18,True,False,Unknown
+729d5a45-329d-4ba7-a2fa-2c5804a5e869,2023-03-27,2023-06-01,True,False,Unknown
+1c008166-cf18-491a-843d-ee69f00732d8,2021-02-22,2021-03-18,True,True,Device-related complications
+1c008166-cf18-491a-843d-ee69f00732d8,2023-09-01,2023-10-11,False,Unknown,Unknown
+bdc9c006-d4b5-4d16-b4c9-9d71c0c7a950,2020-07-04,2021-11-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+bdc9c006-d4b5-4d16-b4c9-9d71c0c7a950,2022-10-26,2023-06-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+7bebc523-da30-4bdd-ac68-0c9b54d8ec49,2020-05-17,2020-08-31,False,Unknown,Unknown
+070d2477-c5b2-4633-a09e-8281ec51fa59,2020-04-14,2020-04-17,False,Unknown,Unknown
+070d2477-c5b2-4633-a09e-8281ec51fa59,2020-05-01,2020-05-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+070d2477-c5b2-4633-a09e-8281ec51fa59,2020-07-04,2021-02-27,False,Unknown,Unknown
+d64bf4ee-54e8-4151-907c-7c583ec581d3,2022-05-26,2022-06-26,True,True,Infection management
+d64bf4ee-54e8-4151-907c-7c583ec581d3,2022-07-06,2022-07-29,True,False,Unknown
+7c2bf73b-7d3f-4bda-8cfd-9dc6c105762d,2023-03-22,2024-01-26,True,False,Unknown
+e6c949f9-3bc5-4ad0-b221-61df7e6ff1e7,2021-08-20,2022-02-06,True,True,HF Admission
+e6c949f9-3bc5-4ad0-b221-61df7e6ff1e7,2022-10-20,2023-02-23,False,Unknown,Unknown
+e6c949f9-3bc5-4ad0-b221-61df7e6ff1e7,2023-09-27,2023-11-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+3de183ce-3922-48fb-a998-414418ca0ac0,2020-04-20,2020-05-16,True,False,Unknown
+3de183ce-3922-48fb-a998-414418ca0ac0,2020-08-30,2021-12-26,True,False,Unknown
+f688477b-c402-4fc6-ae5c-74c457ecdfcb,2020-03-06,2020-07-13,False,Unknown,Unknown
+f688477b-c402-4fc6-ae5c-74c457ecdfcb,2022-09-07,2022-10-31,False,Unknown,Unknown
+0eb23e00-722e-4f5f-944f-01b84fd32d3c,2023-01-08,2023-02-07,True,True,CV admission other than HF
+94d5ed75-f5d2-479e-ae5b-7510d4fd1272,2021-05-23,2022-09-11,True,True,HF Admission
+94d5ed75-f5d2-479e-ae5b-7510d4fd1272,2022-12-04,2023-03-12,False,Unknown,Unknown
+ada97081-4681-4a7d-9c21-cef981f13eb2,2020-08-08,2020-09-18,False,Unknown,Unknown
+ada97081-4681-4a7d-9c21-cef981f13eb2,2023-05-31,2024-07-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+fc6c6496-56e7-4024-8e13-31f61322ef38,2022-07-15,2022-11-16,False,Unknown,Unknown
+fc6c6496-56e7-4024-8e13-31f61322ef38,2024-01-09,2024-01-10,False,Unknown,Unknown
+fc6c6496-56e7-4024-8e13-31f61322ef38,2024-01-30,2024-02-18,False,Unknown,Unknown
+b6a0c7f8-d9ba-4d17-8996-80985944eb8c,2022-10-03,2022-10-05,False,Unknown,Unknown
+b6a0c7f8-d9ba-4d17-8996-80985944eb8c,2024-10-08,2024-10-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+7ca943cd-0e01-4598-bc93-215237f90649,2020-09-27,2021-07-19,True,True,HF Admission
+7ca943cd-0e01-4598-bc93-215237f90649,2022-05-27,2022-06-17,False,Unknown,Unknown
+7ca943cd-0e01-4598-bc93-215237f90649,2022-07-11,2022-09-24,False,Unknown,Unknown
+8880025a-a125-48b8-977f-178357016529,2020-03-22,2021-07-06,True,True,HF Admission
+8880025a-a125-48b8-977f-178357016529,2023-03-02,2023-03-22,False,Unknown,Unknown
+fdc10149-7c55-4adf-bacb-3d329d12acfb,2021-01-01,2021-02-10,False,Unknown,Unknown
+fdc10149-7c55-4adf-bacb-3d329d12acfb,2021-02-20,2021-03-14,False,Unknown,Unknown
+fdc10149-7c55-4adf-bacb-3d329d12acfb,2022-05-05,2023-01-17,False,Unknown,Unknown
+ee4a70dc-5f06-40a7-9bb9-e4dea8869889,2020-03-02,2020-03-28,False,Unknown,Unknown
+ee4a70dc-5f06-40a7-9bb9-e4dea8869889,2021-03-20,2021-07-01,True,True,CV admission other than HF
+ee4a70dc-5f06-40a7-9bb9-e4dea8869889,2022-01-14,2022-11-01,True,True,Device-related complications
+4dadf689-77a5-43e1-9a74-2fb4d3a94882,2021-01-01,2021-04-26,True,True,Other non-CV admissions
+4dadf689-77a5-43e1-9a74-2fb4d3a94882,2021-07-08,2021-11-09,False,Unknown,Unknown
+4dadf689-77a5-43e1-9a74-2fb4d3a94882,2022-02-25,2022-03-31,True,False,Unknown
+4dadf689-77a5-43e1-9a74-2fb4d3a94882,2022-12-03,2023-05-05,True,True,Infection management
+5df43fd7-52e5-420c-9dbc-6aaea3dcb899,2019-12-04,2020-02-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+5df43fd7-52e5-420c-9dbc-6aaea3dcb899,2020-03-13,2021-01-11,True,False,Unknown
+5df43fd7-52e5-420c-9dbc-6aaea3dcb899,2022-03-20,2022-06-15,False,Unknown,Unknown
+c2e6e815-c26c-4087-bddc-c745e0e671d1,2020-08-05,2020-10-03,False,Unknown,Unknown
+3dbdac18-95da-4afc-b8dc-4babaa29d838,2020-10-26,2020-12-06,False,Unknown,Unknown
+3dbdac18-95da-4afc-b8dc-4babaa29d838,2021-07-22,2021-08-05,True,True,HF Admission
+3dbdac18-95da-4afc-b8dc-4babaa29d838,2021-08-20,2023-10-15,False,Unknown,Unknown
+3dbdac18-95da-4afc-b8dc-4babaa29d838,2024-02-28,2024-04-20,False,Unknown,Unknown
+3696e2d1-c292-4605-a7e7-a940ec2659e9,2023-06-28,2023-07-13,False,Unknown,Unknown
+72e762a5-3a0c-49ad-bbf6-1cb6c29dd91a,2020-03-16,2020-03-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+72e762a5-3a0c-49ad-bbf6-1cb6c29dd91a,2020-05-11,2020-08-01,False,Unknown,Unknown
+72e762a5-3a0c-49ad-bbf6-1cb6c29dd91a,2021-04-22,2022-03-20,False,Unknown,Unknown
+8791e838-1d08-40fd-bcfe-350c218104e1,2020-09-13,2021-05-28,True,True,HF Admission
+8791e838-1d08-40fd-bcfe-350c218104e1,2022-07-05,2022-08-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+8791e838-1d08-40fd-bcfe-350c218104e1,2022-08-28,2022-10-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+dc090d14-b907-4def-8a2d-391eb1d1d54f,2022-01-08,2022-01-20,False,Unknown,Unknown
+b7db77cc-df6b-4502-a483-cb931c7b28c3,2020-09-02,2021-03-27,False,Unknown,Unknown
+b7db77cc-df6b-4502-a483-cb931c7b28c3,2023-08-17,2023-11-12,False,Unknown,Unknown
+3dcc161e-2c48-447a-9457-f2c045149820,2021-05-30,2021-07-18,False,Unknown,Unknown
+3dcc161e-2c48-447a-9457-f2c045149820,2021-09-27,2021-10-19,True,False,Unknown
+3dcc161e-2c48-447a-9457-f2c045149820,2023-11-22,2024-01-18,True,False,Unknown
+c7850b69-af90-4a24-9cdf-c190da65484d,2020-04-18,2020-05-26,False,Unknown,Unknown
+c7850b69-af90-4a24-9cdf-c190da65484d,2021-02-23,2021-04-16,True,True,CV admission other than HF
+966033cc-1aa7-4075-a363-122798237327,2021-12-30,2022-01-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+966033cc-1aa7-4075-a363-122798237327,2022-01-14,2022-08-26,False,Unknown,Unknown
+966033cc-1aa7-4075-a363-122798237327,2023-11-17,2023-11-21,False,Unknown,Unknown
+28bf8adf-3f7d-4ba7-9ead-b420cc30889a,2021-03-02,2021-10-28,True,False,Unknown
+28bf8adf-3f7d-4ba7-9ead-b420cc30889a,2024-02-08,2024-05-10,True,False,Unknown
+92adc738-8c86-45eb-ab18-c214f37c2b4e,2021-09-02,2021-09-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+92adc738-8c86-45eb-ab18-c214f37c2b4e,2023-05-08,2023-06-28,False,Unknown,Unknown
+a1cea390-cf02-4683-a895-ee4377b154a3,2020-01-25,2020-02-13,False,Unknown,Unknown
+a1cea390-cf02-4683-a895-ee4377b154a3,2021-01-22,2021-07-16,True,False,Unknown
+3d0bee20-c914-40bb-988a-ba365940b1de,2021-06-16,2021-07-11,True,False,Unknown
+3d0bee20-c914-40bb-988a-ba365940b1de,2021-07-22,2021-10-01,True,False,Unknown
+3d0bee20-c914-40bb-988a-ba365940b1de,2022-07-06,2022-11-27,False,Unknown,Unknown
+69b38ad7-877e-4b66-81d0-5981f7f0ede1,2022-04-11,2022-04-14,False,Unknown,Unknown
+69b38ad7-877e-4b66-81d0-5981f7f0ede1,2023-02-22,2023-12-03,True,True,HF Admission
+7d7d5e5e-5fb1-4fad-ab7b-77141549d193,2020-10-30,2020-12-28,False,Unknown,Unknown
+84d3c352-4643-47f5-8c81-87606e8ad50e,2020-04-08,2020-05-05,False,Unknown,Unknown
+84d3c352-4643-47f5-8c81-87606e8ad50e,2021-01-18,2021-01-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+84d3c352-4643-47f5-8c81-87606e8ad50e,2022-03-12,2022-06-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+e917046b-5285-4121-be5b-351f9f2b6ca0,2021-01-18,2021-03-03,True,True,Device-related complications
+e917046b-5285-4121-be5b-351f9f2b6ca0,2021-05-05,2022-10-12,False,Unknown,Unknown
+e917046b-5285-4121-be5b-351f9f2b6ca0,2023-08-05,2023-09-03,False,Unknown,Unknown
+edc2046b-43c0-4d0e-bc26-42445dad3209,2020-08-15,2020-09-17,True,True,Device-related complications
+edc2046b-43c0-4d0e-bc26-42445dad3209,2021-02-25,2023-01-07,False,Unknown,Unknown
+ac0a4141-3d99-450e-81d7-34ecd1c27b33,2020-06-09,2020-11-03,False,Unknown,Unknown
+a7f19626-7340-4ec6-a348-8e947161b64f,2019-12-08,2020-08-13,False,Unknown,Unknown
+a7f19626-7340-4ec6-a348-8e947161b64f,2022-09-20,2022-12-19,False,Unknown,Unknown
+3bdbdc51-afa1-4da4-98fe-bf16fef2a024,2020-05-31,2020-11-03,False,Unknown,Unknown
+3bdbdc51-afa1-4da4-98fe-bf16fef2a024,2020-12-30,2021-03-04,False,Unknown,Unknown
+b6078839-b1c2-47d2-8faf-d6bc642b504f,2019-12-28,2021-06-09,False,Unknown,Unknown
+b6078839-b1c2-47d2-8faf-d6bc642b504f,2021-11-12,2022-01-06,False,Unknown,Unknown
+b6078839-b1c2-47d2-8faf-d6bc642b504f,2022-04-15,2022-06-02,False,Unknown,Unknown
+b6078839-b1c2-47d2-8faf-d6bc642b504f,2022-11-30,2023-01-31,False,Unknown,Unknown
+c3c18c34-48ef-4598-97ec-49475b076658,2020-03-29,2020-05-17,True,True,Infection management
+c3c18c34-48ef-4598-97ec-49475b076658,2020-07-26,2020-08-23,True,True,Rejection episode
+c00f9ccb-a356-4708-a6b1-8249f00c048b,2020-10-17,2020-12-26,False,Unknown,Unknown
+c00f9ccb-a356-4708-a6b1-8249f00c048b,2023-04-10,2023-04-28,False,Unknown,Unknown
+c00f9ccb-a356-4708-a6b1-8249f00c048b,2023-05-21,2023-12-25,False,Unknown,Unknown
+8068e43f-986d-47ab-a9ad-5b765d8115d3,2020-06-12,2021-01-26,False,Unknown,Unknown
+8068e43f-986d-47ab-a9ad-5b765d8115d3,2021-05-16,2022-08-02,True,True,HF Admission
+a2930c32-201e-40cc-b854-28a83b1d8f89,2021-11-21,2022-01-15,False,Unknown,Unknown
+a2930c32-201e-40cc-b854-28a83b1d8f89,2022-02-13,2022-03-04,False,Unknown,Unknown
+cf2dd716-af82-42a9-b6e6-c7cb86d22409,2020-05-17,2020-06-19,True,False,Unknown
+cf2dd716-af82-42a9-b6e6-c7cb86d22409,2020-09-01,2020-11-20,False,Unknown,Unknown
+cf2dd716-af82-42a9-b6e6-c7cb86d22409,2021-08-03,2021-11-03,False,Unknown,Unknown
+d9200e08-52a3-4b3e-9f41-cdb47cb4854f,2020-04-25,2020-06-26,False,Unknown,Unknown
+d9200e08-52a3-4b3e-9f41-cdb47cb4854f,2020-07-29,2020-10-22,True,True,HF Admission
+d9200e08-52a3-4b3e-9f41-cdb47cb4854f,2024-04-21,2024-04-28,False,Unknown,Unknown
+f40ea9ef-5072-454a-b7b0-fb0badd3f66c,2021-01-30,2021-02-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+f40ea9ef-5072-454a-b7b0-fb0badd3f66c,2023-02-16,2023-07-27,False,Unknown,Unknown
+75be5a87-9465-4a5a-8a7f-c6720e74fd53,2019-11-26,2020-01-20,False,Unknown,Unknown
+75be5a87-9465-4a5a-8a7f-c6720e74fd53,2020-06-05,2021-04-08,False,Unknown,Unknown
+75be5a87-9465-4a5a-8a7f-c6720e74fd53,2022-04-04,2022-04-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+bab156b2-1f5e-43fc-a02f-5b8c8082c885,2024-01-07,2024-02-01,False,Unknown,Unknown
+bab156b2-1f5e-43fc-a02f-5b8c8082c885,2024-06-01,2024-06-16,True,True,Infection management
+3ea7440c-544b-433b-84a2-7875acc57e78,2019-12-02,2020-06-17,False,Unknown,Unknown
+3ea7440c-544b-433b-84a2-7875acc57e78,2021-02-07,2022-08-09,False,Unknown,Unknown
+06b02c77-d786-47fc-a32a-ce334e62d139,2021-07-29,2021-11-03,True,True,HF Admission
+06b02c77-d786-47fc-a32a-ce334e62d139,2022-04-29,2022-06-23,False,Unknown,Unknown
+cc014f52-9aa0-447c-8d89-2c0326025a84,2020-07-23,2021-02-28,True,True,Other non-CV admissions
+cc014f52-9aa0-447c-8d89-2c0326025a84,2021-11-08,2021-12-10,False,Unknown,Unknown
+5ab2a1ea-b6ae-4baf-8c47-24db128c1942,2020-08-25,2021-01-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+5ab2a1ea-b6ae-4baf-8c47-24db128c1942,2021-04-18,2023-01-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+5ab2a1ea-b6ae-4baf-8c47-24db128c1942,2023-05-16,2023-06-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+5ab2a1ea-b6ae-4baf-8c47-24db128c1942,2023-11-06,2024-06-12,True,True,HF Admission
+59848803-1bd6-45a7-bc86-c2ed49f1f1ce,2021-12-03,2023-02-13,False,Unknown,Unknown
+59848803-1bd6-45a7-bc86-c2ed49f1f1ce,2023-07-18,2023-07-20,False,Unknown,Unknown
+f6244242-ca8c-4051-b5e7-f89c988ab9de,2020-12-10,2022-03-19,False,Unknown,Unknown
+f6244242-ca8c-4051-b5e7-f89c988ab9de,2023-07-08,2023-07-10,False,Unknown,Unknown
+f6244242-ca8c-4051-b5e7-f89c988ab9de,2023-07-12,2024-02-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+8379df43-41ec-48b7-87e1-0d10587a0735,2022-04-24,2022-05-04,False,Unknown,Unknown
+8379df43-41ec-48b7-87e1-0d10587a0735,2022-07-01,2022-07-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+744f0f6a-4b4c-4a9b-9bf8-b2e9d091704e,2020-10-23,2021-01-14,True,True,HF Admission
+744f0f6a-4b4c-4a9b-9bf8-b2e9d091704e,2021-08-01,2021-11-09,False,Unknown,Unknown
+492775d1-472a-42fb-986b-eaf8b6f233f7,2023-08-04,2023-09-15,True,True,Rejection episode
+492775d1-472a-42fb-986b-eaf8b6f233f7,2023-12-24,2024-02-01,True,False,Unknown
+75819941-48e4-46d7-9a01-b7f40aaeedaf,2020-01-21,2022-11-14,True,False,Unknown
+a3cd8165-1236-4860-b392-15ac431092c8,2020-08-01,2021-06-01,True,True,Rejection episode
+a3cd8165-1236-4860-b392-15ac431092c8,2021-10-11,2021-10-18,False,Unknown,Unknown
+e035375a-a780-4d7f-8928-07967e6d39a6,2021-06-12,2021-06-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+e035375a-a780-4d7f-8928-07967e6d39a6,2021-11-14,2023-01-25,False,Unknown,Unknown
+e035375a-a780-4d7f-8928-07967e6d39a6,2023-06-28,2024-05-18,True,True,HF Admission
+1944a193-6154-495d-ada9-3bcb0dbbaeb6,2020-12-18,2021-01-31,False,Unknown,Unknown
+1944a193-6154-495d-ada9-3bcb0dbbaeb6,2021-03-15,2022-01-19,True,False,Unknown
+1944a193-6154-495d-ada9-3bcb0dbbaeb6,2022-12-10,2023-06-09,True,False,Unknown
+1944a193-6154-495d-ada9-3bcb0dbbaeb6,2023-09-05,2023-09-17,False,Unknown,Unknown
+9025efae-3073-45c7-999f-2c06e8c9adf0,2022-02-16,2022-02-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+9025efae-3073-45c7-999f-2c06e8c9adf0,2023-08-07,2023-09-26,True,True,HF Admission
+e783437d-c0d2-4076-8e15-58d5ad5b3da1,2021-01-14,2021-02-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+e783437d-c0d2-4076-8e15-58d5ad5b3da1,2021-05-23,2022-04-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+e783437d-c0d2-4076-8e15-58d5ad5b3da1,2023-11-26,2023-12-16,False,Unknown,Unknown
+49ba9afc-08d9-4579-9020-97b7cacda7d3,2020-06-20,2020-06-22,False,Unknown,Unknown
+49ba9afc-08d9-4579-9020-97b7cacda7d3,2021-02-21,2021-03-09,False,Unknown,Unknown
+7a999127-17d1-4120-a03b-31f540dd9964,2021-10-06,2022-04-07,True,True,HF decompensation needing iv. Diuretic-inotropes
+8cb94eea-91be-4658-a009-09ceafd1fbfc,2021-08-20,2022-01-09,True,True,Other non-CV admissions
+8cb94eea-91be-4658-a009-09ceafd1fbfc,2023-07-30,2024-04-12,False,Unknown,Unknown
+d9c735ba-e727-4dd9-a3bb-fb6ee5815c3b,2021-05-19,2021-07-03,False,Unknown,Unknown
+d9c735ba-e727-4dd9-a3bb-fb6ee5815c3b,2022-05-03,2022-11-19,True,False,Unknown
+062a9dde-f550-4ba4-88f4-12343a66cdbc,2020-08-09,2020-08-13,False,Unknown,Unknown
+062a9dde-f550-4ba4-88f4-12343a66cdbc,2020-08-15,2020-09-05,True,False,Unknown
+062a9dde-f550-4ba4-88f4-12343a66cdbc,2021-06-14,2022-02-05,False,Unknown,Unknown
+596db655-c52c-4d34-81ef-89427fb67ab6,2020-02-03,2020-10-20,False,Unknown,Unknown
+596db655-c52c-4d34-81ef-89427fb67ab6,2022-01-02,2022-05-26,True,True,HF Admission
+596db655-c52c-4d34-81ef-89427fb67ab6,2023-09-18,2024-01-26,True,True,HF Admission
+5f8592dc-3662-46d9-82c7-0be287643a07,2020-01-05,2020-01-26,False,Unknown,Unknown
+5f8592dc-3662-46d9-82c7-0be287643a07,2021-12-11,2022-03-08,False,Unknown,Unknown
+5f8592dc-3662-46d9-82c7-0be287643a07,2022-03-11,2022-06-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+cf918045-f16d-4b73-b5d6-667950eb167a,2020-03-09,2020-08-20,False,Unknown,Unknown
+cf918045-f16d-4b73-b5d6-667950eb167a,2021-04-04,2021-04-27,True,True,HF Admission
+cf918045-f16d-4b73-b5d6-667950eb167a,2021-08-12,2022-06-19,False,Unknown,Unknown
+cf918045-f16d-4b73-b5d6-667950eb167a,2022-08-12,2024-06-09,True,True,HF Admission
+b9873d5a-0515-4444-960d-612016fabc1a,2019-12-21,2020-01-12,True,True,HF Admission
+b9873d5a-0515-4444-960d-612016fabc1a,2020-06-23,2023-11-04,False,Unknown,Unknown
+b9873d5a-0515-4444-960d-612016fabc1a,2023-11-25,2024-01-25,True,True,HF Admission
+e4294b10-48dc-4a73-adff-4ac27bc2a52c,2021-06-29,2021-09-01,True,False,Unknown
+e4294b10-48dc-4a73-adff-4ac27bc2a52c,2021-11-13,2021-11-25,False,Unknown,Unknown
+c54989d1-69d4-4c4f-ae7e-25abee5a6f73,2020-10-22,2020-11-06,False,Unknown,Unknown
+c54989d1-69d4-4c4f-ae7e-25abee5a6f73,2021-06-17,2021-08-25,False,Unknown,Unknown
+c54989d1-69d4-4c4f-ae7e-25abee5a6f73,2021-10-15,2022-01-23,False,Unknown,Unknown
+7e35667b-b19c-4f15-ba90-90cc92aa8262,2023-03-09,2023-10-21,True,False,Unknown
+fbbb3b25-22b2-456a-be62-065639386636,2023-08-11,2024-05-06,True,False,Unknown
+f0366fa7-733a-4219-8714-279078991b9a,2021-12-14,2022-02-06,False,Unknown,Unknown
+f0366fa7-733a-4219-8714-279078991b9a,2022-03-04,2022-07-21,False,Unknown,Unknown
+3cb86c1f-0fdc-4010-a1df-8683dc08d313,2022-07-16,2023-05-28,False,Unknown,Unknown
+534af313-30fe-4c9e-8d3a-58906ee05780,2021-11-10,2023-01-22,True,False,Unknown
+534af313-30fe-4c9e-8d3a-58906ee05780,2023-10-29,2024-06-18,True,False,Unknown
+e0dc6fb6-81e1-4add-ae95-94e7a1d7772a,2021-12-20,2021-12-29,True,True,Rejection episode
+e0dc6fb6-81e1-4add-ae95-94e7a1d7772a,2022-02-25,2022-03-04,False,Unknown,Unknown
+e0dc6fb6-81e1-4add-ae95-94e7a1d7772a,2022-10-10,2023-01-17,False,Unknown,Unknown
+e47b32b7-f95c-46f3-8f44-d17e1c7b07e7,2020-06-28,2020-07-02,True,True,Device-related complications
+e47b32b7-f95c-46f3-8f44-d17e1c7b07e7,2020-07-08,2020-07-13,True,False,Unknown
+e47b32b7-f95c-46f3-8f44-d17e1c7b07e7,2020-10-20,2021-04-01,False,Unknown,Unknown
+14fbb61b-b855-4b20-8615-28d50a29be40,2022-03-02,2022-03-10,False,Unknown,Unknown
+14fbb61b-b855-4b20-8615-28d50a29be40,2022-04-23,2023-01-10,False,Unknown,Unknown
+aafa7f8f-abb9-4826-99b9-14c6b67ab061,2021-05-02,2022-01-21,False,Unknown,Unknown
+aafa7f8f-abb9-4826-99b9-14c6b67ab061,2022-02-21,2023-03-24,False,Unknown,Unknown
+aafa7f8f-abb9-4826-99b9-14c6b67ab061,2023-12-13,2024-01-13,False,Unknown,Unknown
+8a2860cc-c0dd-4804-80ef-95a33de5fd14,2022-04-02,2022-04-17,True,False,Unknown
+8a2860cc-c0dd-4804-80ef-95a33de5fd14,2022-05-29,2023-01-27,False,Unknown,Unknown
+8a2860cc-c0dd-4804-80ef-95a33de5fd14,2023-05-26,2023-09-15,False,Unknown,Unknown
+8a2860cc-c0dd-4804-80ef-95a33de5fd14,2024-01-22,2024-01-29,True,False,Unknown
+6a1746a9-371c-4352-b7db-9b279be5212d,2021-06-30,2022-06-09,True,True,HF Admission
+6a1746a9-371c-4352-b7db-9b279be5212d,2023-02-11,2023-05-01,False,Unknown,Unknown
+6a1746a9-371c-4352-b7db-9b279be5212d,2024-02-16,2024-07-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+0b14d29b-8c74-4458-9de4-7949751fcc29,2019-12-10,2020-04-04,True,True,CV admission other than HF
+0b14d29b-8c74-4458-9de4-7949751fcc29,2020-08-12,2021-07-03,False,Unknown,Unknown
+0b14d29b-8c74-4458-9de4-7949751fcc29,2021-07-04,2022-12-17,True,False,Unknown
+0b14d29b-8c74-4458-9de4-7949751fcc29,2023-01-20,2023-10-09,True,False,Unknown
+3a6d8b7f-662f-4cba-a969-36ab880ff4d6,2022-01-22,2022-02-16,False,Unknown,Unknown
+3a6d8b7f-662f-4cba-a969-36ab880ff4d6,2022-03-04,2022-05-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+6659415c-5178-4d9c-8121-da8da7a5c9f0,2021-01-29,2022-06-25,False,Unknown,Unknown
+cfeb4477-a8c8-4b55-97e5-38f6696d5918,2020-11-04,2020-11-05,False,Unknown,Unknown
+cfeb4477-a8c8-4b55-97e5-38f6696d5918,2020-11-24,2021-01-12,False,Unknown,Unknown
+a360c3ac-b447-4550-8bb5-e4723d849c0b,2022-12-18,2023-05-17,False,Unknown,Unknown
+eef4f623-9c00-4d26-9f7e-1bb6272c67d6,2020-07-01,2020-12-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+eef4f623-9c00-4d26-9f7e-1bb6272c67d6,2021-02-14,2021-07-10,False,Unknown,Unknown
+eef4f623-9c00-4d26-9f7e-1bb6272c67d6,2021-10-04,2022-04-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+04562b0e-b9cd-46b3-9899-6057728f5cac,2019-12-06,2020-01-30,False,Unknown,Unknown
+04562b0e-b9cd-46b3-9899-6057728f5cac,2024-07-21,2024-08-20,True,True,Infection management
+59e141b1-65d3-4471-889d-459dcca636f6,2022-06-12,2022-06-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+59e141b1-65d3-4471-889d-459dcca636f6,2022-08-17,2023-04-05,False,Unknown,Unknown
+59e141b1-65d3-4471-889d-459dcca636f6,2023-06-13,2023-07-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+59e141b1-65d3-4471-889d-459dcca636f6,2023-08-06,2023-10-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+58b1d51a-57dc-4ce7-90a1-56f4f5c3592b,2023-08-26,2023-09-01,False,Unknown,Unknown
+32fe2336-c8e6-4b76-958a-c16b61d9f938,2020-10-24,2021-01-14,True,False,Unknown
+32fe2336-c8e6-4b76-958a-c16b61d9f938,2022-03-13,2023-02-06,True,True,Device-related complications
+32fe2336-c8e6-4b76-958a-c16b61d9f938,2024-03-09,2024-04-02,True,False,Unknown
+dc47c735-a981-4c49-ac6e-7e22bff9cffd,2023-02-18,2023-05-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+60b57eb2-c262-49b4-b863-5148fd124966,2020-04-24,2020-09-27,False,Unknown,Unknown
+60b57eb2-c262-49b4-b863-5148fd124966,2020-10-20,2020-12-16,False,Unknown,Unknown
+60b57eb2-c262-49b4-b863-5148fd124966,2021-07-07,2022-01-24,True,False,Unknown
+d554d02d-a2b1-4902-8a8f-5ef0df9bd05b,2020-03-27,2020-07-07,True,True,Device-related complications
+d554d02d-a2b1-4902-8a8f-5ef0df9bd05b,2021-03-11,2022-07-22,True,False,Unknown
+d554d02d-a2b1-4902-8a8f-5ef0df9bd05b,2022-08-31,2022-10-31,True,False,Unknown
+3f2cec1e-5874-4e17-b117-1ae495e6aba4,2020-10-26,2021-01-13,False,Unknown,Unknown
+3f2cec1e-5874-4e17-b117-1ae495e6aba4,2021-03-05,2021-08-20,False,Unknown,Unknown
+3f2cec1e-5874-4e17-b117-1ae495e6aba4,2024-04-06,2024-05-13,True,False,Unknown
+1e9f7e00-38c8-46d4-ba53-b7bd5a2a55c4,2021-03-22,2022-02-02,False,Unknown,Unknown
+1e9f7e00-38c8-46d4-ba53-b7bd5a2a55c4,2024-05-14,2024-06-19,False,Unknown,Unknown
+c412abde-f142-4f23-acae-c097f805a62c,2021-04-17,2022-01-10,True,False,Unknown
+c412abde-f142-4f23-acae-c097f805a62c,2023-01-30,2023-02-18,False,Unknown,Unknown
+9c600982-ebe6-46c9-ba61-c11e20045c64,2020-05-08,2021-01-15,True,True,HF Admission
+9c600982-ebe6-46c9-ba61-c11e20045c64,2021-04-20,2021-04-26,False,Unknown,Unknown
+9c600982-ebe6-46c9-ba61-c11e20045c64,2021-06-03,2022-02-07,False,Unknown,Unknown
+9c600982-ebe6-46c9-ba61-c11e20045c64,2022-09-24,2022-10-29,False,Unknown,Unknown
+f60d2ed9-4155-4068-b4c2-53ae4ed609e6,2020-03-17,2020-03-27,False,Unknown,Unknown
+f60d2ed9-4155-4068-b4c2-53ae4ed609e6,2022-04-03,2022-04-22,True,False,Unknown
+9e69ff8b-4fa6-4970-a714-7ac49242eeea,2021-10-27,2021-12-29,False,Unknown,Unknown
+2e319527-b71b-4981-aca2-e2de5d39f5bf,2021-03-17,2022-08-08,False,Unknown,Unknown
+2e319527-b71b-4981-aca2-e2de5d39f5bf,2023-02-08,2023-04-03,False,Unknown,Unknown
+2e319527-b71b-4981-aca2-e2de5d39f5bf,2023-12-22,2024-05-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+8efd8a2c-5283-43cc-b06c-ef2f5622e87f,2022-05-22,2022-06-24,False,Unknown,Unknown
+8efd8a2c-5283-43cc-b06c-ef2f5622e87f,2023-07-09,2023-08-24,False,Unknown,Unknown
+b311b85f-446d-464e-9aa9-df21c8f8b11e,2021-09-24,2021-10-01,False,Unknown,Unknown
+b311b85f-446d-464e-9aa9-df21c8f8b11e,2021-10-10,2021-10-20,False,Unknown,Unknown
+b311b85f-446d-464e-9aa9-df21c8f8b11e,2021-10-28,2022-06-13,True,True,Infection management
+18f3297b-b4c2-4539-98ed-7954753f2442,2021-05-23,2021-06-14,True,True,HF Admission
+18f3297b-b4c2-4539-98ed-7954753f2442,2021-07-04,2021-09-12,False,Unknown,Unknown
+18f3297b-b4c2-4539-98ed-7954753f2442,2022-03-28,2022-10-16,True,True,HF Admission
+e0577990-9bbf-4b44-add2-2f26969b1b26,2022-12-24,2023-03-20,True,True,CV admission other than HF
+e0577990-9bbf-4b44-add2-2f26969b1b26,2023-06-23,2023-08-15,False,Unknown,Unknown
+e0577990-9bbf-4b44-add2-2f26969b1b26,2023-09-14,2023-09-15,True,True,Device-related complications
+e0577990-9bbf-4b44-add2-2f26969b1b26,2024-01-22,2024-08-29,True,False,Unknown
+1ec355f9-3d4a-409c-965f-8984fa59d045,2021-01-10,2021-04-20,True,False,Unknown
+1ec355f9-3d4a-409c-965f-8984fa59d045,2022-04-13,2022-06-23,False,Unknown,Unknown
+f575cdf0-d1db-4b6a-9675-03854892c96d,2021-01-10,2021-01-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+e917efcd-9822-4250-aeb7-11451fc68eac,2020-04-27,2021-02-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+e917efcd-9822-4250-aeb7-11451fc68eac,2021-03-12,2022-02-09,False,Unknown,Unknown
+e917efcd-9822-4250-aeb7-11451fc68eac,2024-02-17,2024-08-26,True,False,Unknown
+d69d4f3a-7eed-43a9-900f-3d11eee0258d,2022-03-23,2024-01-09,False,Unknown,Unknown
+fabc81f2-1a85-4714-97e2-e789e24b7ed0,2020-09-30,2022-11-23,True,False,Unknown
+fabc81f2-1a85-4714-97e2-e789e24b7ed0,2023-02-12,2023-06-06,False,Unknown,Unknown
+fabc81f2-1a85-4714-97e2-e789e24b7ed0,2024-01-05,2024-03-21,False,Unknown,Unknown
+67152493-a030-410b-8061-0537454b6b20,2021-08-02,2021-08-08,False,Unknown,Unknown
+67152493-a030-410b-8061-0537454b6b20,2021-08-14,2022-12-12,True,False,Unknown
+c6afdfc7-4bba-4b28-a706-671ab764cd52,2021-04-29,2021-08-17,True,True,CV admission other than HF
+e9dcc99c-e621-430b-92b6-e0af8242ee85,2020-07-13,2020-08-02,True,False,Unknown
+e9dcc99c-e621-430b-92b6-e0af8242ee85,2021-10-14,2023-01-22,False,Unknown,Unknown
+e9dcc99c-e621-430b-92b6-e0af8242ee85,2023-10-01,2023-12-20,True,True,Device-related complications
+e9dcc99c-e621-430b-92b6-e0af8242ee85,2024-01-06,2024-06-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+22c02f89-2f38-4a6d-a6a9-5b6a06c1d58b,2021-04-23,2021-05-05,False,Unknown,Unknown
+22c02f89-2f38-4a6d-a6a9-5b6a06c1d58b,2023-07-09,2023-07-12,False,Unknown,Unknown
+dbc2e2db-a7ec-4f60-95b5-f0db68cdbfd4,2020-12-16,2021-01-12,False,Unknown,Unknown
+dbc2e2db-a7ec-4f60-95b5-f0db68cdbfd4,2021-01-22,2021-06-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+dbc2e2db-a7ec-4f60-95b5-f0db68cdbfd4,2022-06-27,2022-06-28,False,Unknown,Unknown
+99fa1c9c-644d-41e0-baac-e7f17b3c3b3f,2020-09-03,2020-10-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+99fa1c9c-644d-41e0-baac-e7f17b3c3b3f,2021-07-07,2021-11-22,True,True,HF Admission
+1f1269d2-ae80-4fb6-988a-71ac2a7d7fa0,2021-08-15,2021-11-23,True,False,Unknown
+1f1269d2-ae80-4fb6-988a-71ac2a7d7fa0,2022-05-20,2022-06-24,False,Unknown,Unknown
+1f1269d2-ae80-4fb6-988a-71ac2a7d7fa0,2022-09-25,2023-01-07,False,Unknown,Unknown
+7f711179-e543-4c14-9e5d-ff0485eb75b4,2024-02-14,2024-02-24,False,Unknown,Unknown
+7f711179-e543-4c14-9e5d-ff0485eb75b4,2024-04-30,2024-05-05,True,False,Unknown
+0494082c-7cc0-40f5-88c0-4c22b832462e,2020-11-17,2021-06-09,False,Unknown,Unknown
+0494082c-7cc0-40f5-88c0-4c22b832462e,2024-06-10,2024-07-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+ecfd8dce-92ba-412e-b587-fc5534af3ca6,2021-12-25,2022-07-10,True,False,Unknown
+2cbdd484-6f8f-4fdb-899a-2bf9d98c9e80,2021-05-11,2022-07-15,True,True,Rejection episode
+2cbdd484-6f8f-4fdb-899a-2bf9d98c9e80,2023-05-06,2023-05-28,True,True,Rejection episode
+ccfc6339-1ad8-4ee5-b0ea-b71e4fe5adba,2020-04-25,2020-07-22,True,True,CV admission other than HF
+ccfc6339-1ad8-4ee5-b0ea-b71e4fe5adba,2023-06-13,2023-07-11,False,Unknown,Unknown
+ccfc6339-1ad8-4ee5-b0ea-b71e4fe5adba,2023-10-13,2023-10-21,False,Unknown,Unknown
+ebf8563f-6eee-42b5-8e79-b58a195ab9d1,2021-10-07,2022-06-23,False,Unknown,Unknown
+ebf8563f-6eee-42b5-8e79-b58a195ab9d1,2022-12-26,2022-12-29,True,True,HF Admission
+a1606aba-cce8-4961-b607-f4adcaaf1bfd,2020-03-16,2020-04-28,True,True,HF Admission
+a1606aba-cce8-4961-b607-f4adcaaf1bfd,2020-08-25,2020-10-30,False,Unknown,Unknown
+c1b8afc2-06f0-41b2-9f35-155531d49a56,2019-11-29,2020-07-02,True,True,HF Admission
+c1b8afc2-06f0-41b2-9f35-155531d49a56,2023-05-30,2023-08-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+c1b8afc2-06f0-41b2-9f35-155531d49a56,2023-09-01,2023-09-29,False,Unknown,Unknown
+7e764ea9-8efc-4ea3-9b6f-d9ca6ba77fbc,2021-07-19,2021-07-20,True,True,Other non-CV admissions
+7e764ea9-8efc-4ea3-9b6f-d9ca6ba77fbc,2021-07-20,2022-12-01,True,False,Unknown
+06d3f438-e671-4036-bad2-981481695ee0,2020-09-18,2021-06-13,True,True,CV admission other than HF
+2350aab5-2618-4dce-bf2b-98b70c7d9034,2022-09-02,2023-04-12,False,Unknown,Unknown
+7fe03e3c-d3d8-47f1-8195-c5d6fc678d05,2020-09-01,2021-02-05,False,Unknown,Unknown
+7fe03e3c-d3d8-47f1-8195-c5d6fc678d05,2023-01-18,2023-08-02,False,Unknown,Unknown
+bc7ca025-9466-48ab-85de-5b46a15382db,2021-02-14,2022-01-21,False,Unknown,Unknown
+bc7ca025-9466-48ab-85de-5b46a15382db,2022-07-15,2022-12-22,False,Unknown,Unknown
+bc7ca025-9466-48ab-85de-5b46a15382db,2023-06-12,2023-08-10,False,Unknown,Unknown
+7ec11e01-2f9b-4644-8607-ca9ce7a40f9b,2021-07-23,2022-12-21,False,Unknown,Unknown
+ffac349f-c49b-496d-ab02-ba3b325ca827,2020-08-04,2020-09-09,True,False,Unknown
+ffac349f-c49b-496d-ab02-ba3b325ca827,2022-04-27,2022-10-08,False,Unknown,Unknown
+ffac349f-c49b-496d-ab02-ba3b325ca827,2023-08-21,2023-08-22,True,False,Unknown
+1d8015e7-63c9-4de5-9a42-6fcf97567bee,2020-10-23,2021-02-23,False,Unknown,Unknown
+1d8015e7-63c9-4de5-9a42-6fcf97567bee,2021-09-27,2022-01-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+1d8015e7-63c9-4de5-9a42-6fcf97567bee,2022-10-10,2022-11-07,True,True,Device-related complications
+4339aedf-756e-4081-a8c1-186e722a4888,2020-01-19,2021-01-13,False,Unknown,Unknown
+4339aedf-756e-4081-a8c1-186e722a4888,2022-11-25,2023-06-12,False,Unknown,Unknown
+43625c8d-5c59-4bb8-bc47-59725ec76715,2021-02-12,2021-09-27,False,Unknown,Unknown
+43625c8d-5c59-4bb8-bc47-59725ec76715,2021-11-24,2021-12-08,True,False,Unknown
+46da56bc-3d2e-4a54-b166-5fee15853e75,2020-06-15,2021-02-03,False,Unknown,Unknown
+75810de9-0bd8-4dc0-ba0f-9ce1b4f6a778,2019-12-15,2019-12-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+75810de9-0bd8-4dc0-ba0f-9ce1b4f6a778,2020-01-06,2020-07-24,False,Unknown,Unknown
+75810de9-0bd8-4dc0-ba0f-9ce1b4f6a778,2022-05-05,2022-07-24,True,True,HF Admission
+75810de9-0bd8-4dc0-ba0f-9ce1b4f6a778,2022-11-20,2024-05-29,True,True,HF Admission
+5c3a3919-7e01-488d-abbe-bd44dc0d0681,2021-09-17,2021-10-10,False,Unknown,Unknown
+4bfc8807-7623-475f-8737-9d1b36421057,2021-09-15,2021-09-22,False,Unknown,Unknown
+35ae1db7-82e6-4573-9c7f-d9a584a60ab5,2020-05-12,2020-10-01,True,False,Unknown
+35ae1db7-82e6-4573-9c7f-d9a584a60ab5,2021-05-13,2022-01-13,False,Unknown,Unknown
+089f7bb4-8f36-4c62-95df-2ff1e5f1e09c,2020-09-27,2021-04-15,True,False,Unknown
+089f7bb4-8f36-4c62-95df-2ff1e5f1e09c,2022-02-06,2022-02-07,False,Unknown,Unknown
+089f7bb4-8f36-4c62-95df-2ff1e5f1e09c,2022-12-26,2022-12-28,False,Unknown,Unknown
+089f7bb4-8f36-4c62-95df-2ff1e5f1e09c,2023-02-06,2023-02-14,False,Unknown,Unknown
+48cf35f1-787c-4eca-b768-cc3f1092d066,2020-09-12,2020-09-19,True,False,Unknown
+48cf35f1-787c-4eca-b768-cc3f1092d066,2020-09-21,2021-04-30,True,False,Unknown
+48cf35f1-787c-4eca-b768-cc3f1092d066,2021-07-05,2021-10-08,False,Unknown,Unknown
+99cc9f33-905e-4cb2-8021-c9ed53f299d4,2021-12-25,2022-02-13,True,True,HF Admission
+99cc9f33-905e-4cb2-8021-c9ed53f299d4,2022-06-08,2022-11-22,True,True,HF Admission
+99cc9f33-905e-4cb2-8021-c9ed53f299d4,2022-12-30,2023-04-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+971bd860-2305-4208-a473-71c59eb1361f,2020-08-21,2020-08-22,False,Unknown,Unknown
+971bd860-2305-4208-a473-71c59eb1361f,2020-09-04,2020-11-06,False,Unknown,Unknown
+f285067e-a701-4416-8c1a-cf4402992d9a,2022-10-24,2022-12-10,True,True,HF Admission
+f285067e-a701-4416-8c1a-cf4402992d9a,2024-05-16,2024-08-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+a65fa3de-6d1c-4025-9a31-6c14300d1c1f,2021-06-05,2021-07-21,False,Unknown,Unknown
+a65fa3de-6d1c-4025-9a31-6c14300d1c1f,2021-09-13,2021-10-31,True,True,Device-related complications
+d5551fb8-5b69-46e0-8cc8-074ea3818eb4,2020-03-11,2020-10-03,False,Unknown,Unknown
+d5551fb8-5b69-46e0-8cc8-074ea3818eb4,2023-05-14,2024-01-22,False,Unknown,Unknown
+d5551fb8-5b69-46e0-8cc8-074ea3818eb4,2024-04-13,2024-08-23,False,Unknown,Unknown
+c74153b5-7b3a-47d3-a428-2172e5903935,2020-07-24,2021-06-23,True,True,Device-related complications
+c74153b5-7b3a-47d3-a428-2172e5903935,2023-12-14,2024-06-30,False,Unknown,Unknown
+c74153b5-7b3a-47d3-a428-2172e5903935,2024-07-20,2024-07-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+d48861af-a531-4943-bec0-91db7e88a2d2,2020-11-06,2020-11-21,True,False,Unknown
+d48861af-a531-4943-bec0-91db7e88a2d2,2020-12-09,2021-10-15,True,False,Unknown
+cb9c7e65-9be4-4325-9fdc-e97a72ff1696,2021-06-22,2021-08-02,False,Unknown,Unknown
+cb9c7e65-9be4-4325-9fdc-e97a72ff1696,2022-10-09,2023-05-16,False,Unknown,Unknown
+956d4667-a09e-46a3-9f7c-d659a1369388,2020-06-24,2020-07-13,True,False,Unknown
+6afcbe5f-eeca-4bbe-b6df-6c5126dd6740,2021-06-03,2021-06-06,True,False,Unknown
+39f5eeee-f630-4c87-8f15-8c397e49f9e0,2022-06-08,2023-01-11,False,Unknown,Unknown
+39f5eeee-f630-4c87-8f15-8c397e49f9e0,2023-07-01,2023-08-01,False,Unknown,Unknown
+39f5eeee-f630-4c87-8f15-8c397e49f9e0,2024-07-18,2024-08-28,False,Unknown,Unknown
+98db580b-c669-4bf5-99b6-bdb9af8e661d,2019-11-25,2019-12-29,False,Unknown,Unknown
+f17ba182-bd12-4f17-8db0-91fc4bf006b8,2020-05-29,2020-07-23,False,Unknown,Unknown
+f17ba182-bd12-4f17-8db0-91fc4bf006b8,2023-04-12,2023-08-25,False,Unknown,Unknown
+1acad6b4-d03c-459c-8dce-b6692cd65c69,2021-08-12,2021-08-24,True,False,Unknown
+1acad6b4-d03c-459c-8dce-b6692cd65c69,2021-09-29,2021-10-12,False,Unknown,Unknown
+1acad6b4-d03c-459c-8dce-b6692cd65c69,2022-02-11,2022-07-24,True,True,CV admission other than HF
+622ec0c3-07d6-49ed-b353-311990a233ba,2022-01-17,2023-03-24,False,Unknown,Unknown
+622ec0c3-07d6-49ed-b353-311990a233ba,2023-06-14,2023-10-15,True,True,CV admission other than HF
+622ec0c3-07d6-49ed-b353-311990a233ba,2023-12-03,2023-12-07,False,Unknown,Unknown
+787929cd-890b-4941-9b13-c06a394339da,2021-12-24,2022-01-18,False,Unknown,Unknown
+787929cd-890b-4941-9b13-c06a394339da,2024-06-30,2024-07-26,False,Unknown,Unknown
+d4165154-227c-4a17-9ac2-b955d5636b99,2021-01-20,2021-06-19,True,True,HF Admission
+d4165154-227c-4a17-9ac2-b955d5636b99,2024-05-26,2024-05-28,True,True,HF Admission
+93ea664f-1d52-4d68-a060-0a2a41f153ee,2020-01-15,2020-09-30,True,True,HF Admission
+93ea664f-1d52-4d68-a060-0a2a41f153ee,2020-10-18,2021-04-09,True,True,HF Admission
+93ea664f-1d52-4d68-a060-0a2a41f153ee,2021-05-05,2022-01-22,False,Unknown,Unknown
+93ea664f-1d52-4d68-a060-0a2a41f153ee,2023-03-09,2024-05-04,True,True,HF Admission
+95214bcc-7b46-4edb-b14e-14420f93a140,2020-03-30,2020-04-18,True,True,Rejection episode
+95214bcc-7b46-4edb-b14e-14420f93a140,2022-03-09,2022-03-12,False,Unknown,Unknown
+0434f3cd-5cda-449a-8a24-adf080446f10,2022-11-10,2023-01-29,True,True,Rejection episode
+86da3f62-e6f6-4d6b-b26f-d7a660a8ccb1,2020-09-22,2021-08-27,False,Unknown,Unknown
+a6014e84-6e3f-4afb-a083-a6e131ab43fd,2021-11-04,2022-07-04,False,Unknown,Unknown
+6cd7827c-a878-410d-ba5e-f546bbc48586,2023-06-07,2023-06-17,False,Unknown,Unknown
+048fd494-c366-4d15-9b3f-5a1326a7b917,2020-05-25,2020-05-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+048fd494-c366-4d15-9b3f-5a1326a7b917,2023-09-27,2023-11-01,False,Unknown,Unknown
+048fd494-c366-4d15-9b3f-5a1326a7b917,2024-08-04,2024-11-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+f744f6b2-8146-4cab-ab79-a15544d042eb,2020-01-30,2020-02-25,False,Unknown,Unknown
+434bf543-9d6a-466b-a1e4-a40389c4d892,2021-05-28,2021-06-06,False,Unknown,Unknown
+434bf543-9d6a-466b-a1e4-a40389c4d892,2021-10-31,2021-12-04,False,Unknown,Unknown
+434bf543-9d6a-466b-a1e4-a40389c4d892,2022-02-08,2023-01-23,False,Unknown,Unknown
+dcc089ce-031e-428f-b120-06940b25e34c,2021-09-18,2022-07-18,True,True,CV admission other than HF
+dcc089ce-031e-428f-b120-06940b25e34c,2022-11-21,2022-12-05,False,Unknown,Unknown
+dcc089ce-031e-428f-b120-06940b25e34c,2024-04-07,2024-07-16,True,True,CV admission other than HF
+d7fddbbe-52cd-4c4f-a3e9-1c5378bd5337,2023-08-04,2024-05-15,True,False,Unknown
+2e4e8e36-8d42-4d44-bc34-613757502c5d,2021-02-20,2022-04-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+2e4e8e36-8d42-4d44-bc34-613757502c5d,2023-06-28,2023-07-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+c3e0db17-f827-483f-9817-fb1c3f77947e,2021-05-01,2021-11-27,True,True,HF Admission
+c3e0db17-f827-483f-9817-fb1c3f77947e,2021-12-07,2022-04-16,False,Unknown,Unknown
+c3e0db17-f827-483f-9817-fb1c3f77947e,2022-05-18,2023-01-30,False,Unknown,Unknown
+9251e3e1-6d99-4695-a3db-6d2dddba0e10,2023-09-04,2023-11-03,False,Unknown,Unknown
+9251e3e1-6d99-4695-a3db-6d2dddba0e10,2024-01-22,2024-04-13,True,True,HF Admission
+9251e3e1-6d99-4695-a3db-6d2dddba0e10,2024-05-25,2024-05-31,False,Unknown,Unknown
+2e8fe317-0020-4e74-9659-7e3c1ecd5504,2020-08-02,2020-10-01,True,False,Unknown
+2e8fe317-0020-4e74-9659-7e3c1ecd5504,2020-10-16,2021-02-16,False,Unknown,Unknown
+bff119ec-cd82-4e0b-b74a-6e4bf3497037,2022-07-13,2022-07-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+36453af4-4cd8-48f0-82b2-8a048f8d6d06,2022-03-30,2022-05-22,True,False,Unknown
+36453af4-4cd8-48f0-82b2-8a048f8d6d06,2022-05-29,2022-06-18,True,True,Device-related complications
+36453af4-4cd8-48f0-82b2-8a048f8d6d06,2022-12-13,2023-02-08,False,Unknown,Unknown
+525a5725-3adf-40a1-99bd-102981a43c45,2021-04-26,2021-07-07,True,True,HF Admission
+525a5725-3adf-40a1-99bd-102981a43c45,2021-08-01,2021-09-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+525a5725-3adf-40a1-99bd-102981a43c45,2021-11-21,2022-01-21,True,True,HF Admission
+bcfc407a-ce0c-4bc9-82f3-feb5664e6ddc,2022-06-21,2022-07-15,False,Unknown,Unknown
+bcfc407a-ce0c-4bc9-82f3-feb5664e6ddc,2022-07-16,2022-09-13,True,True,HF Admission
+f84c8f81-2b1e-4de0-a2a7-2183606b6716,2023-11-30,2024-02-27,False,Unknown,Unknown
+f84c8f81-2b1e-4de0-a2a7-2183606b6716,2024-05-16,2024-05-31,True,True,HF decompensation needing iv. Diuretic-inotropes
+213da632-24cd-4dfe-982f-88e71b035ed7,2021-11-01,2022-06-15,True,True,CV admission other than HF
+a38af768-76a3-4b9b-ac6c-cea844f46372,2021-12-23,2021-12-25,False,Unknown,Unknown
+a38af768-76a3-4b9b-ac6c-cea844f46372,2022-12-12,2023-01-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+a38af768-76a3-4b9b-ac6c-cea844f46372,2023-06-29,2024-02-22,True,False,Unknown
+20efbb2d-0c6f-4208-88e9-713f9ff475de,2021-12-29,2022-07-06,True,True,HF Admission
+20efbb2d-0c6f-4208-88e9-713f9ff475de,2023-03-14,2023-08-07,False,Unknown,Unknown
+bc3dd4f1-0270-429e-a8fb-bc5814c1a72d,2023-01-30,2023-04-30,True,False,Unknown
+60a22634-81ea-4a3d-840c-fad0f177cef6,2023-08-10,2024-02-04,True,False,Unknown
+60a22634-81ea-4a3d-840c-fad0f177cef6,2024-04-27,2024-04-28,True,True,CV admission other than HF
+7badd0f8-a0a4-4abb-b3ab-7415721e85f6,2020-04-17,2020-09-21,True,False,Unknown
+7badd0f8-a0a4-4abb-b3ab-7415721e85f6,2024-02-05,2024-10-10,True,True,Infection management
+1753b4ae-9ad5-4a17-bd46-fd122da42b9f,2020-11-04,2021-09-19,False,Unknown,Unknown
+ce1794bc-ccf7-46cb-bf71-bb9b83ac3137,2023-12-13,2024-03-16,False,Unknown,Unknown
+3bfcf72a-5ac5-4429-a71c-9f9eeea750b5,2021-04-14,2021-07-20,True,True,HF Admission
+3bfcf72a-5ac5-4429-a71c-9f9eeea750b5,2021-07-28,2022-01-03,False,Unknown,Unknown
+68440b41-2bc2-4a02-9057-6da8c760addc,2020-02-14,2020-03-01,True,False,Unknown
+68440b41-2bc2-4a02-9057-6da8c760addc,2020-04-04,2020-05-18,True,False,Unknown
+68440b41-2bc2-4a02-9057-6da8c760addc,2022-10-31,2023-03-14,False,Unknown,Unknown
+15143132-a111-48e7-86b3-7c3f59859526,2021-01-15,2021-07-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+15143132-a111-48e7-86b3-7c3f59859526,2021-12-19,2022-03-22,False,Unknown,Unknown
+15143132-a111-48e7-86b3-7c3f59859526,2022-08-12,2023-07-21,False,Unknown,Unknown
+739faa31-80f4-4953-8ef6-20be6b8ef152,2020-05-31,2020-11-01,False,Unknown,Unknown
+739faa31-80f4-4953-8ef6-20be6b8ef152,2021-08-05,2022-08-02,False,Unknown,Unknown
+739faa31-80f4-4953-8ef6-20be6b8ef152,2022-12-03,2022-12-10,False,Unknown,Unknown
+974487b0-a92b-4e97-ab94-cffb8e2d0755,2021-06-17,2021-10-23,True,True,HF Admission
+456921d9-2fdf-4eab-8d27-b92a0f5ff03d,2021-02-16,2022-05-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+456921d9-2fdf-4eab-8d27-b92a0f5ff03d,2023-10-15,2023-10-19,False,Unknown,Unknown
+456921d9-2fdf-4eab-8d27-b92a0f5ff03d,2023-10-21,2023-10-22,False,Unknown,Unknown
+456921d9-2fdf-4eab-8d27-b92a0f5ff03d,2023-10-22,2023-11-05,False,Unknown,Unknown
+2f6b5289-1d02-45a8-8fc6-40ffff4fcae8,2022-04-16,2023-02-12,True,False,Unknown
+7f7e2867-d4f0-42f4-82bb-7000ca976354,2020-12-29,2022-05-20,True,True,Other non-CV admissions
+3d39b79c-3b08-4a4a-818b-cfdb3c981aa5,2020-06-04,2022-02-23,False,Unknown,Unknown
+3d39b79c-3b08-4a4a-818b-cfdb3c981aa5,2023-09-04,2023-10-04,False,Unknown,Unknown
+83616abf-70bf-482c-a9c8-9faed861815a,2020-05-19,2020-07-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+83616abf-70bf-482c-a9c8-9faed861815a,2021-08-23,2022-02-15,True,True,HF Admission
+83616abf-70bf-482c-a9c8-9faed861815a,2022-05-07,2022-08-08,False,Unknown,Unknown
+54a1f813-ee2e-426b-b564-59a56dadc045,2020-04-13,2020-04-19,False,Unknown,Unknown
+54a1f813-ee2e-426b-b564-59a56dadc045,2021-01-22,2021-02-28,False,Unknown,Unknown
+54a1f813-ee2e-426b-b564-59a56dadc045,2021-07-29,2021-11-03,False,Unknown,Unknown
+54a1f813-ee2e-426b-b564-59a56dadc045,2023-06-01,2023-12-20,True,True,HF Admission
+dfab9cb8-6748-42ec-9813-4c32878d29c3,2020-08-26,2021-09-30,False,Unknown,Unknown
+dfab9cb8-6748-42ec-9813-4c32878d29c3,2021-10-17,2021-10-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+dfab9cb8-6748-42ec-9813-4c32878d29c3,2022-02-28,2022-10-27,True,True,HF Admission
+dfab9cb8-6748-42ec-9813-4c32878d29c3,2022-11-19,2023-03-16,True,True,HF Admission
+12b4ef32-bae1-4672-90d4-2943983918a3,2021-06-19,2021-08-30,True,True,HF decompensation needing iv. Diuretic-inotropes
+12b4ef32-bae1-4672-90d4-2943983918a3,2021-09-23,2021-11-17,True,True,HF Admission
+a777de83-298b-42dc-99dd-bf5a0846657c,2020-10-10,2020-10-24,True,False,Unknown
+a777de83-298b-42dc-99dd-bf5a0846657c,2023-03-18,2023-03-22,True,False,Unknown
+0f577c48-1106-465b-9609-e09a62794915,2023-02-03,2023-09-11,False,Unknown,Unknown
+21baa211-e3b6-4d14-ae02-f9d0a22269ee,2020-08-25,2020-10-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+f0577d1e-3681-403c-a61f-b4b69e8efdc8,2020-06-06,2020-09-09,True,True,Rejection episode
+f0577d1e-3681-403c-a61f-b4b69e8efdc8,2023-04-08,2023-06-11,True,True,CV admission other than HF
+894d3a54-eeab-49d8-9fd6-c20f83d98a29,2020-12-24,2021-01-10,True,False,Unknown
+894d3a54-eeab-49d8-9fd6-c20f83d98a29,2021-07-20,2022-09-02,False,Unknown,Unknown
+894d3a54-eeab-49d8-9fd6-c20f83d98a29,2023-06-09,2023-07-17,True,False,Unknown
+45c328fa-0dc3-419b-a6fb-d016642e7161,2020-10-23,2021-02-28,False,Unknown,Unknown
+45c328fa-0dc3-419b-a6fb-d016642e7161,2021-11-20,2022-03-03,True,False,Unknown
+45c328fa-0dc3-419b-a6fb-d016642e7161,2022-03-17,2022-03-31,True,True,Other non-CV admissions
+f6b9dc21-7817-4f66-8fff-1d208b2d1367,2020-05-11,2020-08-18,False,Unknown,Unknown
+14f76cf9-0d06-4a12-9c58-c3663affd908,2020-10-13,2021-01-04,False,Unknown,Unknown
+14f76cf9-0d06-4a12-9c58-c3663affd908,2021-08-18,2022-05-11,False,Unknown,Unknown
+14f76cf9-0d06-4a12-9c58-c3663affd908,2023-08-09,2024-01-03,False,Unknown,Unknown
+1efe63ce-8230-4973-b56b-006944d6f721,2020-12-05,2020-12-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+1efe63ce-8230-4973-b56b-006944d6f721,2021-01-17,2021-02-11,True,False,Unknown
+1efe63ce-8230-4973-b56b-006944d6f721,2021-04-18,2021-10-24,False,Unknown,Unknown
+1efe63ce-8230-4973-b56b-006944d6f721,2022-09-15,2022-09-21,False,Unknown,Unknown
+f244e059-430c-41cf-98ac-ba7d0557cc29,2021-11-20,2022-06-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+9037e7ad-724e-4166-9b11-dec42290d212,2020-09-01,2020-12-31,False,Unknown,Unknown
+c646cc02-0c5e-4f25-9208-eb0cddabd8c9,2020-02-02,2020-09-02,True,False,Unknown
+c646cc02-0c5e-4f25-9208-eb0cddabd8c9,2022-01-06,2022-02-22,False,Unknown,Unknown
+c646cc02-0c5e-4f25-9208-eb0cddabd8c9,2023-04-16,2024-06-05,True,False,Unknown
+83272d64-61d4-4a95-9471-ecbc5e4515a5,2022-09-16,2022-12-17,False,Unknown,Unknown
+83272d64-61d4-4a95-9471-ecbc5e4515a5,2023-05-20,2023-08-25,False,Unknown,Unknown
+83272d64-61d4-4a95-9471-ecbc5e4515a5,2023-10-03,2024-05-04,False,Unknown,Unknown
+5e6a30b3-1a03-4b6b-be2d-47ca73edf560,2022-05-21,2022-06-10,True,True,Infection management
+5e6a30b3-1a03-4b6b-be2d-47ca73edf560,2024-02-22,2024-04-21,True,True,Infection management
+f304d976-bd23-4b43-bef7-86cd5cdc6acf,2020-07-03,2020-07-16,True,True,CV admission other than HF
+f304d976-bd23-4b43-bef7-86cd5cdc6acf,2021-02-20,2021-03-23,False,Unknown,Unknown
+56397152-7426-47a1-8e26-0aed7cf4fa80,2020-07-15,2020-07-16,False,Unknown,Unknown
+56397152-7426-47a1-8e26-0aed7cf4fa80,2020-07-23,2022-01-27,False,Unknown,Unknown
+56397152-7426-47a1-8e26-0aed7cf4fa80,2023-09-05,2023-10-01,True,False,Unknown
+f4f9a128-86f5-4bb6-ad70-de2b0d303f9a,2023-01-15,2023-02-19,True,True,HF Admission
+a4438dc5-6e7c-4ae5-ac01-fa2f86347ac4,2020-01-28,2020-08-27,True,True,HF Admission
+a4438dc5-6e7c-4ae5-ac01-fa2f86347ac4,2021-06-19,2022-03-12,False,Unknown,Unknown
+8653e53e-d79f-436a-b86d-835617bd88ff,2023-06-08,2023-07-24,False,Unknown,Unknown
+8653e53e-d79f-436a-b86d-835617bd88ff,2024-03-16,2024-05-23,False,Unknown,Unknown
+996dde94-5848-407b-ae8f-ae8bcbaa4afa,2020-11-07,2020-11-08,False,Unknown,Unknown
+996dde94-5848-407b-ae8f-ae8bcbaa4afa,2021-08-29,2021-09-02,False,Unknown,Unknown
+996dde94-5848-407b-ae8f-ae8bcbaa4afa,2021-09-04,2023-04-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+a3d5b6fb-c0f0-41a7-86ec-10d79cd81e27,2021-03-30,2021-04-15,False,Unknown,Unknown
+d1ca9243-617f-49ea-8a93-c41c5801c541,2021-09-04,2021-10-01,False,Unknown,Unknown
+d1ca9243-617f-49ea-8a93-c41c5801c541,2022-06-16,2022-10-28,False,Unknown,Unknown
+ff397e85-6f18-41cd-8e2b-250f2901fced,2020-02-15,2022-06-11,True,True,HF Admission
+ff397e85-6f18-41cd-8e2b-250f2901fced,2022-11-02,2024-03-16,True,True,HF Admission
+e03e8cc7-de26-4120-a677-163714237898,2021-10-23,2022-02-13,True,False,Unknown
+e03e8cc7-de26-4120-a677-163714237898,2024-08-16,2024-09-15,False,Unknown,Unknown
+f4124180-041f-41d2-b3e4-2d9b4aefd61b,2022-07-26,2023-04-07,True,True,Device-related complications
+8662d75c-6c8f-42f3-a92b-1b7b9b23a942,2021-02-01,2021-03-25,True,True,CV admission other than HF
+8662d75c-6c8f-42f3-a92b-1b7b9b23a942,2022-06-16,2023-03-02,True,False,Unknown
+01e99b3a-e50b-4f42-bdff-342f17ffdc44,2021-04-18,2021-08-30,True,False,Unknown
+01e99b3a-e50b-4f42-bdff-342f17ffdc44,2023-09-28,2024-10-14,True,False,Unknown
+f6b44d10-5123-40e8-a239-4b806795244b,2021-04-16,2021-09-23,False,Unknown,Unknown
+f6b44d10-5123-40e8-a239-4b806795244b,2022-02-26,2022-03-24,True,True,HF Admission
+2e4966fa-6b1d-4c52-8791-94230b512872,2020-08-12,2023-02-03,False,Unknown,Unknown
+40573ab6-dc5a-4345-a49c-ce1dcb85a846,2021-04-24,2021-07-07,False,Unknown,Unknown
+40573ab6-dc5a-4345-a49c-ce1dcb85a846,2021-08-12,2022-03-21,True,True,HF Admission
+40573ab6-dc5a-4345-a49c-ce1dcb85a846,2022-04-28,2022-06-16,False,Unknown,Unknown
+40573ab6-dc5a-4345-a49c-ce1dcb85a846,2024-03-08,2024-06-23,True,True,HF Admission
+f5253c3b-7a0b-471d-b452-a480aaa2b24d,2020-03-05,2021-07-16,False,Unknown,Unknown
+f5253c3b-7a0b-471d-b452-a480aaa2b24d,2023-10-31,2024-01-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+ff13cd02-4fdd-4307-863c-5c3253ad800c,2021-01-14,2021-02-04,False,Unknown,Unknown
+ff13cd02-4fdd-4307-863c-5c3253ad800c,2021-05-11,2021-11-09,True,False,Unknown
+ff13cd02-4fdd-4307-863c-5c3253ad800c,2022-11-22,2022-12-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+0243b01f-7675-41ff-bb8e-9f8bdea07d6d,2024-06-30,2024-07-05,False,Unknown,Unknown
+61caeaac-7283-4769-a726-115af3146277,2020-02-10,2020-05-02,False,Unknown,Unknown
+61caeaac-7283-4769-a726-115af3146277,2024-09-26,2024-10-23,True,True,HF Admission
+67bdb3ea-141d-4947-8ea4-0b428e036f60,2021-08-16,2022-11-12,True,True,Device-related complications
+67bdb3ea-141d-4947-8ea4-0b428e036f60,2024-09-05,2024-09-25,False,Unknown,Unknown
+dcad7b56-4575-4735-8e95-a44a2936f732,2020-07-16,2020-10-26,False,Unknown,Unknown
+dcad7b56-4575-4735-8e95-a44a2936f732,2020-11-10,2022-01-12,False,Unknown,Unknown
+d813c276-f3e3-4531-976a-e40c0c10836f,2023-01-02,2023-03-31,False,Unknown,Unknown
+fee1b8d5-5c93-403d-8693-64b8bc2c5759,2020-05-21,2020-05-23,False,Unknown,Unknown
+fee1b8d5-5c93-403d-8693-64b8bc2c5759,2022-11-16,2023-10-31,False,Unknown,Unknown
+e5238de7-de35-43ae-9af9-451d5a978aef,2023-08-24,2024-01-05,False,Unknown,Unknown
+254dd1e3-7c14-4185-85e4-6e6b3f4eb9b6,2020-03-16,2020-10-02,False,Unknown,Unknown
+254dd1e3-7c14-4185-85e4-6e6b3f4eb9b6,2021-01-04,2021-06-30,False,Unknown,Unknown
+254dd1e3-7c14-4185-85e4-6e6b3f4eb9b6,2022-04-04,2022-06-12,True,True,Rejection episode
+8ecdf01f-690f-46cf-9ed4-7cbd745a3036,2024-05-19,2024-05-21,True,False,Unknown
+471bac81-3845-4523-b81a-a1785e282236,2022-06-27,2022-07-03,True,False,Unknown
+d2e7f4a5-cff8-47b1-b96f-3ab8dacc0328,2020-01-02,2021-11-30,False,Unknown,Unknown
+d2e7f4a5-cff8-47b1-b96f-3ab8dacc0328,2021-12-02,2021-12-04,True,True,HF Admission
+d2e7f4a5-cff8-47b1-b96f-3ab8dacc0328,2021-12-28,2022-01-03,False,Unknown,Unknown
+e7bfe693-b4f8-498a-afa9-2cdd2e8c9505,2021-04-10,2021-12-03,False,Unknown,Unknown
+e7bfe693-b4f8-498a-afa9-2cdd2e8c9505,2022-08-11,2023-04-29,False,Unknown,Unknown
+511bf604-f141-454e-919c-84c4b8902206,2021-07-29,2021-11-14,True,False,Unknown
+511bf604-f141-454e-919c-84c4b8902206,2022-02-11,2022-04-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+511bf604-f141-454e-919c-84c4b8902206,2022-07-21,2022-10-15,False,Unknown,Unknown
+3884da40-d94f-4f3b-a8ca-0244a86c786f,2020-10-21,2021-02-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+3884da40-d94f-4f3b-a8ca-0244a86c786f,2021-04-25,2021-05-07,False,Unknown,Unknown
+3884da40-d94f-4f3b-a8ca-0244a86c786f,2021-07-08,2021-08-17,False,Unknown,Unknown
+3884da40-d94f-4f3b-a8ca-0244a86c786f,2021-08-23,2022-08-05,False,Unknown,Unknown
+85cc6373-97f4-40c7-9720-6e3e15c45d9d,2023-07-19,2023-08-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+efe704ef-e3ed-4da8-8309-f25b5d71bd20,2020-05-18,2020-06-07,True,True,Infection management
+efe704ef-e3ed-4da8-8309-f25b5d71bd20,2020-12-18,2021-01-24,False,Unknown,Unknown
+efe704ef-e3ed-4da8-8309-f25b5d71bd20,2021-04-09,2021-05-13,False,Unknown,Unknown
+167c017b-b686-4ee7-9f06-fc95dfb23a5e,2021-07-26,2022-02-26,False,Unknown,Unknown
+167c017b-b686-4ee7-9f06-fc95dfb23a5e,2022-04-13,2023-02-02,False,Unknown,Unknown
+4f0aaf0f-13b2-4de5-a369-e167bafc66c8,2020-03-23,2020-08-11,False,Unknown,Unknown
+4f0aaf0f-13b2-4de5-a369-e167bafc66c8,2021-05-01,2021-05-24,True,False,Unknown
+3e4629f7-53e3-4db3-9f5d-246d3ad4504c,2020-05-11,2021-02-13,False,Unknown,Unknown
+33a266d2-d2aa-4bdf-bb62-d0ca59d6e4fd,2021-12-24,2022-03-15,False,Unknown,Unknown
+33a266d2-d2aa-4bdf-bb62-d0ca59d6e4fd,2022-05-02,2022-05-12,True,True,Device-related complications
+33a266d2-d2aa-4bdf-bb62-d0ca59d6e4fd,2022-09-21,2024-07-28,False,Unknown,Unknown
+3fa2d142-43de-4978-a1cb-e8171b579ba4,2020-03-29,2020-05-31,True,False,Unknown
+3fa2d142-43de-4978-a1cb-e8171b579ba4,2020-06-30,2021-10-24,False,Unknown,Unknown
+3fa2d142-43de-4978-a1cb-e8171b579ba4,2023-01-04,2023-01-21,False,Unknown,Unknown
+3fa2d142-43de-4978-a1cb-e8171b579ba4,2023-02-06,2024-04-08,True,True,CV admission other than HF
+8722971f-62eb-4ce6-8510-0ec63c7f1dbc,2020-02-29,2021-01-07,True,False,Unknown
+8722971f-62eb-4ce6-8510-0ec63c7f1dbc,2023-03-07,2023-03-31,False,Unknown,Unknown
+8722971f-62eb-4ce6-8510-0ec63c7f1dbc,2023-08-28,2023-11-12,True,False,Unknown
+a44acce1-e87c-49b3-9792-0fb9c943b61e,2022-01-19,2022-02-03,True,True,HF Admission
+8995867c-b5a2-48d8-bcd9-e985da7aad97,2024-01-11,2024-02-05,False,Unknown,Unknown
+8995867c-b5a2-48d8-bcd9-e985da7aad97,2024-02-07,2024-06-06,True,False,Unknown
+8995867c-b5a2-48d8-bcd9-e985da7aad97,2024-08-09,2024-08-19,False,Unknown,Unknown
+9ef38005-5d6a-47a0-9905-1a5563ce875c,2020-08-06,2021-01-05,True,False,Unknown
+9ef38005-5d6a-47a0-9905-1a5563ce875c,2021-03-21,2021-04-08,True,False,Unknown
+9ef38005-5d6a-47a0-9905-1a5563ce875c,2021-04-15,2021-05-01,True,False,Unknown
+1198a668-974b-4dc6-8d58-4728b8b5d6e8,2020-01-09,2020-06-03,True,True,HF Admission
+2aea3437-1d49-420c-b92e-d9277f188c13,2020-04-08,2020-06-24,True,True,HF Admission
+2aea3437-1d49-420c-b92e-d9277f188c13,2024-04-28,2024-05-04,False,Unknown,Unknown
+73751643-6be9-48c9-b78e-6a46f8886b76,2020-01-13,2020-03-21,True,True,Device-related complications
+71bfda65-387e-45eb-8234-4ee22da3a596,2020-07-28,2021-01-22,False,Unknown,Unknown
+71bfda65-387e-45eb-8234-4ee22da3a596,2021-11-07,2022-02-03,False,Unknown,Unknown
+71bfda65-387e-45eb-8234-4ee22da3a596,2022-06-15,2022-08-20,False,Unknown,Unknown
+8fd1c8c9-9504-438a-b951-c96faa1c9be5,2020-12-16,2021-01-31,False,Unknown,Unknown
+8fd1c8c9-9504-438a-b951-c96faa1c9be5,2022-11-02,2023-10-09,True,False,Unknown
+6b101d78-4cf3-4ad4-849d-3abdb02f84a2,2021-03-16,2021-03-30,True,True,Device-related complications
+6b101d78-4cf3-4ad4-849d-3abdb02f84a2,2021-10-25,2022-03-12,False,Unknown,Unknown
+6b101d78-4cf3-4ad4-849d-3abdb02f84a2,2022-04-04,2022-07-27,True,False,Unknown
+6b101d78-4cf3-4ad4-849d-3abdb02f84a2,2023-03-17,2023-07-25,False,Unknown,Unknown
+758587e1-6669-4366-b172-6cdc770522a1,2020-02-29,2020-10-18,False,Unknown,Unknown
+758587e1-6669-4366-b172-6cdc770522a1,2021-02-01,2021-02-02,True,True,HF Admission
+758587e1-6669-4366-b172-6cdc770522a1,2022-07-22,2022-12-09,True,True,HF Admission
+959f7b3a-0ccb-4f87-811c-d8fd70c053ce,2021-10-05,2022-01-02,True,True,HF Admission
+959f7b3a-0ccb-4f87-811c-d8fd70c053ce,2022-01-30,2022-02-15,False,Unknown,Unknown
+59e9a4be-bd26-41cb-b31a-7dadb1595c9d,2020-10-25,2020-10-27,True,True,CV admission other than HF
+59e9a4be-bd26-41cb-b31a-7dadb1595c9d,2021-02-08,2021-03-18,True,True,CV admission other than HF
+59e9a4be-bd26-41cb-b31a-7dadb1595c9d,2021-03-19,2021-09-29,True,False,Unknown
+6bed4547-bf74-4ba8-9160-967aa4a87a3f,2022-02-16,2022-04-01,True,False,Unknown
+6bed4547-bf74-4ba8-9160-967aa4a87a3f,2022-04-06,2022-10-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+d93fdd23-2a5f-4fbe-a38a-69f73986b56e,2022-01-18,2022-01-19,False,Unknown,Unknown
+d93fdd23-2a5f-4fbe-a38a-69f73986b56e,2022-02-04,2022-04-30,False,Unknown,Unknown
+d93fdd23-2a5f-4fbe-a38a-69f73986b56e,2022-07-29,2024-05-04,False,Unknown,Unknown
+5534ed67-d378-4029-a1d8-7403eb520953,2019-11-27,2020-02-20,True,True,Device-related complications
+5534ed67-d378-4029-a1d8-7403eb520953,2023-10-07,2023-10-29,False,Unknown,Unknown
+c43bdc1a-e8f9-4b51-9bbb-581e0b2d76e1,2021-01-31,2021-06-17,False,Unknown,Unknown
+c43bdc1a-e8f9-4b51-9bbb-581e0b2d76e1,2023-04-23,2023-10-19,False,Unknown,Unknown
+c0197ba8-9064-4def-b8f1-bab02edab552,2021-06-27,2021-07-02,True,False,Unknown
+c0197ba8-9064-4def-b8f1-bab02edab552,2021-12-14,2022-04-03,False,Unknown,Unknown
+c0197ba8-9064-4def-b8f1-bab02edab552,2022-06-09,2022-06-19,False,Unknown,Unknown
+fbd359a6-b561-4ca2-a42f-68c1fd9ef034,2020-05-06,2021-07-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+fbd359a6-b561-4ca2-a42f-68c1fd9ef034,2022-01-12,2022-08-02,True,True,HF decompensation needing iv. Diuretic-inotropes
+fbd359a6-b561-4ca2-a42f-68c1fd9ef034,2023-07-11,2023-12-03,True,True,HF Admission
+fad7d365-a872-4d8d-8ff0-9531c82b7af0,2020-07-30,2021-09-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+fad7d365-a872-4d8d-8ff0-9531c82b7af0,2021-11-05,2022-05-15,True,True,HF Admission
+fad7d365-a872-4d8d-8ff0-9531c82b7af0,2022-09-01,2024-06-16,True,True,HF Admission
+7cb512b2-0658-42e5-a5ee-7578d9bfc8d7,2020-12-09,2020-12-11,False,Unknown,Unknown
+7cb512b2-0658-42e5-a5ee-7578d9bfc8d7,2024-07-19,2024-08-08,False,Unknown,Unknown
+4b90cc42-18c7-4988-9943-90816d04620d,2020-01-14,2020-09-19,False,Unknown,Unknown
+1216566a-8964-48e3-96b8-afe8d716c066,2020-01-05,2020-02-29,False,Unknown,Unknown
+1216566a-8964-48e3-96b8-afe8d716c066,2020-04-29,2020-10-29,True,True,HF Admission
+1216566a-8964-48e3-96b8-afe8d716c066,2020-11-22,2022-11-10,False,Unknown,Unknown
+1216566a-8964-48e3-96b8-afe8d716c066,2022-12-25,2023-05-27,True,True,HF Admission
+93c19119-39c9-4efa-ac78-a4159b31f87b,2021-09-21,2022-05-15,False,Unknown,Unknown
+93c19119-39c9-4efa-ac78-a4159b31f87b,2022-07-26,2023-02-25,False,Unknown,Unknown
+51ac66b4-bf31-4e3b-9167-89b9dbfd5a35,2020-09-25,2020-10-30,False,Unknown,Unknown
+51ac66b4-bf31-4e3b-9167-89b9dbfd5a35,2021-01-05,2021-02-13,False,Unknown,Unknown
+6629da59-6f11-42a9-9971-0e9a1fb429c1,2021-12-31,2022-09-19,True,False,Unknown
+a0212984-da72-4244-add6-6dbd6da726ef,2021-02-24,2021-12-02,False,Unknown,Unknown
+a0212984-da72-4244-add6-6dbd6da726ef,2021-12-14,2021-12-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+a0212984-da72-4244-add6-6dbd6da726ef,2022-07-12,2023-03-04,False,Unknown,Unknown
+e36ec039-944e-4782-ba4c-0d216b29db47,2020-05-01,2020-11-23,True,True,Rejection episode
+e36ec039-944e-4782-ba4c-0d216b29db47,2021-10-24,2022-03-16,False,Unknown,Unknown
+3ebf643a-b5cc-428c-90d5-422fb438f191,2019-12-10,2020-01-22,True,False,Unknown
+3ebf643a-b5cc-428c-90d5-422fb438f191,2021-11-11,2021-11-20,False,Unknown,Unknown
+3ebf643a-b5cc-428c-90d5-422fb438f191,2021-12-05,2022-12-10,False,Unknown,Unknown
+ce7474cb-585e-497e-b919-bb392c1fe509,2020-06-06,2020-07-27,False,Unknown,Unknown
+ce7474cb-585e-497e-b919-bb392c1fe509,2020-12-21,2021-07-18,True,False,Unknown
+ce7474cb-585e-497e-b919-bb392c1fe509,2022-06-01,2022-12-07,True,True,Device-related complications
+310289cd-7120-4c35-af98-9eec82c47aab,2020-06-01,2020-07-12,False,Unknown,Unknown
+310289cd-7120-4c35-af98-9eec82c47aab,2020-09-14,2021-05-31,True,True,Device-related complications
+310289cd-7120-4c35-af98-9eec82c47aab,2023-09-12,2023-11-05,True,True,CV admission other than HF
+760e9276-1b19-4183-8918-c78d40b6a91e,2020-09-16,2021-03-20,False,Unknown,Unknown
+760e9276-1b19-4183-8918-c78d40b6a91e,2021-06-11,2021-07-23,True,False,Unknown
+30c07e3e-cc77-4da7-b541-89a344a5907e,2021-10-18,2021-11-17,False,Unknown,Unknown
+30c07e3e-cc77-4da7-b541-89a344a5907e,2023-04-16,2023-06-23,True,True,CV admission other than HF
+30c07e3e-cc77-4da7-b541-89a344a5907e,2023-08-18,2023-12-22,False,Unknown,Unknown
+017c2fe2-8bcb-4c0b-b121-9c6cb452d018,2021-02-11,2021-04-10,False,Unknown,Unknown
+017c2fe2-8bcb-4c0b-b121-9c6cb452d018,2021-09-07,2021-10-07,True,True,HF Admission
+017c2fe2-8bcb-4c0b-b121-9c6cb452d018,2021-11-13,2022-11-19,True,True,HF Admission
+06ce01b2-cf10-4b67-b3ad-dfc0666ca1a6,2023-08-16,2023-08-28,False,Unknown,Unknown
+36681ba3-94ce-4468-be65-d26ed29f2f18,2022-09-13,2023-07-22,True,True,Other non-CV admissions
+2a522828-7126-445f-891d-a99a74fa3f1a,2021-04-01,2021-04-03,True,True,HF Admission
+2a522828-7126-445f-891d-a99a74fa3f1a,2022-04-12,2023-04-11,True,True,HF Admission
+7d2126bf-6dcf-4e39-92b6-352279ceb518,2022-09-10,2023-05-31,False,Unknown,Unknown
+cd6375b9-ad0e-4f11-b609-50de98d3fef7,2023-12-16,2024-02-29,False,Unknown,Unknown
+c6e7a7d9-1371-46bf-9a87-2ed901b80377,2020-05-05,2020-05-09,True,False,Unknown
+c6e7a7d9-1371-46bf-9a87-2ed901b80377,2023-03-05,2023-09-11,False,Unknown,Unknown
+c6e7a7d9-1371-46bf-9a87-2ed901b80377,2024-01-01,2024-01-12,False,Unknown,Unknown
+603e9063-9402-4785-a84b-211069d2cbe6,2019-12-11,2019-12-25,True,True,HF Admission
+603e9063-9402-4785-a84b-211069d2cbe6,2020-03-31,2020-05-08,False,Unknown,Unknown
+58d2cbcc-e343-49ea-8d52-93e8680cd837,2020-06-17,2020-08-31,True,True,Other non-CV admissions
+58d2cbcc-e343-49ea-8d52-93e8680cd837,2021-06-12,2022-08-17,True,False,Unknown
+37e8cd57-8403-468e-ac4f-4291db6f2557,2021-10-21,2022-02-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+37e8cd57-8403-468e-ac4f-4291db6f2557,2022-05-16,2022-12-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+feedcd98-19bd-4ea6-bf91-5c45f230d673,2020-06-21,2020-11-07,False,Unknown,Unknown
+8dbb4718-1b4d-442f-960e-42ea1c7c2cf2,2020-02-24,2020-09-30,True,True,Device-related complications
+8dbb4718-1b4d-442f-960e-42ea1c7c2cf2,2022-06-05,2022-07-12,False,Unknown,Unknown
+cba16741-b925-42cf-a784-513074121cb0,2019-12-02,2020-08-09,True,True,HF Admission
+cba16741-b925-42cf-a784-513074121cb0,2022-03-23,2022-07-18,False,Unknown,Unknown
+a3d209dc-1374-4664-9e52-64ca7a05db6c,2022-05-07,2022-08-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+cc56e89c-fed8-453c-961f-fe1ea3d57909,2020-03-10,2020-08-08,False,Unknown,Unknown
+cc56e89c-fed8-453c-961f-fe1ea3d57909,2020-09-06,2020-10-19,False,Unknown,Unknown
+cc56e89c-fed8-453c-961f-fe1ea3d57909,2022-11-06,2022-12-16,False,Unknown,Unknown
+cc56e89c-fed8-453c-961f-fe1ea3d57909,2023-01-26,2023-05-07,True,False,Unknown
+4e7e4116-51d6-4a00-9d48-9a579fdfff86,2023-02-15,2023-04-10,False,Unknown,Unknown
+4e7e4116-51d6-4a00-9d48-9a579fdfff86,2024-07-06,2024-08-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+5ab6b9f1-9af6-4b8c-807f-ad0daaf0fe97,2020-09-02,2020-09-24,False,Unknown,Unknown
+ab72e479-0579-4c29-a945-4d657642299c,2024-02-28,2024-08-02,True,False,Unknown
+815f8467-b6ef-4ace-b3a7-d4ea10d605d1,2020-11-30,2021-04-11,False,Unknown,Unknown
+815f8467-b6ef-4ace-b3a7-d4ea10d605d1,2021-10-08,2021-11-08,False,Unknown,Unknown
+815f8467-b6ef-4ace-b3a7-d4ea10d605d1,2021-11-10,2022-10-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+69b89713-156e-42cb-ae62-319665102cee,2023-08-06,2023-11-26,False,Unknown,Unknown
+562079af-acd6-4e50-81c8-2d667002832e,2021-02-12,2021-06-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+6121cd8c-28fa-48cd-b924-9452e3f53195,2020-11-20,2021-01-21,False,Unknown,Unknown
+6121cd8c-28fa-48cd-b924-9452e3f53195,2021-04-19,2021-06-01,False,Unknown,Unknown
+e08dc6e3-2c9b-42d0-b769-c39ba4975830,2020-04-25,2020-12-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+e08dc6e3-2c9b-42d0-b769-c39ba4975830,2021-08-16,2022-01-30,True,False,Unknown
+e08dc6e3-2c9b-42d0-b769-c39ba4975830,2022-08-30,2022-09-04,False,Unknown,Unknown
+e08dc6e3-2c9b-42d0-b769-c39ba4975830,2023-03-01,2023-10-02,False,Unknown,Unknown
+ce0a0f2a-bbe9-42f1-9c40-bb1cacf94ae6,2020-06-30,2020-09-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+ce0a0f2a-bbe9-42f1-9c40-bb1cacf94ae6,2020-10-30,2021-09-01,False,Unknown,Unknown
+cf6a30a7-41bd-49e6-a915-2b0bbeb92485,2021-01-27,2022-01-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+8507ac6d-3dab-4a64-bdb8-99c72c336252,2020-02-29,2020-06-12,True,True,HF Admission
+8507ac6d-3dab-4a64-bdb8-99c72c336252,2020-06-24,2020-10-31,True,True,HF Admission
+8507ac6d-3dab-4a64-bdb8-99c72c336252,2021-03-19,2022-09-28,False,Unknown,Unknown
+be4bdf34-fe23-4af4-9520-d1a75ee6dadb,2021-09-15,2022-11-21,False,Unknown,Unknown
+be4bdf34-fe23-4af4-9520-d1a75ee6dadb,2023-01-22,2023-02-12,True,True,HF Admission
+be4bdf34-fe23-4af4-9520-d1a75ee6dadb,2023-04-23,2023-05-09,True,True,HF Admission
+be4bdf34-fe23-4af4-9520-d1a75ee6dadb,2023-05-23,2023-06-23,False,Unknown,Unknown
+d3932837-3b08-4c6c-9f78-ec7e43b2e317,2021-03-02,2022-10-28,True,False,Unknown
+d3932837-3b08-4c6c-9f78-ec7e43b2e317,2024-08-01,2024-09-13,True,False,Unknown
+311a27df-4da7-4041-961d-18f477f9efa1,2019-11-22,2020-05-15,True,True,HF Admission
+311a27df-4da7-4041-961d-18f477f9efa1,2022-02-11,2023-05-19,False,Unknown,Unknown
+311a27df-4da7-4041-961d-18f477f9efa1,2023-07-17,2023-08-07,False,Unknown,Unknown
+756e8856-b4f3-4dbe-bb0b-8b00ebb78be3,2020-12-16,2022-04-05,True,True,HF Admission
+756e8856-b4f3-4dbe-bb0b-8b00ebb78be3,2022-06-22,2022-07-24,False,Unknown,Unknown
+e677824b-bbc8-4d67-8a43-145ce090ed4d,2021-07-27,2021-08-29,False,Unknown,Unknown
+e677824b-bbc8-4d67-8a43-145ce090ed4d,2021-11-26,2022-04-23,False,Unknown,Unknown
+cdaadd18-75b9-4a11-91bb-9ea17f21da2d,2020-06-01,2020-10-31,False,Unknown,Unknown
+cdaadd18-75b9-4a11-91bb-9ea17f21da2d,2022-12-19,2023-02-09,False,Unknown,Unknown
+29506993-e549-40d0-86bc-214db01546b3,2020-09-16,2022-06-01,False,Unknown,Unknown
+29506993-e549-40d0-86bc-214db01546b3,2022-08-13,2022-08-20,False,Unknown,Unknown
+29506993-e549-40d0-86bc-214db01546b3,2023-06-30,2023-09-16,False,Unknown,Unknown
+ef2b8625-67ae-4f2c-b75f-c4eda93e71e7,2020-11-25,2020-12-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+ef2b8625-67ae-4f2c-b75f-c4eda93e71e7,2023-05-20,2023-06-25,True,True,HF Admission
+ef2b8625-67ae-4f2c-b75f-c4eda93e71e7,2023-10-28,2023-11-18,True,True,HF Admission
+661c2a39-885a-4857-b080-b855f6010007,2021-09-08,2021-11-23,True,False,Unknown
+0d850546-5ec0-48bb-a746-91686eee23bd,2020-08-10,2020-09-28,True,True,HF Admission
+0d850546-5ec0-48bb-a746-91686eee23bd,2021-03-13,2021-10-23,False,Unknown,Unknown
+0d850546-5ec0-48bb-a746-91686eee23bd,2023-02-10,2023-07-03,False,Unknown,Unknown
+b30aed92-0115-4ec4-bdad-34ce9130bd22,2021-01-14,2021-02-15,False,Unknown,Unknown
+b30aed92-0115-4ec4-bdad-34ce9130bd22,2021-05-16,2022-11-13,True,True,Other non-CV admissions
+b30aed92-0115-4ec4-bdad-34ce9130bd22,2023-06-12,2023-06-20,False,Unknown,Unknown
+9043662f-0484-49d8-b0e9-2c7fa4a53de2,2022-09-01,2022-09-04,True,True,CV admission other than HF
+9043662f-0484-49d8-b0e9-2c7fa4a53de2,2023-11-08,2024-02-26,True,False,Unknown
+69a91588-f481-47a0-8c16-29749ec9aa30,2020-07-13,2022-06-25,False,Unknown,Unknown
+69a91588-f481-47a0-8c16-29749ec9aa30,2022-11-14,2022-12-10,False,Unknown,Unknown
+69a91588-f481-47a0-8c16-29749ec9aa30,2023-05-15,2023-07-09,False,Unknown,Unknown
+b35ae495-6780-4c62-aa72-6b34a551294b,2020-02-29,2020-05-23,False,Unknown,Unknown
+19fb9e17-c22d-46e7-ab8f-c89f7ce16ea6,2020-07-14,2020-08-01,False,Unknown,Unknown
+19fb9e17-c22d-46e7-ab8f-c89f7ce16ea6,2021-07-10,2022-08-26,False,Unknown,Unknown
+e559a83c-762d-4402-b3a2-07c6cacb1484,2021-02-17,2021-04-17,True,True,CV admission other than HF
+e559a83c-762d-4402-b3a2-07c6cacb1484,2021-08-11,2021-10-29,True,False,Unknown
+58b81e79-48d0-4bcc-9bf9-4049da3fa307,2020-07-08,2020-07-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+58b81e79-48d0-4bcc-9bf9-4049da3fa307,2023-05-25,2024-08-05,False,Unknown,Unknown
+52312cdf-6eaf-4cb9-bdeb-a942c5f9dcb8,2020-08-01,2020-08-14,False,Unknown,Unknown
+16d52530-95fa-45ad-8d4f-46437190687b,2020-12-06,2021-06-25,False,Unknown,Unknown
+16d52530-95fa-45ad-8d4f-46437190687b,2021-12-27,2022-04-29,False,Unknown,Unknown
+16d52530-95fa-45ad-8d4f-46437190687b,2022-09-01,2023-04-04,True,False,Unknown
+fd3c1132-956b-4dcc-ab31-616f7ce15f3b,2020-08-13,2022-01-24,False,Unknown,Unknown
+fd3c1132-956b-4dcc-ab31-616f7ce15f3b,2023-05-26,2023-07-09,True,True,HF Admission
+fd3c1132-956b-4dcc-ab31-616f7ce15f3b,2023-12-15,2023-12-16,True,True,HF Admission
+fd3c1132-956b-4dcc-ab31-616f7ce15f3b,2023-12-19,2024-07-09,False,Unknown,Unknown
+ae1fc913-afc4-4e74-9f78-621084c12eb5,2022-04-19,2022-08-19,True,True,Infection management
+96e0c6b1-3ccb-49fa-ad32-481e12426c02,2020-12-26,2021-06-09,True,True,CV admission other than HF
+f8f98ab1-761e-4d9e-b613-3fc86fd8af8d,2020-11-28,2020-12-19,False,Unknown,Unknown
+f8f98ab1-761e-4d9e-b613-3fc86fd8af8d,2021-11-14,2021-12-09,True,True,Device-related complications
+f8f98ab1-761e-4d9e-b613-3fc86fd8af8d,2022-02-04,2023-08-25,False,Unknown,Unknown
+4241c5ee-80c2-4cc8-b5a1-d774da0990f6,2021-05-11,2022-11-07,False,Unknown,Unknown
+4241c5ee-80c2-4cc8-b5a1-d774da0990f6,2022-12-01,2023-01-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+4241c5ee-80c2-4cc8-b5a1-d774da0990f6,2024-08-15,2024-09-25,True,True,HF Admission
+59930755-5371-4b5c-bfc2-e822afd4df65,2020-02-18,2020-08-04,False,Unknown,Unknown
+2e5d1453-9917-4fdc-b570-0c2c5ae8a77c,2021-12-12,2022-01-02,False,Unknown,Unknown
+2e5d1453-9917-4fdc-b570-0c2c5ae8a77c,2022-09-02,2024-07-01,True,True,HF Admission
+f9fc0463-c9e3-4645-bec1-240d7933ecb9,2021-04-02,2021-07-27,False,Unknown,Unknown
+f9fc0463-c9e3-4645-bec1-240d7933ecb9,2021-11-18,2022-01-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+6fd56f77-dda2-45d1-b540-e2b9fa318034,2020-12-21,2021-10-05,False,Unknown,Unknown
+6fd56f77-dda2-45d1-b540-e2b9fa318034,2021-12-30,2022-01-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+6fd56f77-dda2-45d1-b540-e2b9fa318034,2022-03-21,2022-07-15,False,Unknown,Unknown
+6fd56f77-dda2-45d1-b540-e2b9fa318034,2022-08-13,2022-08-30,True,True,HF decompensation needing iv. Diuretic-inotropes
+f8514d3e-e4cb-4d99-8e38-e618bb3df5dd,2019-12-07,2020-05-08,False,Unknown,Unknown
+f8514d3e-e4cb-4d99-8e38-e618bb3df5dd,2021-10-25,2023-02-24,False,Unknown,Unknown
+5654f688-123c-402a-bdbf-d42e7ebb77a1,2019-12-01,2020-01-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+5654f688-123c-402a-bdbf-d42e7ebb77a1,2021-05-15,2022-07-25,True,True,HF Admission
+e4686f62-6d5a-47f2-98d9-554ed2ad7f3a,2021-03-16,2021-04-12,False,Unknown,Unknown
+e4686f62-6d5a-47f2-98d9-554ed2ad7f3a,2022-08-20,2023-04-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+e4686f62-6d5a-47f2-98d9-554ed2ad7f3a,2023-06-06,2023-06-10,True,True,HF Admission
+79a3b2a0-bc5e-4772-9643-5cb1a6fba087,2022-05-06,2022-12-09,False,Unknown,Unknown
+26122eba-a37c-4ba5-be2a-15cbeeb4eb89,2023-08-07,2024-03-29,True,False,Unknown
+26122eba-a37c-4ba5-be2a-15cbeeb4eb89,2024-04-18,2024-04-20,True,False,Unknown
+daebbb81-b9bd-4e31-9fc8-5adef4c4a59d,2020-01-02,2020-09-06,False,Unknown,Unknown
+fab580df-6f37-465f-b2dd-e32917816676,2022-01-30,2023-10-24,True,False,Unknown
+fab580df-6f37-465f-b2dd-e32917816676,2024-03-18,2024-06-26,False,Unknown,Unknown
+3eafab71-0ce8-4471-877a-32c43f57bdf5,2020-01-19,2020-03-16,False,Unknown,Unknown
+3eafab71-0ce8-4471-877a-32c43f57bdf5,2020-03-24,2020-07-01,False,Unknown,Unknown
+3eafab71-0ce8-4471-877a-32c43f57bdf5,2023-10-17,2024-10-13,True,True,HF Admission
+9122822c-bde8-4737-a964-d43709acd8e7,2023-10-17,2024-04-08,False,Unknown,Unknown
+9122822c-bde8-4737-a964-d43709acd8e7,2024-10-24,2024-10-31,True,True,HF Admission
+634c9ea5-2cfe-4622-b8ed-f26b78793201,2021-03-01,2021-03-24,False,Unknown,Unknown
+634c9ea5-2cfe-4622-b8ed-f26b78793201,2021-05-03,2022-06-15,False,Unknown,Unknown
+634c9ea5-2cfe-4622-b8ed-f26b78793201,2022-10-16,2022-10-30,True,True,Rejection episode
+634c9ea5-2cfe-4622-b8ed-f26b78793201,2023-04-06,2023-11-17,False,Unknown,Unknown
+c34878ef-490c-49be-a0e5-01f894b74745,2022-10-03,2022-12-21,True,True,HF Admission
+b2f2e091-7f53-45a9-930d-dc13b6b53b83,2020-03-05,2020-06-21,False,Unknown,Unknown
+b2f2e091-7f53-45a9-930d-dc13b6b53b83,2022-02-19,2022-03-25,False,Unknown,Unknown
+e07ec342-f797-40f2-9fc3-294dabd13043,2021-12-09,2022-12-14,False,Unknown,Unknown
+e07ec342-f797-40f2-9fc3-294dabd13043,2024-04-15,2024-04-19,True,False,Unknown
+8a426d91-c797-439f-8cd8-c7e1ac34f7f0,2024-01-12,2024-02-06,True,False,Unknown
+8a426d91-c797-439f-8cd8-c7e1ac34f7f0,2024-06-29,2024-08-24,False,Unknown,Unknown
+5cc5a9af-d18b-4fdf-8450-0161a2ce71ab,2019-11-24,2019-12-05,False,Unknown,Unknown
+5cc5a9af-d18b-4fdf-8450-0161a2ce71ab,2021-10-18,2022-01-12,True,False,Unknown
+c4103236-7db7-45e7-870a-9105fa93198b,2020-12-04,2021-02-05,True,False,Unknown
+c4103236-7db7-45e7-870a-9105fa93198b,2021-09-30,2021-10-13,True,True,Other non-CV admissions
+461bdd08-3da7-44dd-938b-f944a1a4a08e,2020-02-28,2020-08-30,True,True,HF Admission
+461bdd08-3da7-44dd-938b-f944a1a4a08e,2022-07-23,2022-07-31,False,Unknown,Unknown
+24070881-d6d6-4b61-a81e-49f83ec5c3e8,2023-02-14,2023-07-06,True,False,Unknown
+24070881-d6d6-4b61-a81e-49f83ec5c3e8,2023-08-25,2023-09-12,False,Unknown,Unknown
+0d73aec9-e12b-40ce-aeb8-155e17dab32c,2023-05-13,2024-02-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+e857233d-5a18-486d-b390-836895ef834f,2023-01-01,2024-11-03,True,False,Unknown
+8e395acd-d005-43dc-ae2d-ea216d81759b,2022-02-04,2022-10-08,False,Unknown,Unknown
+8e395acd-d005-43dc-ae2d-ea216d81759b,2023-02-20,2024-02-08,False,Unknown,Unknown
+09113331-56c0-4d07-bc27-0deed64e6f78,2021-06-18,2021-09-18,True,True,Device-related complications
+09113331-56c0-4d07-bc27-0deed64e6f78,2021-12-31,2022-04-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+09113331-56c0-4d07-bc27-0deed64e6f78,2022-06-19,2022-11-08,False,Unknown,Unknown
+7424e461-6655-466f-9b21-28c269e95c0c,2022-05-31,2022-08-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+43135290-612c-4552-98cf-e307fbf4cc1b,2020-09-10,2021-02-05,True,True,HF Admission
+199eb7ce-2444-46d6-b7c0-75412c0c62a4,2020-09-24,2020-11-01,True,True,CV admission other than HF
+5c85501e-fdd9-42aa-931a-cb1c219c1e92,2022-11-04,2022-11-06,True,True,HF Admission
+5c85501e-fdd9-42aa-931a-cb1c219c1e92,2023-02-01,2023-10-05,True,True,HF Admission
+5c85501e-fdd9-42aa-931a-cb1c219c1e92,2023-12-01,2024-04-23,False,Unknown,Unknown
+12e9a3b3-691c-4176-a681-04e97eb30a06,2020-05-30,2020-06-22,False,Unknown,Unknown
+12e9a3b3-691c-4176-a681-04e97eb30a06,2020-10-16,2021-07-24,False,Unknown,Unknown
+12e9a3b3-691c-4176-a681-04e97eb30a06,2021-09-09,2022-03-23,True,True,HF Admission
+7f9024ae-a063-4f05-95be-e0a0d78eba5e,2020-08-29,2021-12-28,True,False,Unknown
+7f9024ae-a063-4f05-95be-e0a0d78eba5e,2023-11-01,2023-11-12,False,Unknown,Unknown
+7f9024ae-a063-4f05-95be-e0a0d78eba5e,2024-04-17,2024-05-29,False,Unknown,Unknown
+8a36c6cc-c20d-46c7-a3fa-4a68a55f1281,2021-08-21,2022-02-06,False,Unknown,Unknown
+8a36c6cc-c20d-46c7-a3fa-4a68a55f1281,2022-07-06,2023-06-01,False,Unknown,Unknown
+8a36c6cc-c20d-46c7-a3fa-4a68a55f1281,2023-10-14,2023-12-29,False,Unknown,Unknown
+7428415c-2a5c-4a0f-801d-93d5e769f49d,2020-03-06,2020-03-14,False,Unknown,Unknown
+7428415c-2a5c-4a0f-801d-93d5e769f49d,2021-01-24,2021-02-27,False,Unknown,Unknown
+e563d4ba-7efc-4a64-b2e0-39e751e6bdd3,2023-11-19,2024-01-20,False,Unknown,Unknown
+585e1fd7-d341-4e77-a6b0-7037e39f538b,2022-12-17,2023-12-30,False,Unknown,Unknown
+4e083f5d-d36b-4ea6-8b64-95ad9e036e1c,2023-06-03,2023-06-25,False,Unknown,Unknown
+4e083f5d-d36b-4ea6-8b64-95ad9e036e1c,2024-01-12,2024-01-17,False,Unknown,Unknown
+8bc0908c-a823-43df-9068-8faddc944f81,2020-04-24,2020-07-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+8bc0908c-a823-43df-9068-8faddc944f81,2020-12-15,2021-01-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+8bc0908c-a823-43df-9068-8faddc944f81,2021-09-28,2021-12-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+e5c14db1-803b-46e1-a5a2-9bee41bf987f,2020-04-20,2021-12-10,True,True,HF Admission
+e5c14db1-803b-46e1-a5a2-9bee41bf987f,2024-04-05,2024-04-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+522b12ab-4daa-4d1f-b0ec-8efa1b50ceb8,2021-02-08,2021-02-11,True,True,Infection management
+522b12ab-4daa-4d1f-b0ec-8efa1b50ceb8,2024-01-10,2024-02-06,False,Unknown,Unknown
+ed2bb3b4-7c06-40c7-aab1-3cab33457345,2020-10-10,2022-10-15,False,Unknown,Unknown
+4df2bb06-3274-4ac3-adab-c699f7d89229,2022-12-23,2024-05-06,True,False,Unknown
+e3a40fb6-f0b1-4f58-b9fc-e09742258901,2022-10-05,2023-02-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+e3a40fb6-f0b1-4f58-b9fc-e09742258901,2024-05-16,2024-07-01,False,Unknown,Unknown
+da16ac94-f722-4849-ab4e-4f13b69426f9,2019-12-02,2020-10-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+da16ac94-f722-4849-ab4e-4f13b69426f9,2023-07-04,2023-07-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+9f2e18dd-baed-47ea-b772-71cb86ac9670,2023-02-11,2023-07-16,True,False,Unknown
+9f2e18dd-baed-47ea-b772-71cb86ac9670,2023-11-19,2023-12-10,True,True,Device-related complications
+9f2e18dd-baed-47ea-b772-71cb86ac9670,2023-12-17,2024-04-10,False,Unknown,Unknown
+9fde61fa-2428-4fca-8d3b-5dc5b8e6edff,2022-08-21,2022-11-14,False,Unknown,Unknown
+26014991-a795-40d1-adba-6470b2b77553,2020-02-06,2020-05-12,True,True,CV admission other than HF
+26014991-a795-40d1-adba-6470b2b77553,2020-06-11,2022-04-26,True,False,Unknown
+26014991-a795-40d1-adba-6470b2b77553,2024-03-11,2024-04-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+26014991-a795-40d1-adba-6470b2b77553,2024-08-18,2024-10-08,True,False,Unknown
+4a70b015-8a0e-485c-bb44-1f8d70500e61,2021-01-18,2021-01-22,True,True,HF Admission
+4a70b015-8a0e-485c-bb44-1f8d70500e61,2022-12-31,2023-01-20,False,Unknown,Unknown
+416fa00c-c913-4909-a2ce-0bc5638040d2,2023-03-01,2023-10-04,True,True,HF Admission
+416fa00c-c913-4909-a2ce-0bc5638040d2,2024-04-09,2024-10-03,False,Unknown,Unknown
+319c2729-8966-4783-afc0-ba58f7831505,2021-08-31,2022-01-23,False,Unknown,Unknown
+319c2729-8966-4783-afc0-ba58f7831505,2023-07-30,2023-09-01,False,Unknown,Unknown
+319c2729-8966-4783-afc0-ba58f7831505,2023-10-30,2024-02-28,True,True,HF Admission
+1c0492f5-15cd-4af9-aeab-a943b3dc1c9e,2022-12-01,2023-03-05,False,Unknown,Unknown
+1c0492f5-15cd-4af9-aeab-a943b3dc1c9e,2023-06-16,2023-07-05,False,Unknown,Unknown
+0d71e0bf-a9cc-470a-b9bd-e719ec0a48e0,2022-02-06,2022-02-13,True,False,Unknown
+0d71e0bf-a9cc-470a-b9bd-e719ec0a48e0,2022-05-29,2022-07-08,False,Unknown,Unknown
+0d71e0bf-a9cc-470a-b9bd-e719ec0a48e0,2023-05-19,2023-07-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+0a9d239e-887e-4578-9dfb-9c002aacb78d,2021-01-10,2023-01-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+0a9d239e-887e-4578-9dfb-9c002aacb78d,2023-02-26,2023-06-09,False,Unknown,Unknown
+0a9d239e-887e-4578-9dfb-9c002aacb78d,2023-10-28,2023-12-09,True,True,HF Admission
+91a76717-89f6-467b-b217-3050ffde5aba,2023-01-05,2023-11-13,False,Unknown,Unknown
+09278da8-1718-4124-9473-0dbb905bd92e,2020-04-06,2020-05-14,True,True,CV admission other than HF
+09278da8-1718-4124-9473-0dbb905bd92e,2020-08-01,2020-09-24,False,Unknown,Unknown
+09278da8-1718-4124-9473-0dbb905bd92e,2021-09-25,2022-02-12,False,Unknown,Unknown
+7b556c6f-0ee4-4941-939c-f1ce334c5d46,2023-02-20,2024-04-27,True,True,CV admission other than HF
+f1613fec-892d-4701-93a4-b37bcd36cbd2,2022-11-25,2022-12-23,False,Unknown,Unknown
+b757aa2b-9d2e-493e-9e29-c02c0aab70ac,2020-04-18,2020-05-12,False,Unknown,Unknown
+b757aa2b-9d2e-493e-9e29-c02c0aab70ac,2020-05-17,2020-07-23,False,Unknown,Unknown
+b757aa2b-9d2e-493e-9e29-c02c0aab70ac,2023-12-29,2024-02-19,True,False,Unknown
+b5861b36-8a00-4eea-a1a2-c44647f694c6,2020-07-08,2020-08-20,True,True,Other non-CV admissions
+b5861b36-8a00-4eea-a1a2-c44647f694c6,2021-01-19,2021-04-25,True,True,Infection management
+b5861b36-8a00-4eea-a1a2-c44647f694c6,2021-11-01,2021-11-11,True,True,Other non-CV admissions
+98acd947-ee80-41c7-8f5c-62cf1a8d870d,2020-01-23,2020-03-12,False,Unknown,Unknown
+98acd947-ee80-41c7-8f5c-62cf1a8d870d,2020-05-13,2020-08-17,True,False,Unknown
+98acd947-ee80-41c7-8f5c-62cf1a8d870d,2020-12-02,2021-12-18,False,Unknown,Unknown
+98acd947-ee80-41c7-8f5c-62cf1a8d870d,2024-09-15,2024-10-01,False,Unknown,Unknown
+96712e54-6697-4750-9e33-6b48ccf239e4,2020-10-30,2020-12-21,False,Unknown,Unknown
+ad313dec-8f63-469b-8257-b3cfb0b95aab,2024-06-16,2024-09-03,True,True,Device-related complications
+9c82e64f-ba4b-4fe7-9788-cd11ee5e87fd,2020-04-28,2020-05-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+9c82e64f-ba4b-4fe7-9788-cd11ee5e87fd,2022-12-03,2022-12-06,True,True,HF Admission
+da3365cd-e8b2-41fc-967f-8eef34a9b979,2020-12-25,2021-01-17,False,Unknown,Unknown
+da3365cd-e8b2-41fc-967f-8eef34a9b979,2021-08-29,2021-09-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+da3365cd-e8b2-41fc-967f-8eef34a9b979,2021-10-27,2022-12-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+afa6c38f-065f-4325-a890-1a16ca1d859f,2019-12-22,2021-02-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+afa6c38f-065f-4325-a890-1a16ca1d859f,2021-04-17,2021-05-19,True,True,HF Admission
+afa6c38f-065f-4325-a890-1a16ca1d859f,2022-07-31,2022-11-12,True,True,HF Admission
+8d3ead15-ecb6-4601-a10f-61d4c6ab1a58,2019-11-28,2020-02-09,False,Unknown,Unknown
+8d3ead15-ecb6-4601-a10f-61d4c6ab1a58,2021-07-03,2021-09-28,True,False,Unknown
+8d3ead15-ecb6-4601-a10f-61d4c6ab1a58,2022-12-03,2024-03-13,False,Unknown,Unknown
+b0604d4c-1437-48f5-a7bb-68d9c14bd233,2019-12-30,2020-01-14,False,Unknown,Unknown
+b0604d4c-1437-48f5-a7bb-68d9c14bd233,2021-06-15,2021-10-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+b0604d4c-1437-48f5-a7bb-68d9c14bd233,2021-12-23,2021-12-27,False,Unknown,Unknown
+b0604d4c-1437-48f5-a7bb-68d9c14bd233,2022-01-17,2023-02-03,False,Unknown,Unknown
+2e59ea92-24c8-4969-85bf-6fb769e001b6,2022-01-21,2022-03-06,True,True,Rejection episode
+2e59ea92-24c8-4969-85bf-6fb769e001b6,2022-04-06,2023-09-12,True,False,Unknown
+eb36e874-13ff-415b-bc95-a3b189dc559f,2022-03-11,2024-02-21,False,Unknown,Unknown
+eb36e874-13ff-415b-bc95-a3b189dc559f,2024-04-14,2024-06-05,False,Unknown,Unknown
+eb36e874-13ff-415b-bc95-a3b189dc559f,2024-06-09,2024-07-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+02bcc682-cfa6-451c-ab14-8463f50d75ff,2020-07-15,2020-11-28,False,Unknown,Unknown
+02bcc682-cfa6-451c-ab14-8463f50d75ff,2021-05-14,2022-08-26,True,False,Unknown
+02bcc682-cfa6-451c-ab14-8463f50d75ff,2023-03-05,2023-03-21,False,Unknown,Unknown
+02bcc682-cfa6-451c-ab14-8463f50d75ff,2023-09-21,2024-04-21,False,Unknown,Unknown
+98b0d3f3-e030-454a-ad5c-9cba2f4023fb,2022-01-19,2022-04-01,False,Unknown,Unknown
+98b0d3f3-e030-454a-ad5c-9cba2f4023fb,2022-06-20,2022-08-02,False,Unknown,Unknown
+9faa05db-e35b-4fa3-b6d4-e18a5cf46081,2024-01-01,2024-06-23,False,Unknown,Unknown
+8ed96d64-d6b7-47a7-bfee-f4df6d85625d,2020-09-16,2021-02-26,True,True,Device-related complications
+8ed96d64-d6b7-47a7-bfee-f4df6d85625d,2021-03-24,2021-08-24,False,Unknown,Unknown
+8ed96d64-d6b7-47a7-bfee-f4df6d85625d,2022-12-31,2023-10-09,False,Unknown,Unknown
+ce64ffb7-c152-4c5b-a89d-a8fdc3dea2b4,2019-12-01,2020-11-22,False,Unknown,Unknown
+ce64ffb7-c152-4c5b-a89d-a8fdc3dea2b4,2021-12-30,2022-01-08,False,Unknown,Unknown
+ce64ffb7-c152-4c5b-a89d-a8fdc3dea2b4,2023-02-03,2023-02-09,True,True,Device-related complications
+ce64ffb7-c152-4c5b-a89d-a8fdc3dea2b4,2023-05-20,2023-07-21,True,False,Unknown
+16174f06-c3ce-4ecf-8a9f-44a975ee46e5,2024-01-22,2024-07-27,False,Unknown,Unknown
+16174f06-c3ce-4ecf-8a9f-44a975ee46e5,2024-09-21,2024-09-27,False,Unknown,Unknown
+1db3e0de-f525-4f29-83e1-223d9aa0fedb,2020-04-06,2020-05-15,True,True,HF Admission
+1db3e0de-f525-4f29-83e1-223d9aa0fedb,2020-07-12,2021-01-25,False,Unknown,Unknown
+47317b6d-9368-4ff1-8a9b-d6d4a46d69cc,2020-08-22,2021-01-12,False,Unknown,Unknown
+47317b6d-9368-4ff1-8a9b-d6d4a46d69cc,2021-05-16,2022-01-28,False,Unknown,Unknown
+65b4cd30-5fe8-4305-a35a-935380d63db1,2022-07-14,2023-06-20,True,True,Other non-CV admissions
+65b4cd30-5fe8-4305-a35a-935380d63db1,2024-04-22,2024-06-03,False,Unknown,Unknown
+f7cf6c3f-9f77-484c-bfcb-ac404c660506,2022-07-29,2022-12-06,False,Unknown,Unknown
+f7cf6c3f-9f77-484c-bfcb-ac404c660506,2023-04-12,2023-06-08,True,True,HF Admission
+c7329a36-95cf-4c2a-96de-e4f98f66c202,2021-11-06,2022-09-02,True,True,HF decompensation needing iv. Diuretic-inotropes
+c7329a36-95cf-4c2a-96de-e4f98f66c202,2023-07-05,2024-04-26,True,True,HF Admission
+c7329a36-95cf-4c2a-96de-e4f98f66c202,2024-07-28,2024-08-02,True,True,HF Admission
+0eae3ec0-351f-457e-917f-4c2718686b5b,2022-02-26,2022-04-26,False,Unknown,Unknown
+86efa38e-c896-404c-a150-0b59efe198d2,2022-04-08,2022-04-26,False,Unknown,Unknown
+7139264d-f16c-4d9f-acec-23f9256b6dda,2020-09-12,2020-12-16,False,Unknown,Unknown
+7139264d-f16c-4d9f-acec-23f9256b6dda,2023-10-21,2024-05-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+c0ea21a9-4db9-469f-9549-a1b83d9c58fb,2022-05-15,2022-07-10,False,Unknown,Unknown
+58041d67-70dd-4f2f-885a-79af8fa229bc,2020-09-07,2022-03-15,False,Unknown,Unknown
+58041d67-70dd-4f2f-885a-79af8fa229bc,2022-06-09,2022-06-10,False,Unknown,Unknown
+be01c0e6-7dc0-43ec-b857-5fa05e5c4446,2020-07-15,2020-07-16,True,True,Infection management
+be01c0e6-7dc0-43ec-b857-5fa05e5c4446,2020-07-15,2020-09-28,True,False,Unknown
+b42ca3dd-9479-452f-be1e-97fd8c502294,2024-04-11,2024-04-17,False,Unknown,Unknown
+2500633a-96bb-4fcd-8784-09347fbbc627,2022-01-24,2022-07-10,False,Unknown,Unknown
+4ec2162e-96a0-42ce-ad1b-edd81573242c,2022-12-09,2023-01-10,False,Unknown,Unknown
+8fa346fc-317c-45a8-bb7f-cc585ce69108,2020-07-05,2020-08-25,True,False,Unknown
+8fa346fc-317c-45a8-bb7f-cc585ce69108,2021-09-02,2021-10-11,False,Unknown,Unknown
+8fa346fc-317c-45a8-bb7f-cc585ce69108,2022-01-28,2022-06-02,False,Unknown,Unknown
+989a792b-6164-43f6-ab29-207d5e943239,2020-11-12,2022-02-17,False,Unknown,Unknown
+851078e0-e1dc-4bc0-afe1-332c6d994842,2021-03-30,2021-09-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+851078e0-e1dc-4bc0-afe1-332c6d994842,2023-12-24,2024-04-14,False,Unknown,Unknown
+0f2bbbdd-64a1-441e-9b6e-4b701c7cc9e1,2021-10-23,2021-11-08,True,True,HF decompensation needing iv. Diuretic-inotropes
+600e78b9-44d4-4d19-9ab7-5b052dd7cdc2,2020-12-14,2023-03-29,True,True,HF Admission
+600e78b9-44d4-4d19-9ab7-5b052dd7cdc2,2024-08-24,2024-09-03,False,Unknown,Unknown
+7cdc8fc7-cf31-4919-b186-ec077a6b6760,2021-03-27,2021-04-30,False,Unknown,Unknown
+7cdc8fc7-cf31-4919-b186-ec077a6b6760,2022-10-28,2023-12-04,True,True,CV admission other than HF
+541e04e6-eeb2-44a2-8bad-e26da34bb485,2020-08-19,2020-08-27,False,Unknown,Unknown
+541e04e6-eeb2-44a2-8bad-e26da34bb485,2022-08-10,2022-08-12,False,Unknown,Unknown
+de6926c1-b6a8-498c-9280-7954c60cdfb6,2022-04-11,2022-09-26,False,Unknown,Unknown
+de6926c1-b6a8-498c-9280-7954c60cdfb6,2023-02-05,2023-03-12,False,Unknown,Unknown
+98d3b6c2-0703-418b-8a3e-6a010466f5b9,2021-10-20,2023-11-15,False,Unknown,Unknown
+d692c99b-a921-4429-98af-6fc35f56e40e,2020-04-07,2020-12-01,True,False,Unknown
+d692c99b-a921-4429-98af-6fc35f56e40e,2021-02-10,2022-01-13,True,True,Other non-CV admissions
+d692c99b-a921-4429-98af-6fc35f56e40e,2022-04-01,2023-06-21,True,False,Unknown
+d692c99b-a921-4429-98af-6fc35f56e40e,2023-08-18,2023-10-27,True,True,Infection management
+b66d4b19-cef9-424a-b048-13ff6e019b96,2021-05-23,2021-11-15,False,Unknown,Unknown
+b66d4b19-cef9-424a-b048-13ff6e019b96,2023-10-31,2023-11-05,False,Unknown,Unknown
+7238890c-c068-41ab-b349-84d095bb0b16,2020-02-29,2020-03-09,False,Unknown,Unknown
+7238890c-c068-41ab-b349-84d095bb0b16,2020-08-01,2020-09-25,False,Unknown,Unknown
+7238890c-c068-41ab-b349-84d095bb0b16,2020-10-05,2022-05-15,False,Unknown,Unknown
+7238890c-c068-41ab-b349-84d095bb0b16,2022-08-25,2023-03-22,True,True,HF Admission
+5b19ad2f-a4e6-4268-8d54-c40eeb60e568,2020-03-05,2020-11-23,False,Unknown,Unknown
+73a92d31-7c62-4617-91a6-d62295d0ef79,2022-06-17,2022-07-10,False,Unknown,Unknown
+73a92d31-7c62-4617-91a6-d62295d0ef79,2023-02-27,2023-08-11,True,True,Rejection episode
+6b4532de-7eec-46ee-978c-e01e4039f64a,2021-01-31,2021-07-18,True,True,HF Admission
+6b4532de-7eec-46ee-978c-e01e4039f64a,2021-12-28,2022-05-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+5df62d27-5dd6-41d3-b269-bd5d87ee6df3,2020-11-27,2020-12-28,False,Unknown,Unknown
+5df62d27-5dd6-41d3-b269-bd5d87ee6df3,2021-01-12,2021-11-24,True,False,Unknown
+5df62d27-5dd6-41d3-b269-bd5d87ee6df3,2022-11-05,2022-11-11,True,True,Device-related complications
+71fc6879-10dc-4df3-ae57-bc5e1e72fedd,2021-02-21,2022-04-03,False,Unknown,Unknown
+71fc6879-10dc-4df3-ae57-bc5e1e72fedd,2023-01-26,2023-01-29,True,True,HF Admission
+71fc6879-10dc-4df3-ae57-bc5e1e72fedd,2023-06-20,2023-10-07,False,Unknown,Unknown
+0771f1c4-1b73-4269-ae5f-4c1954a02319,2023-12-06,2024-01-21,True,False,Unknown
+0771f1c4-1b73-4269-ae5f-4c1954a02319,2024-03-02,2024-03-06,True,False,Unknown
+9336773c-18cd-4447-844e-ddb953edd68a,2020-02-09,2020-03-01,False,Unknown,Unknown
+9336773c-18cd-4447-844e-ddb953edd68a,2023-12-24,2024-05-26,True,False,Unknown
+cc0deb87-95b4-4b94-8e29-4fa380dd9a9f,2022-12-01,2022-12-04,False,Unknown,Unknown
+cc0deb87-95b4-4b94-8e29-4fa380dd9a9f,2022-12-16,2023-01-18,False,Unknown,Unknown
+4f636f41-f788-46a0-b845-f571caa62186,2020-10-17,2020-11-07,False,Unknown,Unknown
+4f636f41-f788-46a0-b845-f571caa62186,2020-12-22,2021-05-06,False,Unknown,Unknown
+4f636f41-f788-46a0-b845-f571caa62186,2022-06-11,2022-09-22,False,Unknown,Unknown
+7913921a-88ae-4a37-b8c7-19f7c81c82dc,2021-09-03,2022-05-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+27c8daf5-469f-439b-b205-e5c1c43bdb07,2020-04-27,2021-02-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+27c8daf5-469f-439b-b205-e5c1c43bdb07,2022-10-11,2023-05-15,False,Unknown,Unknown
+27c8daf5-469f-439b-b205-e5c1c43bdb07,2023-07-03,2023-11-03,False,Unknown,Unknown
+7521000a-8202-4b30-81b6-8311dc70da9f,2020-08-30,2022-09-08,True,True,Other non-CV admissions
+7521000a-8202-4b30-81b6-8311dc70da9f,2022-10-31,2023-12-18,False,Unknown,Unknown
+7521000a-8202-4b30-81b6-8311dc70da9f,2024-03-11,2024-04-28,False,Unknown,Unknown
+6c0f565f-79f0-4e9c-a066-249412decd5e,2021-03-15,2021-09-04,True,False,Unknown
+6c0f565f-79f0-4e9c-a066-249412decd5e,2022-10-24,2022-11-02,True,False,Unknown
+6c0f565f-79f0-4e9c-a066-249412decd5e,2022-11-25,2023-05-21,False,Unknown,Unknown
+e96fae87-cea2-4f10-9f21-84523872a2d8,2021-01-26,2021-03-01,False,Unknown,Unknown
+e96fae87-cea2-4f10-9f21-84523872a2d8,2022-04-05,2022-05-09,False,Unknown,Unknown
+e96fae87-cea2-4f10-9f21-84523872a2d8,2022-05-18,2022-12-08,False,Unknown,Unknown
+0e9d9c47-ea09-434c-9905-c2307a98feb2,2023-08-04,2024-06-28,True,True,HF Admission
+5bb8df7d-0101-4178-991d-35ec473615d3,2020-05-02,2020-12-06,False,Unknown,Unknown
+683e5dcf-0c9b-426e-8304-7b72b5f1fc35,2023-07-05,2023-12-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+683e5dcf-0c9b-426e-8304-7b72b5f1fc35,2024-05-19,2024-05-26,False,Unknown,Unknown
+a46828c4-5080-48c5-8158-e9338b2b4b82,2020-11-20,2021-08-01,True,True,Device-related complications
+a46828c4-5080-48c5-8158-e9338b2b4b82,2021-08-17,2021-09-12,True,False,Unknown
+a46828c4-5080-48c5-8158-e9338b2b4b82,2022-04-20,2022-04-24,False,Unknown,Unknown
+6c48f66c-b076-49b0-9c9b-b1392573038d,2022-12-04,2022-12-08,True,False,Unknown
+8a7c1ffc-39c4-4193-ab36-20da0edb0bca,2023-11-08,2024-02-22,True,True,Device-related complications
+8aff25d5-5638-4fa1-b7e1-9321aed5ac6a,2022-09-30,2023-04-20,True,True,HF Admission
+8aff25d5-5638-4fa1-b7e1-9321aed5ac6a,2023-09-18,2023-10-22,False,Unknown,Unknown
+fbc543ac-def9-4de2-b14e-0cb9f6266293,2021-09-14,2021-09-26,False,Unknown,Unknown
+fbc543ac-def9-4de2-b14e-0cb9f6266293,2023-05-10,2023-05-15,False,Unknown,Unknown
+682846de-fb50-4368-bf32-358c1f07dd12,2021-01-19,2021-02-09,False,Unknown,Unknown
+682846de-fb50-4368-bf32-358c1f07dd12,2021-04-13,2022-08-21,False,Unknown,Unknown
+a40e1249-7e43-43a9-90c0-49076dd25c9a,2022-10-27,2024-01-19,True,False,Unknown
+a40e1249-7e43-43a9-90c0-49076dd25c9a,2024-01-22,2024-03-16,True,False,Unknown
+b95066e0-577d-4dd1-9807-e647c72c735b,2020-11-09,2021-11-13,False,Unknown,Unknown
+b95066e0-577d-4dd1-9807-e647c72c735b,2022-11-09,2023-09-29,True,True,CV admission other than HF
+470a44b6-bb84-4446-89b3-0dbb4242e455,2020-09-18,2021-12-22,False,Unknown,Unknown
+31c1c669-985f-4443-aaac-4194f2ad8061,2020-09-24,2020-12-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+31c1c669-985f-4443-aaac-4194f2ad8061,2021-04-12,2022-08-21,True,False,Unknown
+5133ad4e-7c45-4416-bdbc-e7efc1ca2dbb,2020-04-26,2022-04-28,False,Unknown,Unknown
+5133ad4e-7c45-4416-bdbc-e7efc1ca2dbb,2023-01-18,2023-01-21,False,Unknown,Unknown
+5133ad4e-7c45-4416-bdbc-e7efc1ca2dbb,2023-04-03,2024-01-12,True,True,HF Admission
+2f4df759-61bc-4c7c-a890-01cdd8a6ad0b,2021-03-23,2021-04-21,False,Unknown,Unknown
+2f4df759-61bc-4c7c-a890-01cdd8a6ad0b,2022-01-25,2022-04-01,True,False,Unknown
+562bf11f-8f29-453c-b42e-011aac7e7bb5,2021-02-05,2021-03-05,False,Unknown,Unknown
+562bf11f-8f29-453c-b42e-011aac7e7bb5,2022-02-12,2023-07-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+0f43aa1b-0894-4cef-852e-69b0a09cc7a8,2022-10-14,2022-10-18,True,True,Infection management
+5695f039-efa9-4148-9d24-0a0bae77e185,2020-02-17,2021-01-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+afa33645-8a83-4476-901d-82641007f936,2020-07-14,2020-10-17,True,True,Other non-CV admissions
+afa33645-8a83-4476-901d-82641007f936,2020-12-13,2021-06-21,True,True,Rejection episode
+afa33645-8a83-4476-901d-82641007f936,2021-10-04,2021-12-17,True,False,Unknown
+78ddc646-3f98-4a96-8d36-1edcaf058ce5,2020-09-28,2020-11-02,False,Unknown,Unknown
+b7f00111-c060-4a7c-9e37-55764097a895,2019-11-27,2020-02-17,True,True,HF Admission
+b7f00111-c060-4a7c-9e37-55764097a895,2023-01-04,2023-08-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+a17ffdc4-9584-4f6b-93f2-c3b5dc681668,2021-06-14,2021-06-18,True,False,Unknown
+a17ffdc4-9584-4f6b-93f2-c3b5dc681668,2021-10-24,2021-11-06,True,False,Unknown
+a17ffdc4-9584-4f6b-93f2-c3b5dc681668,2022-01-02,2022-05-16,False,Unknown,Unknown
+6f5d5254-9f1b-4224-b967-b1ba359f3137,2022-03-06,2022-09-26,False,Unknown,Unknown
+429c7e97-a090-48a2-84ed-db2db3e438d3,2021-03-12,2021-05-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+429c7e97-a090-48a2-84ed-db2db3e438d3,2021-05-28,2021-05-31,False,Unknown,Unknown
+e6cc62db-57e7-401f-b20c-5241f0352e09,2021-03-06,2021-11-27,False,Unknown,Unknown
+e6cc62db-57e7-401f-b20c-5241f0352e09,2021-12-25,2022-01-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+e6cc62db-57e7-401f-b20c-5241f0352e09,2022-06-01,2023-11-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+52a034d0-8dbe-4536-bf27-7a00a6fdab1f,2021-07-06,2021-08-16,True,True,HF Admission
+52a034d0-8dbe-4536-bf27-7a00a6fdab1f,2021-09-06,2022-10-03,False,Unknown,Unknown
+52a034d0-8dbe-4536-bf27-7a00a6fdab1f,2023-03-30,2023-07-21,False,Unknown,Unknown
+80530af3-40ee-44dd-a041-46a890c0991a,2023-02-10,2023-10-01,False,Unknown,Unknown
+80530af3-40ee-44dd-a041-46a890c0991a,2023-10-07,2024-02-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+66beb58c-d3a8-44c7-8dd8-dd355fa98b6b,2023-03-23,2023-06-29,False,Unknown,Unknown
+66beb58c-d3a8-44c7-8dd8-dd355fa98b6b,2023-07-29,2023-10-24,False,Unknown,Unknown
+02fd6e1a-2b58-4ea7-8889-1e6b15458a18,2021-03-14,2021-07-25,True,False,Unknown
+02fd6e1a-2b58-4ea7-8889-1e6b15458a18,2021-10-01,2022-12-31,False,Unknown,Unknown
+02fd6e1a-2b58-4ea7-8889-1e6b15458a18,2023-05-11,2023-07-25,True,False,Unknown
+dd0923df-a30f-48f0-9a87-60e739bdb5c1,2022-08-31,2022-09-12,True,True,HF Admission
+46c9e7f2-30a7-4bbe-b3ca-a50025436b48,2021-06-16,2023-02-23,True,False,Unknown
+46c9e7f2-30a7-4bbe-b3ca-a50025436b48,2023-04-24,2023-05-20,False,Unknown,Unknown
+d81c3b94-46d6-4d29-bebc-5b419afa9c24,2022-10-13,2022-10-19,True,True,Other non-CV admissions
+a5f1f86c-77dd-4d3b-a899-b095aca70f54,2020-04-13,2020-04-22,True,True,Device-related complications
+a5f1f86c-77dd-4d3b-a899-b095aca70f54,2022-03-10,2022-06-30,False,Unknown,Unknown
+bc0ab2f8-3edf-4916-b1ea-1fa1c3dd6abf,2020-05-26,2021-04-23,False,Unknown,Unknown
+bc0ab2f8-3edf-4916-b1ea-1fa1c3dd6abf,2022-10-16,2023-03-22,False,Unknown,Unknown
+f5fc09bf-b933-4320-aec7-eb9f1a347833,2021-10-09,2022-11-18,True,True,HF Admission
+f5fc09bf-b933-4320-aec7-eb9f1a347833,2023-02-15,2023-07-12,False,Unknown,Unknown
+3907450b-48b3-40f7-86ae-f71c5785b74a,2023-11-04,2023-11-15,True,True,Device-related complications
+3907450b-48b3-40f7-86ae-f71c5785b74a,2023-11-16,2024-06-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+54baa604-4c0f-4165-a5d3-9d6c85b2a9de,2021-08-19,2021-09-28,True,True,HF Admission
+54baa604-4c0f-4165-a5d3-9d6c85b2a9de,2022-01-03,2022-01-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+54baa604-4c0f-4165-a5d3-9d6c85b2a9de,2022-03-15,2022-08-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+54baa604-4c0f-4165-a5d3-9d6c85b2a9de,2024-03-30,2024-05-31,False,Unknown,Unknown
+76b32ba1-e432-467e-9575-6004f1167cda,2021-03-06,2021-04-03,True,True,HF Admission
+76b32ba1-e432-467e-9575-6004f1167cda,2021-08-16,2021-09-08,True,True,HF Admission
+76b32ba1-e432-467e-9575-6004f1167cda,2021-09-21,2021-10-07,True,True,HF decompensation needing iv. Diuretic-inotropes
+76b32ba1-e432-467e-9575-6004f1167cda,2021-10-09,2022-07-10,False,Unknown,Unknown
+e8be434f-b37e-423e-b18e-1af42df2d7a2,2022-05-23,2022-06-17,True,False,Unknown
+4eca72cf-f3b1-4139-a9b4-e11d78610ff5,2022-05-30,2022-12-12,False,Unknown,Unknown
+4a0e6678-4a44-45f0-b893-e5b9bab95de2,2021-03-19,2021-05-01,True,True,HF Admission
+4a0e6678-4a44-45f0-b893-e5b9bab95de2,2021-06-15,2021-08-04,False,Unknown,Unknown
+4a0e6678-4a44-45f0-b893-e5b9bab95de2,2021-08-26,2022-01-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+4a0e6678-4a44-45f0-b893-e5b9bab95de2,2022-01-30,2022-07-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+46d21ff3-6e3d-4fd9-b269-3a1006c93b26,2020-08-03,2020-09-07,True,False,Unknown
+c73b89ac-9758-41a1-989b-aca1551d4eeb,2020-12-13,2021-05-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+c73b89ac-9758-41a1-989b-aca1551d4eeb,2021-07-02,2021-11-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+c73b89ac-9758-41a1-989b-aca1551d4eeb,2021-12-15,2023-12-24,False,Unknown,Unknown
+a6cd760f-59ba-405a-a0ad-ba99695136b3,2021-08-14,2021-10-24,False,Unknown,Unknown
+a6cd760f-59ba-405a-a0ad-ba99695136b3,2022-01-10,2022-01-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+a6cd760f-59ba-405a-a0ad-ba99695136b3,2022-01-27,2022-07-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+03669ec7-f610-43df-8805-9948abe85427,2020-09-06,2022-10-07,False,Unknown,Unknown
+03669ec7-f610-43df-8805-9948abe85427,2022-11-18,2023-01-26,False,Unknown,Unknown
+03669ec7-f610-43df-8805-9948abe85427,2024-07-27,2024-08-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+13e3ed29-8648-46aa-9606-709f8bc42ada,2020-03-05,2021-11-07,True,True,HF decompensation needing iv. Diuretic-inotropes
+13e3ed29-8648-46aa-9606-709f8bc42ada,2022-05-27,2023-03-23,False,Unknown,Unknown
+13e3ed29-8648-46aa-9606-709f8bc42ada,2024-02-14,2024-02-20,False,Unknown,Unknown
+630f9497-f3e0-4ea4-9924-2d62cb98a94b,2021-09-05,2021-11-11,False,Unknown,Unknown
+630f9497-f3e0-4ea4-9924-2d62cb98a94b,2024-02-02,2024-05-04,False,Unknown,Unknown
+f3ef9a82-54a4-429f-879c-ccb09c8cd3aa,2020-07-28,2020-12-21,True,False,Unknown
+f3ef9a82-54a4-429f-879c-ccb09c8cd3aa,2023-01-29,2023-04-05,False,Unknown,Unknown
+f3ef9a82-54a4-429f-879c-ccb09c8cd3aa,2023-06-06,2024-02-08,False,Unknown,Unknown
+6c4295bd-58a0-4f2d-9da8-e48d5ad892d0,2022-10-17,2022-10-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+6c4295bd-58a0-4f2d-9da8-e48d5ad892d0,2022-11-09,2023-08-11,False,Unknown,Unknown
+e3504934-48f5-4496-9415-0a551ba5e865,2023-01-04,2023-04-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+c96a2e24-7a1d-4e0d-855d-ebb9f22b0d59,2022-08-01,2023-12-25,False,Unknown,Unknown
+0cab31d1-3153-48f9-92b7-b7986ee85a9c,2021-01-01,2021-01-30,True,True,Device-related complications
+0cab31d1-3153-48f9-92b7-b7986ee85a9c,2021-03-21,2021-06-02,True,False,Unknown
+0cab31d1-3153-48f9-92b7-b7986ee85a9c,2021-10-31,2022-05-26,False,Unknown,Unknown
+cac09642-809a-4ac9-9258-81d755e3bded,2020-07-24,2021-03-08,False,Unknown,Unknown
+cac09642-809a-4ac9-9258-81d755e3bded,2022-06-08,2022-07-17,False,Unknown,Unknown
+aab8eb52-12f7-4472-b659-63da09528969,2020-03-10,2020-05-12,False,Unknown,Unknown
+aab8eb52-12f7-4472-b659-63da09528969,2023-05-12,2023-05-13,True,False,Unknown
+6d68fc02-67c8-47cd-9429-9311d593ac41,2023-10-24,2023-11-21,True,True,Device-related complications
+001c51d7-6396-4fca-b35e-a837d851ef19,2020-04-24,2020-10-20,True,False,Unknown
+001c51d7-6396-4fca-b35e-a837d851ef19,2022-05-20,2022-05-23,False,Unknown,Unknown
+124789ef-9a13-4d52-a968-ab6e856cc935,2020-07-05,2020-10-25,False,Unknown,Unknown
+124789ef-9a13-4d52-a968-ab6e856cc935,2024-06-17,2024-08-04,False,Unknown,Unknown
+b5cf3c46-545f-494c-a879-323ecae8057b,2019-12-20,2020-01-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+b5cf3c46-545f-494c-a879-323ecae8057b,2023-03-30,2023-07-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+b5cf3c46-545f-494c-a879-323ecae8057b,2023-08-29,2023-09-14,True,True,HF Admission
+8c6deabb-278a-480e-9594-23d7af8ff88d,2020-07-21,2021-03-06,False,Unknown,Unknown
+8c6deabb-278a-480e-9594-23d7af8ff88d,2021-07-04,2021-09-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+8c6deabb-278a-480e-9594-23d7af8ff88d,2022-09-09,2023-08-07,False,Unknown,Unknown
+8c6deabb-278a-480e-9594-23d7af8ff88d,2024-06-26,2024-07-22,False,Unknown,Unknown
+301af711-c2ed-4700-a3ea-74baef5ca65c,2019-12-09,2020-10-20,False,Unknown,Unknown
+301af711-c2ed-4700-a3ea-74baef5ca65c,2023-06-09,2023-06-14,False,Unknown,Unknown
+301af711-c2ed-4700-a3ea-74baef5ca65c,2023-06-24,2024-04-12,True,True,HF Admission
+6ddcddde-7b84-44ab-a4e4-a1e4706541bf,2022-08-24,2022-08-25,True,False,Unknown
+3ec4bad7-8bc9-4612-b650-9c39f0f37ca2,2022-03-11,2022-09-26,False,Unknown,Unknown
+3ec4bad7-8bc9-4612-b650-9c39f0f37ca2,2023-04-22,2023-08-09,False,Unknown,Unknown
+c40a1bf3-da43-4d80-9237-85ba4b3ea369,2020-10-24,2021-01-02,False,Unknown,Unknown
+c40a1bf3-da43-4d80-9237-85ba4b3ea369,2021-12-19,2024-02-24,False,Unknown,Unknown
+cf854228-5901-47e6-89fe-6b07da4f4beb,2021-02-24,2022-07-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+cf854228-5901-47e6-89fe-6b07da4f4beb,2024-04-13,2024-06-22,False,Unknown,Unknown
+855ef803-74d6-4e2f-a6d5-1088dbef2a26,2021-11-23,2022-02-16,False,Unknown,Unknown
+bc047d10-8601-465c-92e3-9024b06b9947,2022-05-12,2022-05-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+376eb100-da01-425c-86a8-747c69c8042c,2022-03-25,2022-04-17,False,Unknown,Unknown
+5672c58f-3238-4928-9777-04343195e600,2019-12-05,2020-01-11,False,Unknown,Unknown
+5672c58f-3238-4928-9777-04343195e600,2020-09-18,2022-06-26,False,Unknown,Unknown
+f951d725-f874-4ab3-801f-c3b18b3e764c,2020-06-27,2020-12-20,False,Unknown,Unknown
+f951d725-f874-4ab3-801f-c3b18b3e764c,2023-08-25,2024-01-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+aa072a2a-5b88-4d3d-9930-ae8af7f9ea18,2020-03-04,2020-05-02,False,Unknown,Unknown
+aa072a2a-5b88-4d3d-9930-ae8af7f9ea18,2020-08-31,2020-09-17,True,True,Device-related complications
+aa072a2a-5b88-4d3d-9930-ae8af7f9ea18,2021-01-20,2021-07-12,True,True,Device-related complications
+aa072a2a-5b88-4d3d-9930-ae8af7f9ea18,2022-09-21,2023-04-16,True,False,Unknown
+b5d04f0a-3b7b-43c9-b410-1e95521ac1cb,2021-12-23,2022-05-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+b5d04f0a-3b7b-43c9-b410-1e95521ac1cb,2022-11-12,2022-12-21,False,Unknown,Unknown
+f3c7b482-ae70-4aa8-b02f-0672fe8909b3,2022-01-06,2022-01-08,True,True,Other non-CV admissions
+f3c7b482-ae70-4aa8-b02f-0672fe8909b3,2023-01-16,2023-08-29,False,Unknown,Unknown
+76e95d23-3b29-410a-98cd-d640eade763d,2021-01-13,2021-04-12,False,Unknown,Unknown
+76e95d23-3b29-410a-98cd-d640eade763d,2021-12-18,2022-09-06,False,Unknown,Unknown
+76e95d23-3b29-410a-98cd-d640eade763d,2023-01-27,2023-02-15,False,Unknown,Unknown
+8dc15c8e-3b9d-4310-87f6-fdff94867262,2020-09-04,2020-09-17,True,True,HF Admission
+8dc15c8e-3b9d-4310-87f6-fdff94867262,2020-11-19,2020-11-30,False,Unknown,Unknown
+66fc005f-9d53-4dcb-946c-4ca8bb8b26af,2020-08-12,2020-09-02,True,True,Infection management
+66fc005f-9d53-4dcb-946c-4ca8bb8b26af,2021-09-04,2021-11-21,False,Unknown,Unknown
+d55c1494-eaf1-4b0e-bcf0-b3be3c510133,2020-03-13,2020-09-28,False,Unknown,Unknown
+d55c1494-eaf1-4b0e-bcf0-b3be3c510133,2021-08-19,2022-01-29,False,Unknown,Unknown
+d55c1494-eaf1-4b0e-bcf0-b3be3c510133,2022-04-09,2023-10-30,False,Unknown,Unknown
+617ac4bc-cb26-4fb4-ae1b-0dd26714df34,2022-09-11,2022-09-21,False,Unknown,Unknown
+617ac4bc-cb26-4fb4-ae1b-0dd26714df34,2024-03-06,2024-06-20,False,Unknown,Unknown
+97bef39e-f7a0-434f-a500-a4cb84949e78,2020-09-28,2020-10-29,False,Unknown,Unknown
+97bef39e-f7a0-434f-a500-a4cb84949e78,2021-04-26,2022-09-04,False,Unknown,Unknown
+97bef39e-f7a0-434f-a500-a4cb84949e78,2022-11-04,2023-01-29,True,True,HF Admission
+1a371653-ad7b-497a-9cc7-780d1bbe012b,2022-12-10,2023-05-27,True,True,HF Admission
+1a371653-ad7b-497a-9cc7-780d1bbe012b,2023-07-16,2023-12-24,True,True,HF decompensation needing iv. Diuretic-inotropes
+1a371653-ad7b-497a-9cc7-780d1bbe012b,2023-12-30,2024-06-22,False,Unknown,Unknown
+818a525d-2fa5-4157-99ad-b9844cf78e8f,2022-04-11,2022-08-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+818a525d-2fa5-4157-99ad-b9844cf78e8f,2022-12-08,2023-01-02,True,True,HF decompensation needing iv. Diuretic-inotropes
+818a525d-2fa5-4157-99ad-b9844cf78e8f,2023-01-08,2023-01-15,False,Unknown,Unknown
+818a525d-2fa5-4157-99ad-b9844cf78e8f,2023-02-03,2023-02-10,True,True,HF Admission
+4a9df4f5-317f-4e8d-8752-dcac2f24b577,2021-04-27,2021-07-29,True,False,Unknown
+4a9df4f5-317f-4e8d-8752-dcac2f24b577,2022-12-18,2023-12-03,True,True,Other non-CV admissions
+b170ad25-65a6-4770-8f54-ae26845a9e11,2020-06-14,2021-03-09,False,Unknown,Unknown
+966c5dd0-f1d1-475f-a1d2-95511c247633,2022-03-07,2022-03-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+966c5dd0-f1d1-475f-a1d2-95511c247633,2022-04-27,2022-05-18,True,True,HF decompensation needing iv. Diuretic-inotropes
+966c5dd0-f1d1-475f-a1d2-95511c247633,2022-06-25,2023-04-05,False,Unknown,Unknown
+89d896fd-fa5e-490a-92da-776e2fb08626,2021-07-05,2021-10-11,False,Unknown,Unknown
+89d896fd-fa5e-490a-92da-776e2fb08626,2022-08-15,2023-05-27,False,Unknown,Unknown
+89d896fd-fa5e-490a-92da-776e2fb08626,2024-04-28,2024-05-05,False,Unknown,Unknown
+4c27ad01-8a0e-4022-b9a6-a3423cc94c4d,2021-03-06,2021-05-18,True,False,Unknown
+4c27ad01-8a0e-4022-b9a6-a3423cc94c4d,2021-11-17,2022-02-08,True,False,Unknown
+013d143f-91eb-4d72-80a2-c82963ecb091,2023-06-06,2023-09-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+013d143f-91eb-4d72-80a2-c82963ecb091,2024-02-07,2024-06-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+6f3050a1-fd73-4cd4-a7f8-a8140ea110cc,2020-06-25,2020-07-12,False,Unknown,Unknown
+6f3050a1-fd73-4cd4-a7f8-a8140ea110cc,2021-05-22,2021-08-30,True,True,HF Admission
+6f3050a1-fd73-4cd4-a7f8-a8140ea110cc,2022-10-25,2023-11-16,True,True,HF Admission
+48b55324-5ed2-4662-9d9b-2f36b0cf279b,2020-04-10,2021-06-02,True,True,HF decompensation needing iv. Diuretic-inotropes
+48b55324-5ed2-4662-9d9b-2f36b0cf279b,2024-03-03,2024-04-09,False,Unknown,Unknown
+48b55324-5ed2-4662-9d9b-2f36b0cf279b,2024-04-20,2024-05-12,False,Unknown,Unknown
+fc5a1d82-0231-467d-9cc5-12894551431a,2022-06-30,2022-08-24,False,Unknown,Unknown
+d6c2e5b3-7988-4e5a-8bb9-ae494ca8eddc,2021-09-11,2022-08-09,True,True,HF Admission
+d6c2e5b3-7988-4e5a-8bb9-ae494ca8eddc,2022-10-07,2022-11-04,False,Unknown,Unknown
+2ea35052-df2a-4fe9-8e12-97baa5be6e6b,2020-09-04,2020-09-10,False,Unknown,Unknown
+2ea35052-df2a-4fe9-8e12-97baa5be6e6b,2020-09-14,2020-09-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+2ea35052-df2a-4fe9-8e12-97baa5be6e6b,2021-02-12,2022-05-15,False,Unknown,Unknown
+15394b38-d236-4028-ae21-87ed0da0a9d2,2021-03-10,2021-05-09,False,Unknown,Unknown
+15394b38-d236-4028-ae21-87ed0da0a9d2,2023-01-02,2023-11-07,True,False,Unknown
+841adc8e-e72d-4caa-b9bc-42ad5c23c11d,2020-10-06,2022-04-09,False,Unknown,Unknown
+841adc8e-e72d-4caa-b9bc-42ad5c23c11d,2022-12-09,2022-12-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+30d0643d-0251-4713-b2a3-40b2934cfa81,2020-02-04,2020-02-16,False,Unknown,Unknown
+30d0643d-0251-4713-b2a3-40b2934cfa81,2020-03-19,2021-10-14,False,Unknown,Unknown
+32553f57-a90e-4191-97ed-99f2f2ceff81,2022-02-25,2022-02-28,False,Unknown,Unknown
+32553f57-a90e-4191-97ed-99f2f2ceff81,2022-03-10,2023-05-06,False,Unknown,Unknown
+32553f57-a90e-4191-97ed-99f2f2ceff81,2024-08-21,2024-09-05,True,True,HF Admission
+e4864621-431e-48b1-9a1c-90e953de147c,2020-03-01,2021-03-19,True,True,CV admission other than HF
+e4864621-431e-48b1-9a1c-90e953de147c,2021-12-13,2022-07-28,False,Unknown,Unknown
+e4864621-431e-48b1-9a1c-90e953de147c,2024-03-01,2024-10-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+16d08db1-a5e0-437f-a0d7-6baf9f631f1c,2020-08-26,2021-10-02,True,True,CV admission other than HF
+16d08db1-a5e0-437f-a0d7-6baf9f631f1c,2023-01-19,2023-04-26,True,False,Unknown
+6fcc044c-c584-463b-84ba-ca38dee7ec6b,2021-04-19,2021-09-11,True,True,CV admission other than HF
+f3467af7-28ce-4d64-8bc9-f949436578e2,2020-06-10,2021-10-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+19fb445c-2d79-4cd1-8b65-089dfc681c7d,2023-11-14,2024-03-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+19fb445c-2d79-4cd1-8b65-089dfc681c7d,2024-05-26,2024-05-28,True,True,HF Admission
+19fb445c-2d79-4cd1-8b65-089dfc681c7d,2024-06-01,2024-06-29,False,Unknown,Unknown
+eae1bc45-a0f9-4dfe-bcab-d768c4b08a29,2019-12-12,2020-10-01,False,Unknown,Unknown
+eae1bc45-a0f9-4dfe-bcab-d768c4b08a29,2020-10-02,2020-10-12,True,True,Rejection episode
+eae1bc45-a0f9-4dfe-bcab-d768c4b08a29,2021-04-07,2021-10-11,False,Unknown,Unknown
+eae1bc45-a0f9-4dfe-bcab-d768c4b08a29,2022-01-19,2022-02-08,True,True,CV admission other than HF
+c4f99d0b-9f5f-4e0c-8cd7-43b3d09c0cdd,2020-10-19,2021-05-12,True,False,Unknown
+c4f99d0b-9f5f-4e0c-8cd7-43b3d09c0cdd,2022-12-01,2023-06-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+c4f99d0b-9f5f-4e0c-8cd7-43b3d09c0cdd,2024-01-22,2024-09-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+2ce5fa6c-9438-440b-9ca6-cadfad96dfc8,2021-10-19,2021-12-30,False,Unknown,Unknown
+2ce5fa6c-9438-440b-9ca6-cadfad96dfc8,2022-03-31,2022-04-30,True,False,Unknown
+8b37d398-48f2-445a-9cfe-93d06d1af35d,2020-08-22,2020-08-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+8b37d398-48f2-445a-9cfe-93d06d1af35d,2021-04-02,2021-05-03,True,True,CV admission other than HF
+8b37d398-48f2-445a-9cfe-93d06d1af35d,2022-06-13,2022-12-08,False,Unknown,Unknown
+dca1268d-2c65-465e-b183-54635909fbdc,2021-05-28,2021-09-01,False,Unknown,Unknown
+dca1268d-2c65-465e-b183-54635909fbdc,2022-01-30,2022-02-13,True,True,HF Admission
+dca1268d-2c65-465e-b183-54635909fbdc,2022-04-15,2023-01-02,False,Unknown,Unknown
+8b1522c8-9ee9-4423-b83a-32b54ff6332f,2020-05-22,2021-01-15,False,Unknown,Unknown
+8b1522c8-9ee9-4423-b83a-32b54ff6332f,2022-03-30,2022-04-23,False,Unknown,Unknown
+8b1522c8-9ee9-4423-b83a-32b54ff6332f,2022-07-23,2022-10-05,True,True,Rejection episode
+1781bdf9-60c2-422d-a3a6-a2947aa9955e,2019-12-17,2020-01-03,False,Unknown,Unknown
+1781bdf9-60c2-422d-a3a6-a2947aa9955e,2020-11-28,2021-02-17,False,Unknown,Unknown
+1781bdf9-60c2-422d-a3a6-a2947aa9955e,2022-05-17,2022-07-10,False,Unknown,Unknown
+1781bdf9-60c2-422d-a3a6-a2947aa9955e,2024-08-30,2024-09-03,True,False,Unknown
+64e1c005-e0e8-4d65-ae35-ee0f2ab9f6e1,2022-02-15,2022-11-23,False,Unknown,Unknown
+88043b35-6db4-40b4-a6ab-0e8e9d3d019a,2020-09-22,2021-11-11,True,True,HF Admission
+88043b35-6db4-40b4-a6ab-0e8e9d3d019a,2022-05-17,2022-11-21,False,Unknown,Unknown
+eb8bdced-b9ef-4bfa-af81-4d4054119837,2021-11-07,2022-01-23,False,Unknown,Unknown
+eb8bdced-b9ef-4bfa-af81-4d4054119837,2022-08-20,2024-07-27,True,True,Infection management
+ab8ea99a-7e2f-4cbc-9971-14e45ad6913c,2020-02-18,2021-05-04,False,Unknown,Unknown
+ab8ea99a-7e2f-4cbc-9971-14e45ad6913c,2021-07-27,2022-09-06,False,Unknown,Unknown
+ab8ea99a-7e2f-4cbc-9971-14e45ad6913c,2023-08-13,2023-08-26,False,Unknown,Unknown
+ab8ea99a-7e2f-4cbc-9971-14e45ad6913c,2023-11-29,2024-05-17,False,Unknown,Unknown
+18ee0614-da1e-48d2-b0a4-19ee1b936ba8,2020-07-06,2020-10-27,False,Unknown,Unknown
+18ee0614-da1e-48d2-b0a4-19ee1b936ba8,2023-04-21,2023-10-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+baf69220-e997-49fa-8fc2-f2823f73b2cc,2020-09-04,2020-09-14,False,Unknown,Unknown
+baf69220-e997-49fa-8fc2-f2823f73b2cc,2022-03-04,2022-03-07,False,Unknown,Unknown
+bc06fbc3-48e3-41d8-beb1-87fbbbd190cf,2021-12-16,2022-01-10,True,False,Unknown
+bc06fbc3-48e3-41d8-beb1-87fbbbd190cf,2022-10-15,2022-12-14,False,Unknown,Unknown
+fd9f34c1-78e5-47a0-b78c-10b269bf9aae,2020-07-19,2021-06-15,False,Unknown,Unknown
+fd9f34c1-78e5-47a0-b78c-10b269bf9aae,2022-04-11,2023-01-02,True,False,Unknown
+8f76dec7-a0af-4a1d-be3a-120dab2779af,2020-11-05,2021-01-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+8f76dec7-a0af-4a1d-be3a-120dab2779af,2021-02-07,2021-02-26,False,Unknown,Unknown
+8f76dec7-a0af-4a1d-be3a-120dab2779af,2022-07-06,2023-02-05,False,Unknown,Unknown
+8f76dec7-a0af-4a1d-be3a-120dab2779af,2023-02-10,2023-09-28,False,Unknown,Unknown
+689423d4-f685-46f4-9f6a-9dce93bbff48,2021-01-07,2024-09-22,True,False,Unknown
+dae30665-1906-4161-ba28-1c9e68f1be83,2022-10-03,2022-10-04,False,Unknown,Unknown
+dae30665-1906-4161-ba28-1c9e68f1be83,2022-10-18,2022-11-09,False,Unknown,Unknown
+dae30665-1906-4161-ba28-1c9e68f1be83,2023-06-08,2023-07-29,False,Unknown,Unknown
+f9ce647c-9cbf-4577-937b-84375c5ad586,2023-01-03,2023-01-09,False,Unknown,Unknown
+f609a329-17b5-41ba-b232-d4e491f79904,2020-02-12,2021-04-17,True,False,Unknown
+f609a329-17b5-41ba-b232-d4e491f79904,2023-06-20,2024-06-10,True,False,Unknown
+8c136fb6-ff69-4dc9-ad27-6921e466c0a6,2021-12-31,2022-01-02,False,Unknown,Unknown
+2c6701ed-93be-4f7b-a2d7-c0a713137e11,2023-09-10,2023-10-02,False,Unknown,Unknown
+2c6701ed-93be-4f7b-a2d7-c0a713137e11,2023-12-12,2024-02-27,False,Unknown,Unknown
+734e5463-4a7f-4501-9996-813552731617,2019-12-05,2019-12-07,True,False,Unknown
+734e5463-4a7f-4501-9996-813552731617,2020-09-22,2022-07-04,True,False,Unknown
+734e5463-4a7f-4501-9996-813552731617,2023-07-08,2023-07-27,True,True,Infection management
+71a53954-d98d-40a9-8385-66af2ab084d5,2021-03-04,2021-03-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+71a53954-d98d-40a9-8385-66af2ab084d5,2021-03-24,2021-04-09,True,True,CV admission other than HF
+281a47ab-0073-4fa2-9f81-43a840f1fc4f,2020-04-28,2020-05-31,False,Unknown,Unknown
+281a47ab-0073-4fa2-9f81-43a840f1fc4f,2020-06-17,2020-07-13,True,False,Unknown
+281a47ab-0073-4fa2-9f81-43a840f1fc4f,2020-07-28,2020-09-04,False,Unknown,Unknown
+a74bc9a4-25e8-4cfc-83f9-4f6737574acd,2020-07-14,2021-09-16,False,Unknown,Unknown
+a74bc9a4-25e8-4cfc-83f9-4f6737574acd,2024-06-23,2024-08-25,False,Unknown,Unknown
+1e96ffd3-7559-468a-8e0b-75a89cf31b71,2020-05-27,2020-06-28,True,True,HF Admission
+79f6f51a-59dd-4f3b-9c55-3339313bb319,2023-08-12,2023-11-02,False,Unknown,Unknown
+1e5eb340-b15b-4361-87cf-f90885a86df5,2021-09-21,2021-12-21,True,True,HF Admission
+1e5eb340-b15b-4361-87cf-f90885a86df5,2023-06-11,2024-03-31,True,True,HF decompensation needing iv. Diuretic-inotropes
+737e58d3-6c45-4444-a419-299cc49cee76,2023-08-15,2024-02-06,True,False,Unknown
+737e58d3-6c45-4444-a419-299cc49cee76,2024-05-17,2024-07-15,True,True,Infection management
+3bc98689-3d54-449a-82f7-4ae76dc3fafc,2020-03-08,2020-03-09,False,Unknown,Unknown
+3bc98689-3d54-449a-82f7-4ae76dc3fafc,2020-03-21,2020-12-28,False,Unknown,Unknown
+3bc98689-3d54-449a-82f7-4ae76dc3fafc,2023-11-26,2024-03-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+42548c3b-b949-4895-93ea-87f06af03c57,2022-05-29,2022-06-20,False,Unknown,Unknown
+42548c3b-b949-4895-93ea-87f06af03c57,2022-09-19,2022-09-22,False,Unknown,Unknown
+675cf5ee-406a-45a0-8fee-1956c825225f,2021-02-11,2021-09-12,True,True,HF Admission
+675cf5ee-406a-45a0-8fee-1956c825225f,2022-09-29,2023-10-24,False,Unknown,Unknown
+a314b909-0eee-45ad-9493-f8dfecb2e79f,2021-03-29,2021-05-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+a314b909-0eee-45ad-9493-f8dfecb2e79f,2024-05-10,2024-06-13,False,Unknown,Unknown
+0d8ab176-2979-49b5-b89b-c2e22dec9865,2020-08-20,2020-08-24,False,Unknown,Unknown
+0d8ab176-2979-49b5-b89b-c2e22dec9865,2020-09-12,2021-11-14,True,False,Unknown
+42e913ec-b4d8-404a-8db9-b9b11af61d98,2020-03-19,2020-07-02,True,True,Device-related complications
+7e5cb3ce-b303-4f21-82fc-c90b471ee2ee,2020-08-23,2020-09-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+7e5cb3ce-b303-4f21-82fc-c90b471ee2ee,2020-10-12,2020-11-01,False,Unknown,Unknown
+7e5cb3ce-b303-4f21-82fc-c90b471ee2ee,2022-08-16,2022-09-22,True,True,Device-related complications
+1ca921b9-d2e2-4d55-a4a0-74afd2dcaab9,2021-10-10,2021-12-15,True,False,Unknown
+1ca921b9-d2e2-4d55-a4a0-74afd2dcaab9,2022-01-16,2022-05-12,True,False,Unknown
+1ca921b9-d2e2-4d55-a4a0-74afd2dcaab9,2022-05-13,2022-10-21,True,True,Device-related complications
+1ca921b9-d2e2-4d55-a4a0-74afd2dcaab9,2023-01-06,2023-07-17,True,True,Device-related complications
+f1c9e2ee-340c-41a1-8a4d-6f2b17e50b5e,2022-05-30,2022-06-14,True,True,CV admission other than HF
+f1c9e2ee-340c-41a1-8a4d-6f2b17e50b5e,2022-06-16,2023-01-21,True,False,Unknown
+f1c9e2ee-340c-41a1-8a4d-6f2b17e50b5e,2023-07-20,2023-09-08,False,Unknown,Unknown
+647a2e2e-4650-4e1a-b9d2-e5350de3e470,2020-03-17,2020-11-07,True,True,Rejection episode
+647a2e2e-4650-4e1a-b9d2-e5350de3e470,2023-04-16,2024-06-18,True,True,Other non-CV admissions
+db3d0a9b-9bb1-4419-bab3-ef9595a16539,2020-12-28,2022-09-13,True,False,Unknown
+93a99d62-6cf2-4282-bdcb-81b5a99ef077,2021-10-24,2022-03-17,False,Unknown,Unknown
+b4533305-e72f-41df-a36f-bcd053bf1ae6,2020-06-16,2020-12-15,True,True,HF Admission
+b4533305-e72f-41df-a36f-bcd053bf1ae6,2021-04-05,2022-08-18,False,Unknown,Unknown
+b26fb588-a05d-4674-950c-36585c32ff5a,2020-03-04,2020-03-18,False,Unknown,Unknown
+f6201d3d-4906-48b3-b5b8-4604685cc5a1,2019-12-28,2020-01-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+478d7513-b8fb-402e-8cbf-dfc292cfeb8f,2020-01-23,2020-08-05,True,True,Other non-CV admissions
+21fb1403-310d-4614-b5b6-1714ca14f90a,2020-05-16,2020-07-14,True,False,Unknown
+21fb1403-310d-4614-b5b6-1714ca14f90a,2020-08-06,2021-06-17,True,True,CV admission other than HF
+736ef552-4b11-406e-ab6e-11412578313b,2020-05-06,2020-10-20,False,Unknown,Unknown
+736ef552-4b11-406e-ab6e-11412578313b,2021-02-13,2021-03-12,False,Unknown,Unknown
+402c7072-dcea-42ed-956c-68c83da4802e,2021-03-06,2021-09-09,False,Unknown,Unknown
+44caa1f0-93ca-4d7f-826b-6ec5aa90de7c,2019-11-22,2019-11-23,True,True,HF Admission
+44caa1f0-93ca-4d7f-826b-6ec5aa90de7c,2019-11-24,2019-12-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+54035bed-b6f3-48be-ab94-ef27b9969393,2020-02-05,2020-03-08,True,False,Unknown
+54035bed-b6f3-48be-ab94-ef27b9969393,2023-12-22,2024-07-02,False,Unknown,Unknown
+85f88621-e4b5-4b2a-a5fb-73907b0b5cd2,2021-11-16,2022-08-31,False,Unknown,Unknown
+85f88621-e4b5-4b2a-a5fb-73907b0b5cd2,2023-02-09,2023-04-10,False,Unknown,Unknown
+3576adb5-0a04-4022-848d-d41daae04470,2021-10-12,2021-11-13,False,Unknown,Unknown
+3576adb5-0a04-4022-848d-d41daae04470,2022-04-29,2022-05-27,False,Unknown,Unknown
+3576adb5-0a04-4022-848d-d41daae04470,2023-09-21,2023-10-21,True,True,CV admission other than HF
+5df46c56-8489-48c3-9adc-e80c69ec7f81,2019-12-29,2020-01-10,True,False,Unknown
+5df46c56-8489-48c3-9adc-e80c69ec7f81,2020-08-21,2020-10-18,False,Unknown,Unknown
+5df46c56-8489-48c3-9adc-e80c69ec7f81,2021-05-19,2021-07-14,False,Unknown,Unknown
+5213ee95-cd23-4f00-bf8e-a2a937796710,2020-02-13,2020-03-31,True,False,Unknown
+5213ee95-cd23-4f00-bf8e-a2a937796710,2021-01-20,2021-07-22,False,Unknown,Unknown
+5213ee95-cd23-4f00-bf8e-a2a937796710,2021-10-10,2022-11-02,False,Unknown,Unknown
+442a2ee4-45fd-483c-b9a7-035c68d87ccc,2023-09-04,2023-09-23,False,Unknown,Unknown
+14d3d7df-8ad1-4f1d-b32f-72554c8c66ce,2020-03-30,2020-04-03,False,Unknown,Unknown
+14d3d7df-8ad1-4f1d-b32f-72554c8c66ce,2022-08-11,2022-12-27,False,Unknown,Unknown
+3d0b3e78-6273-4705-a746-472ec9a33b23,2021-12-18,2022-07-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+3d0b3e78-6273-4705-a746-472ec9a33b23,2023-07-03,2023-09-21,True,True,HF Admission
+5a99e05c-6d3f-4160-bcf4-00bc2d55ed71,2020-11-05,2020-11-08,True,True,HF decompensation needing iv. Diuretic-inotropes
+5a99e05c-6d3f-4160-bcf4-00bc2d55ed71,2020-11-18,2020-12-31,True,True,CV admission other than HF
+5a99e05c-6d3f-4160-bcf4-00bc2d55ed71,2021-03-04,2021-03-15,True,False,Unknown
+5a99e05c-6d3f-4160-bcf4-00bc2d55ed71,2021-07-19,2022-08-29,False,Unknown,Unknown
+533dce28-f1c8-4465-9d7f-877ee16f3a3e,2020-12-05,2021-04-05,True,True,Rejection episode
+533dce28-f1c8-4465-9d7f-877ee16f3a3e,2021-05-25,2022-04-15,True,True,CV admission other than HF
+533dce28-f1c8-4465-9d7f-877ee16f3a3e,2023-11-22,2024-03-04,False,Unknown,Unknown
+463cd496-7688-4188-bb7d-5824a9b095f2,2022-03-31,2023-01-06,False,Unknown,Unknown
+706c7d92-85dd-49ca-ba9d-f1e32d2b8427,2021-12-05,2022-06-21,False,Unknown,Unknown
+706c7d92-85dd-49ca-ba9d-f1e32d2b8427,2022-06-24,2022-06-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+706c7d92-85dd-49ca-ba9d-f1e32d2b8427,2022-12-06,2022-12-20,False,Unknown,Unknown
+1c98f143-6194-46c3-b18c-9f37d74723a9,2020-02-25,2020-10-07,False,Unknown,Unknown
+1c98f143-6194-46c3-b18c-9f37d74723a9,2022-11-28,2023-03-11,False,Unknown,Unknown
+8b1160d2-badf-47e5-a0da-284a756ddcf3,2020-09-19,2020-10-05,False,Unknown,Unknown
+8b1160d2-badf-47e5-a0da-284a756ddcf3,2022-03-02,2022-07-24,False,Unknown,Unknown
+f67913db-a200-47d4-9fe1-7febd10bd794,2021-06-06,2021-07-21,False,Unknown,Unknown
+f67913db-a200-47d4-9fe1-7febd10bd794,2023-05-12,2023-05-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+e26f622b-e094-4487-a26a-3c1293fded29,2020-08-11,2020-10-04,True,True,CV admission other than HF
+a8fbe219-02a9-44d9-8fa1-b1cb30c9bbb1,2021-07-12,2021-10-08,True,True,CV admission other than HF
+a8fbe219-02a9-44d9-8fa1-b1cb30c9bbb1,2021-10-28,2022-11-20,True,True,Other non-CV admissions
+a8fbe219-02a9-44d9-8fa1-b1cb30c9bbb1,2023-07-17,2024-04-08,False,Unknown,Unknown
+52845f54-5bf1-4a64-a161-c59d8c51d3c5,2022-11-06,2023-06-05,False,Unknown,Unknown
+75aa5a1e-b983-43b4-8876-bea56c5c04a3,2021-11-06,2021-12-14,False,Unknown,Unknown
+4202163d-a67a-45a4-ac92-3224b5189251,2021-07-23,2021-07-29,True,True,HF Admission
+4202163d-a67a-45a4-ac92-3224b5189251,2021-08-19,2021-11-15,True,True,HF Admission
+4202163d-a67a-45a4-ac92-3224b5189251,2021-12-15,2022-08-15,True,True,HF Admission
+812195f8-0b9e-4f2d-88ee-7c5a8d8c6a72,2023-07-19,2024-10-15,True,False,Unknown
+8988a023-9dcd-4213-be86-e27ab55c8d16,2020-08-29,2021-05-06,False,Unknown,Unknown
+4a117c1e-5edc-408c-b45e-c93355895213,2021-01-08,2021-12-02,False,Unknown,Unknown
+47fbb566-4703-4882-abec-4e4929b90f3f,2022-02-03,2022-02-23,True,True,HF Admission
+d362e977-dcf2-4d6b-a77e-747778ea69ce,2020-09-11,2021-01-02,False,Unknown,Unknown
+c7c67f72-aa4a-4017-9f58-007e03f369ca,2021-12-05,2021-12-23,False,Unknown,Unknown
+c7c67f72-aa4a-4017-9f58-007e03f369ca,2023-03-22,2023-03-26,False,Unknown,Unknown
+51e8faca-3a16-41a8-a1ca-2b86d6eb95c7,2021-03-22,2021-03-23,True,False,Unknown
+51e8faca-3a16-41a8-a1ca-2b86d6eb95c7,2021-04-03,2021-05-08,True,True,Infection management
+51e8faca-3a16-41a8-a1ca-2b86d6eb95c7,2023-07-08,2024-08-11,True,False,Unknown
+d02b5ba1-8dfe-4079-a85d-254748873142,2020-04-29,2021-08-01,True,True,HF Admission
+d02b5ba1-8dfe-4079-a85d-254748873142,2022-01-18,2022-02-28,False,Unknown,Unknown
+d02b5ba1-8dfe-4079-a85d-254748873142,2022-09-26,2023-02-26,True,True,HF Admission
+a962d4de-0e3e-4405-92b3-57fc055f3cf8,2020-02-09,2021-05-17,True,True,CV admission other than HF
+a962d4de-0e3e-4405-92b3-57fc055f3cf8,2022-08-01,2024-03-31,False,Unknown,Unknown
+a962d4de-0e3e-4405-92b3-57fc055f3cf8,2024-06-05,2024-07-17,True,True,CV admission other than HF
+e3e3bef4-bd2e-4e08-bb96-dab3039993e9,2023-08-26,2024-01-02,False,Unknown,Unknown
+08e30ecd-cdb7-441d-9f5c-f9ac047127e4,2023-03-16,2023-12-13,False,Unknown,Unknown
+6642dab8-0dcc-4b38-aa4c-a7c90161a91c,2020-03-20,2021-05-21,True,True,HF Admission
+6642dab8-0dcc-4b38-aa4c-a7c90161a91c,2022-10-10,2023-02-20,False,Unknown,Unknown
+ffa45a47-b492-46a1-b8c2-3f9cad8a2768,2021-09-07,2021-12-14,True,True,HF Admission
+ffa45a47-b492-46a1-b8c2-3f9cad8a2768,2023-05-17,2023-07-13,False,Unknown,Unknown
+7f7faad7-64d7-44a4-b5be-a66199e1bccb,2020-06-01,2021-04-07,True,True,HF Admission
+7f7faad7-64d7-44a4-b5be-a66199e1bccb,2021-12-26,2022-02-13,True,True,HF Admission
+b6c92b1b-0989-4229-927d-d0a7e9ffd53b,2022-04-15,2022-06-02,False,Unknown,Unknown
+b6c92b1b-0989-4229-927d-d0a7e9ffd53b,2023-01-27,2023-03-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+b6c92b1b-0989-4229-927d-d0a7e9ffd53b,2023-11-08,2023-12-07,False,Unknown,Unknown
+1f17be0e-70ed-4d2c-8888-a28a2d531215,2022-11-18,2023-01-14,False,Unknown,Unknown
+1f17be0e-70ed-4d2c-8888-a28a2d531215,2023-04-07,2023-08-14,True,True,Device-related complications
+1f17be0e-70ed-4d2c-8888-a28a2d531215,2023-09-08,2023-10-09,False,Unknown,Unknown
+48211a5c-1a4c-4c4c-b23e-244275c88f6d,2020-08-07,2020-09-03,True,False,Unknown
+48211a5c-1a4c-4c4c-b23e-244275c88f6d,2020-12-20,2021-02-27,False,Unknown,Unknown
+48211a5c-1a4c-4c4c-b23e-244275c88f6d,2021-03-18,2021-07-13,True,False,Unknown
+48211a5c-1a4c-4c4c-b23e-244275c88f6d,2023-02-25,2023-07-07,True,False,Unknown
+d02366c2-9589-4e3f-ba85-abadc2fbceb8,2020-10-20,2021-04-25,True,True,HF Admission
+d02366c2-9589-4e3f-ba85-abadc2fbceb8,2022-03-02,2022-03-05,False,Unknown,Unknown
+d02366c2-9589-4e3f-ba85-abadc2fbceb8,2022-03-07,2022-04-02,False,Unknown,Unknown
+6e470067-83c5-49eb-a077-ae48bd0fe884,2021-12-12,2022-07-10,False,Unknown,Unknown
+94b104d3-d765-4d72-ac9c-9697e42c251a,2021-04-05,2021-09-28,True,False,Unknown
+94b104d3-d765-4d72-ac9c-9697e42c251a,2023-06-10,2023-12-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+996af858-8a76-4cf1-9556-80e187b35ad1,2021-04-16,2022-02-08,True,True,HF decompensation needing iv. Diuretic-inotropes
+996af858-8a76-4cf1-9556-80e187b35ad1,2022-05-19,2024-03-11,False,Unknown,Unknown
+996af858-8a76-4cf1-9556-80e187b35ad1,2024-05-07,2024-07-05,False,Unknown,Unknown
+a9d51086-c794-4cdf-8bef-5d25027a4368,2020-09-16,2020-11-14,True,True,Other non-CV admissions
+a9d51086-c794-4cdf-8bef-5d25027a4368,2021-03-21,2022-02-06,True,True,Rejection episode
+3c2b37a6-8381-4aba-9c0d-c625d505ce0e,2020-12-24,2021-08-18,False,Unknown,Unknown
+9d1856b6-5856-4ea4-81ad-b48633815214,2021-03-27,2021-05-02,False,Unknown,Unknown
+9d1856b6-5856-4ea4-81ad-b48633815214,2021-12-25,2022-02-27,False,Unknown,Unknown
+9d1856b6-5856-4ea4-81ad-b48633815214,2022-11-21,2023-08-02,False,Unknown,Unknown
+98d8a355-e5ae-4dfa-9b3d-308d4ffabb6a,2022-04-20,2022-07-11,True,False,Unknown
+98d8a355-e5ae-4dfa-9b3d-308d4ffabb6a,2022-08-07,2022-09-23,False,Unknown,Unknown
+98d8a355-e5ae-4dfa-9b3d-308d4ffabb6a,2022-10-10,2022-10-12,False,Unknown,Unknown
+32dedd9d-f16c-4915-a175-18254ae584f0,2023-01-05,2023-07-03,False,Unknown,Unknown
+32dedd9d-f16c-4915-a175-18254ae584f0,2023-08-09,2023-10-26,True,False,Unknown
+32dedd9d-f16c-4915-a175-18254ae584f0,2023-12-11,2024-01-10,False,Unknown,Unknown
+7034c882-e420-4159-b496-8a84349d1fb2,2020-05-28,2020-12-10,True,True,Device-related complications
+7034c882-e420-4159-b496-8a84349d1fb2,2023-09-01,2023-09-02,True,True,CV admission other than HF
+61ecbd1d-6323-4940-b4c9-d672a9bed410,2020-05-13,2020-12-15,True,True,Device-related complications
+61ecbd1d-6323-4940-b4c9-d672a9bed410,2021-07-26,2022-01-11,True,True,HF decompensation needing iv. Diuretic-inotropes
+6ce683c7-e6bc-4805-b5eb-bb8e23638d96,2019-12-11,2019-12-27,False,Unknown,Unknown
+6ce683c7-e6bc-4805-b5eb-bb8e23638d96,2020-01-07,2021-02-02,False,Unknown,Unknown
+6ce683c7-e6bc-4805-b5eb-bb8e23638d96,2021-06-02,2021-08-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+6ce683c7-e6bc-4805-b5eb-bb8e23638d96,2021-09-22,2022-09-23,True,False,Unknown
+300fee0f-caee-4bf3-be52-0e1429e79f4b,2020-12-22,2021-08-18,False,Unknown,Unknown
+d73331d9-5498-490a-98ba-2faabb6538d7,2023-07-02,2024-02-29,True,True,HF Admission
+43a90499-7a3e-4b6b-9a00-1723d82968e5,2020-01-22,2020-12-01,False,Unknown,Unknown
+43a90499-7a3e-4b6b-9a00-1723d82968e5,2020-12-02,2020-12-13,True,True,CV admission other than HF
+e12ba529-8bfd-49a6-a8e2-c519c9b44d57,2020-07-13,2020-11-17,True,True,CV admission other than HF
+3fde9a12-5cc4-4b09-9a37-de1ae616897a,2020-06-15,2020-11-01,True,False,Unknown
+3fde9a12-5cc4-4b09-9a37-de1ae616897a,2020-12-20,2021-01-03,True,False,Unknown
+3fde9a12-5cc4-4b09-9a37-de1ae616897a,2021-01-31,2021-10-05,False,Unknown,Unknown
+d68bd542-8a21-47f9-967a-70d5b68dc6a6,2021-06-06,2021-08-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+d68bd542-8a21-47f9-967a-70d5b68dc6a6,2021-11-13,2022-12-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+d68bd542-8a21-47f9-967a-70d5b68dc6a6,2023-04-12,2024-03-30,True,True,HF Admission
+9569b7e0-efeb-4b12-b871-5560c9b9e987,2022-02-13,2022-05-01,False,Unknown,Unknown
+1daf027c-3e4a-4a08-8dd9-7b9b7984a080,2021-10-31,2023-01-28,True,True,CV admission other than HF
+3aa44e1c-a95e-4843-a0df-dd75191d4ee1,2020-01-20,2020-06-01,False,Unknown,Unknown
+3aa44e1c-a95e-4843-a0df-dd75191d4ee1,2021-11-30,2023-06-17,True,False,Unknown
+2c23c86b-293f-4cf4-a3de-120f23802b55,2020-04-14,2020-10-19,True,False,Unknown
+2c23c86b-293f-4cf4-a3de-120f23802b55,2022-12-08,2023-07-09,False,Unknown,Unknown
+2c23c86b-293f-4cf4-a3de-120f23802b55,2024-02-14,2024-04-05,False,Unknown,Unknown
+92ed2dfc-6992-4923-9042-75dcb17a3b4e,2020-03-10,2021-10-03,True,False,Unknown
+92ed2dfc-6992-4923-9042-75dcb17a3b4e,2022-03-07,2022-05-01,False,Unknown,Unknown
+1e81d2e5-180c-4b30-8a20-8b9032f3a9b7,2021-11-14,2021-11-25,False,Unknown,Unknown
+1e81d2e5-180c-4b30-8a20-8b9032f3a9b7,2021-12-28,2022-04-13,False,Unknown,Unknown
+1e81d2e5-180c-4b30-8a20-8b9032f3a9b7,2022-05-17,2022-10-17,False,Unknown,Unknown
+6b3552ed-559a-474d-9a56-484de0cf0f75,2019-12-31,2021-05-26,True,False,Unknown
+6b3552ed-559a-474d-9a56-484de0cf0f75,2022-11-06,2022-11-09,True,True,CV admission other than HF
+9a466cf3-d75a-47b0-ae91-0f74f7d71d35,2019-12-12,2020-04-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+9a466cf3-d75a-47b0-ae91-0f74f7d71d35,2021-05-05,2022-07-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+9a466cf3-d75a-47b0-ae91-0f74f7d71d35,2022-11-09,2023-07-20,False,Unknown,Unknown
+1bb95faa-fd50-4b07-b521-7a1ccce1233b,2023-08-06,2024-07-07,True,True,HF Admission
+73cceb25-a7ef-4087-a260-6405c82044bd,2021-08-06,2021-09-26,False,Unknown,Unknown
+73cceb25-a7ef-4087-a260-6405c82044bd,2022-03-14,2022-07-13,True,False,Unknown
+5c5b0dca-88a5-4009-a197-85c00411d655,2021-04-14,2021-04-24,False,Unknown,Unknown
+5c5b0dca-88a5-4009-a197-85c00411d655,2022-09-25,2022-10-18,False,Unknown,Unknown
+5c5b0dca-88a5-4009-a197-85c00411d655,2023-01-23,2023-07-29,True,True,CV admission other than HF
+4e4eb036-f68c-48cc-a0e3-4e73e2148aaf,2020-01-02,2021-02-13,False,Unknown,Unknown
+4e4eb036-f68c-48cc-a0e3-4e73e2148aaf,2022-10-05,2022-10-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+68b3c691-f626-445d-86dc-521803688ab9,2019-12-24,2020-02-23,True,False,Unknown
+68b3c691-f626-445d-86dc-521803688ab9,2021-03-29,2021-05-14,False,Unknown,Unknown
+db3ce345-be03-482f-93b2-c567ce98bd8b,2022-02-15,2022-08-17,True,True,HF decompensation needing iv. Diuretic-inotropes
+db3ce345-be03-482f-93b2-c567ce98bd8b,2022-09-30,2023-09-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+db3ce345-be03-482f-93b2-c567ce98bd8b,2024-09-19,2024-10-11,False,Unknown,Unknown
+f3213d55-f5a0-40f8-bf12-5eb1fe654d3e,2022-08-11,2023-03-06,False,Unknown,Unknown
+f39fe1d4-4e93-4f02-a8a1-bc9e4119e5a3,2019-12-27,2020-06-26,False,Unknown,Unknown
+f39fe1d4-4e93-4f02-a8a1-bc9e4119e5a3,2020-07-12,2020-08-31,True,True,HF decompensation needing iv. Diuretic-inotropes
+f39fe1d4-4e93-4f02-a8a1-bc9e4119e5a3,2021-02-18,2021-04-10,True,True,HF Admission
+f39fe1d4-4e93-4f02-a8a1-bc9e4119e5a3,2021-08-18,2021-11-22,True,True,HF Admission
+88d3962f-2cec-4999-8043-6a4f3ca0f7ff,2020-10-12,2021-05-25,True,False,Unknown
+88d3962f-2cec-4999-8043-6a4f3ca0f7ff,2023-09-13,2023-11-21,False,Unknown,Unknown
+0a79874d-125e-42c6-8721-73217152d846,2021-10-25,2022-07-21,False,Unknown,Unknown
+13880548-e03b-44f4-b432-5c2fcf5f9c54,2023-10-01,2023-10-14,True,True,HF Admission
+32e560a1-8789-4dd5-a67b-713116f0dd92,2020-05-21,2020-12-08,False,Unknown,Unknown
+32e560a1-8789-4dd5-a67b-713116f0dd92,2021-02-15,2021-02-17,False,Unknown,Unknown
+32e560a1-8789-4dd5-a67b-713116f0dd92,2021-02-23,2021-04-07,True,True,HF decompensation needing iv. Diuretic-inotropes
+32e560a1-8789-4dd5-a67b-713116f0dd92,2021-04-08,2021-08-12,True,True,Device-related complications
+85513fc8-b931-4fc2-9af3-4d7ca7d31485,2020-01-17,2020-02-06,False,Unknown,Unknown
+85513fc8-b931-4fc2-9af3-4d7ca7d31485,2020-02-17,2020-08-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+85513fc8-b931-4fc2-9af3-4d7ca7d31485,2021-10-21,2023-12-02,False,Unknown,Unknown
+280b0a55-fe32-48eb-bd0e-bdddee3712b4,2020-04-04,2020-09-25,True,True,HF decompensation needing iv. Diuretic-inotropes
+280b0a55-fe32-48eb-bd0e-bdddee3712b4,2022-08-14,2023-05-22,False,Unknown,Unknown
+280b0a55-fe32-48eb-bd0e-bdddee3712b4,2023-07-13,2023-08-29,True,False,Unknown
+6ab34ed8-4f3f-4bdf-b175-a2e67b8c81c5,2021-03-30,2022-12-26,False,Unknown,Unknown
+6ab34ed8-4f3f-4bdf-b175-a2e67b8c81c5,2023-01-12,2023-01-14,False,Unknown,Unknown
+6ab34ed8-4f3f-4bdf-b175-a2e67b8c81c5,2023-03-12,2023-04-28,False,Unknown,Unknown
+4a0e92c5-838f-4401-b951-65b0da653108,2020-04-27,2020-08-06,True,True,CV admission other than HF
+4a0e92c5-838f-4401-b951-65b0da653108,2020-12-20,2021-01-13,True,False,Unknown
+4a0e92c5-838f-4401-b951-65b0da653108,2021-01-20,2021-10-08,True,True,Other non-CV admissions
+b25f3d54-533f-4907-beba-73c72fe456b2,2020-07-10,2020-08-26,False,Unknown,Unknown
+b25f3d54-533f-4907-beba-73c72fe456b2,2020-10-14,2021-03-21,True,False,Unknown
+12a3c849-6a26-4760-9923-97e6969fd762,2019-12-08,2020-01-23,True,False,Unknown
+12a3c849-6a26-4760-9923-97e6969fd762,2020-11-30,2022-01-09,True,True,Device-related complications
+12a3c849-6a26-4760-9923-97e6969fd762,2023-04-26,2023-05-25,False,Unknown,Unknown
+03985152-abee-4be9-b5bd-e797ecccaddd,2020-03-21,2021-11-09,False,Unknown,Unknown
+dadf638f-564f-405f-a16a-9bd6e2844318,2021-11-03,2022-09-30,False,Unknown,Unknown
+dadf638f-564f-405f-a16a-9bd6e2844318,2023-02-24,2023-11-30,False,Unknown,Unknown
+dadf638f-564f-405f-a16a-9bd6e2844318,2024-01-29,2024-03-26,True,False,Unknown
+bd14d5f0-dc36-4304-a45b-2ad5437c1bfe,2022-12-30,2023-01-26,True,False,Unknown
+54776c8e-0e36-4124-b40d-56eb54e027ca,2021-02-22,2022-08-15,False,Unknown,Unknown
+54776c8e-0e36-4124-b40d-56eb54e027ca,2024-09-09,2024-09-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+3aa4db9f-f2c2-4809-9a3b-4cbf57edde2e,2020-08-06,2021-04-05,True,True,HF Admission
+3aa4db9f-f2c2-4809-9a3b-4cbf57edde2e,2022-10-11,2023-08-05,False,Unknown,Unknown
+015c4a39-a0cb-40a8-8aea-75e24663577c,2020-09-06,2021-02-10,True,False,Unknown
+015c4a39-a0cb-40a8-8aea-75e24663577c,2021-07-30,2021-09-25,False,Unknown,Unknown
+015c4a39-a0cb-40a8-8aea-75e24663577c,2022-01-13,2022-12-14,True,False,Unknown
+015c4a39-a0cb-40a8-8aea-75e24663577c,2023-02-26,2023-04-10,True,False,Unknown
+42bcbd9c-3b29-4f19-a0cf-0d6591e44dc8,2020-04-28,2020-06-08,True,True,Other non-CV admissions
+42bcbd9c-3b29-4f19-a0cf-0d6591e44dc8,2020-06-16,2020-06-17,False,Unknown,Unknown
+42bcbd9c-3b29-4f19-a0cf-0d6591e44dc8,2023-03-01,2023-10-21,False,Unknown,Unknown
+cb653b78-c2e8-4f54-bc7b-3eccf3d5c2b5,2022-09-17,2022-09-18,False,Unknown,Unknown
+6e19c574-8d22-4242-bb44-a4d51fae8e1a,2020-01-24,2020-05-28,False,Unknown,Unknown
+6e19c574-8d22-4242-bb44-a4d51fae8e1a,2020-06-09,2020-06-17,True,True,Rejection episode
+6e19c574-8d22-4242-bb44-a4d51fae8e1a,2020-07-31,2020-09-09,True,True,Other non-CV admissions
+0b88474c-4f54-4cf8-88ad-4b07498b9c95,2023-06-24,2023-08-17,False,Unknown,Unknown
+0b88474c-4f54-4cf8-88ad-4b07498b9c95,2023-09-06,2023-11-03,True,False,Unknown
+0b88474c-4f54-4cf8-88ad-4b07498b9c95,2023-12-04,2024-05-17,False,Unknown,Unknown
+a9bdd659-e641-4775-9ac8-48e390c87887,2019-12-05,2020-05-14,False,Unknown,Unknown
+a9bdd659-e641-4775-9ac8-48e390c87887,2020-06-20,2021-12-04,True,True,HF Admission
+a9bdd659-e641-4775-9ac8-48e390c87887,2022-11-07,2023-02-03,False,Unknown,Unknown
+a9bdd659-e641-4775-9ac8-48e390c87887,2023-07-17,2023-07-23,True,True,HF Admission
+3ec03e10-425f-468c-a7d1-01a5735b681a,2021-02-05,2021-03-01,True,True,HF Admission
+3ec03e10-425f-468c-a7d1-01a5735b681a,2022-12-10,2023-04-08,True,True,HF Admission
+68055f0d-83b9-431e-944e-8c285b13e24c,2020-11-10,2020-11-20,True,True,Device-related complications
+dee547b9-59b9-4ea2-8e3f-787f5bb351df,2019-12-01,2020-05-19,False,Unknown,Unknown
+dee547b9-59b9-4ea2-8e3f-787f5bb351df,2022-04-07,2022-04-28,False,Unknown,Unknown
+dee547b9-59b9-4ea2-8e3f-787f5bb351df,2022-05-12,2022-11-22,True,True,HF Admission
+dee547b9-59b9-4ea2-8e3f-787f5bb351df,2023-05-08,2023-06-20,True,True,HF decompensation needing iv. Diuretic-inotropes
+74e8a3dc-71cd-4a03-966a-50b0d1869f38,2022-11-05,2023-03-17,True,False,Unknown
+74e8a3dc-71cd-4a03-966a-50b0d1869f38,2023-04-19,2024-05-18,False,Unknown,Unknown
+2dd4a24a-8db6-438e-a6e4-5d2e05a96e9e,2020-02-26,2021-05-23,False,Unknown,Unknown
+2dd4a24a-8db6-438e-a6e4-5d2e05a96e9e,2021-11-11,2022-06-19,False,Unknown,Unknown
+fa408a13-794f-4af1-ae02-6f6f63391663,2019-12-31,2020-02-24,False,Unknown,Unknown
+fa408a13-794f-4af1-ae02-6f6f63391663,2020-11-29,2021-09-20,False,Unknown,Unknown
+fa408a13-794f-4af1-ae02-6f6f63391663,2023-04-25,2023-10-02,False,Unknown,Unknown
+11c25f9f-8ec2-4255-b2c9-adcad5ef072e,2022-07-22,2022-08-10,False,Unknown,Unknown
+e7a9d848-b382-4d43-aa12-28d420c86dab,2020-07-24,2021-05-10,True,True,HF decompensation needing iv. Diuretic-inotropes
+e7a9d848-b382-4d43-aa12-28d420c86dab,2021-06-23,2021-11-14,False,Unknown,Unknown
+e7a9d848-b382-4d43-aa12-28d420c86dab,2022-09-29,2022-12-07,False,Unknown,Unknown
+e7a9d848-b382-4d43-aa12-28d420c86dab,2023-06-19,2023-09-24,True,True,HF Admission
+1a9c4a66-a9b1-4a89-b4ce-8ed8e6b2d7bf,2020-12-17,2021-07-29,False,Unknown,Unknown
+1a9c4a66-a9b1-4a89-b4ce-8ed8e6b2d7bf,2021-10-27,2021-12-05,False,Unknown,Unknown
+f2b9464c-eb56-439c-b4c9-4ca994c08651,2023-12-09,2024-05-12,False,Unknown,Unknown
+c1ced944-c7fa-4af1-9cef-04842df80311,2022-06-01,2023-07-29,False,Unknown,Unknown
+c1ced944-c7fa-4af1-9cef-04842df80311,2024-01-20,2024-03-17,False,Unknown,Unknown
+d8482877-7544-468a-afb0-5ace87f4b7b0,2021-04-14,2022-01-07,False,Unknown,Unknown
+d8482877-7544-468a-afb0-5ace87f4b7b0,2023-03-28,2023-04-14,True,True,Rejection episode
+261ddc2e-271e-4fce-b7b4-902e82c57106,2020-03-28,2020-05-28,False,Unknown,Unknown
+261ddc2e-271e-4fce-b7b4-902e82c57106,2021-06-16,2021-07-28,True,False,Unknown
+261ddc2e-271e-4fce-b7b4-902e82c57106,2022-01-18,2022-10-29,True,False,Unknown
+a4db4096-ede5-479b-b354-b61040aab326,2021-01-13,2021-12-10,False,Unknown,Unknown
+a4db4096-ede5-479b-b354-b61040aab326,2022-12-22,2023-02-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+a4db4096-ede5-479b-b354-b61040aab326,2023-03-30,2023-06-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+ba438707-b3c4-41f4-a6a8-5313c08e95ad,2020-02-06,2020-02-10,False,Unknown,Unknown
+ba438707-b3c4-41f4-a6a8-5313c08e95ad,2020-03-01,2020-04-24,True,True,CV admission other than HF
+dc9c008f-231c-4f73-9fd7-cfef69c45e2b,2020-04-26,2021-06-08,True,False,Unknown
+dc9c008f-231c-4f73-9fd7-cfef69c45e2b,2021-12-03,2021-12-15,False,Unknown,Unknown
+dc9c008f-231c-4f73-9fd7-cfef69c45e2b,2023-04-19,2023-07-18,False,Unknown,Unknown
+12b552e6-6e95-4d30-b214-ebecb5235d67,2020-06-20,2021-03-16,False,Unknown,Unknown
+6eee0f33-eda5-4a4c-9b08-e2757bf426e2,2022-05-15,2022-08-21,False,Unknown,Unknown
+6eee0f33-eda5-4a4c-9b08-e2757bf426e2,2023-01-30,2023-03-05,True,False,Unknown
+c0dcebed-5b66-4a54-a409-e36c167df161,2022-08-27,2023-01-27,False,Unknown,Unknown
+c0dcebed-5b66-4a54-a409-e36c167df161,2024-04-14,2024-04-19,False,Unknown,Unknown
+c0dcebed-5b66-4a54-a409-e36c167df161,2024-05-20,2024-08-26,True,False,Unknown
+33b76457-ac94-4889-b56f-f950f128adce,2021-03-21,2021-12-22,False,Unknown,Unknown
+33b76457-ac94-4889-b56f-f950f128adce,2023-11-15,2024-02-09,True,True,Device-related complications
+13d1b7fb-62f8-47de-9709-fc60cd26c055,2023-01-25,2023-02-05,False,Unknown,Unknown
+13d1b7fb-62f8-47de-9709-fc60cd26c055,2023-02-23,2023-10-20,True,True,HF Admission
+5d22d95e-c712-4460-a806-95abef60e8f3,2020-06-14,2020-12-10,False,Unknown,Unknown
+5d22d95e-c712-4460-a806-95abef60e8f3,2021-01-22,2021-01-27,False,Unknown,Unknown
+5d22d95e-c712-4460-a806-95abef60e8f3,2021-02-03,2021-09-17,True,True,HF Admission
+675fef31-e195-4798-a84e-f9e2cb57bc2a,2020-08-25,2020-10-01,False,Unknown,Unknown
+675fef31-e195-4798-a84e-f9e2cb57bc2a,2023-01-07,2023-01-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+675fef31-e195-4798-a84e-f9e2cb57bc2a,2023-06-04,2023-06-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+67c1cd2e-9998-42bb-8d3a-55d5c99df985,2021-09-21,2021-11-19,False,Unknown,Unknown
+67c1cd2e-9998-42bb-8d3a-55d5c99df985,2022-03-10,2022-05-04,True,False,Unknown
+67c1cd2e-9998-42bb-8d3a-55d5c99df985,2022-09-14,2022-09-24,False,Unknown,Unknown
+09e090e4-bb25-4704-895f-4946b830ed4f,2020-08-22,2020-09-19,True,True,HF Admission
+09e090e4-bb25-4704-895f-4946b830ed4f,2021-06-15,2021-06-25,True,True,HF Admission
+49cae818-c372-4ffa-ad44-eadc3ad9f8b8,2020-07-18,2020-09-16,False,Unknown,Unknown
+49cae818-c372-4ffa-ad44-eadc3ad9f8b8,2023-12-05,2024-02-13,True,True,HF Admission
+e702bddf-d4ae-482d-9211-739af3756a34,2019-12-14,2019-12-23,False,Unknown,Unknown
+e702bddf-d4ae-482d-9211-739af3756a34,2020-12-23,2021-01-15,False,Unknown,Unknown
+e702bddf-d4ae-482d-9211-739af3756a34,2021-04-14,2022-10-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+d07d268c-296f-48f6-b082-5d7fedbca8a2,2020-01-01,2020-02-12,False,Unknown,Unknown
+d07d268c-296f-48f6-b082-5d7fedbca8a2,2021-09-15,2022-06-10,True,False,Unknown
+8806b990-abad-4789-988e-156b6fc1ecb1,2020-02-01,2020-03-05,False,Unknown,Unknown
+8806b990-abad-4789-988e-156b6fc1ecb1,2020-11-15,2023-01-31,False,Unknown,Unknown
+caa38ea2-475e-4387-9841-f81bdea60292,2020-12-19,2021-02-15,False,Unknown,Unknown
+7bfd1a16-d73a-4326-85b0-eb68b0ba8485,2021-04-15,2021-11-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+f265232c-6443-4fe7-8ab4-48a36f645cd8,2020-10-06,2021-12-05,True,True,CV admission other than HF
+f265232c-6443-4fe7-8ab4-48a36f645cd8,2023-03-25,2023-04-30,True,True,Other non-CV admissions
+f265232c-6443-4fe7-8ab4-48a36f645cd8,2023-05-18,2023-12-31,True,True,Rejection episode
+410d1b31-c10d-4a6f-a7e9-2c2b59fb42a6,2020-11-12,2020-12-15,False,Unknown,Unknown
+410d1b31-c10d-4a6f-a7e9-2c2b59fb42a6,2021-03-15,2021-03-28,True,True,HF Admission
+13e0de1f-8cc6-4a27-8ec0-68c7d1567df1,2022-12-02,2023-06-11,True,False,Unknown
+fb3d9dd7-bd0b-4f7a-8243-532b2c5b56f9,2021-12-19,2022-01-01,False,Unknown,Unknown
+fb3d9dd7-bd0b-4f7a-8243-532b2c5b56f9,2023-09-19,2024-06-13,True,True,CV admission other than HF
+a5b9da78-6a49-45cc-9fd6-5ded1c455747,2024-05-30,2024-10-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+a5b9da78-6a49-45cc-9fd6-5ded1c455747,2024-11-04,2024-11-05,False,Unknown,Unknown
+c4bfa231-98f9-456b-8de7-edd876c4878d,2021-07-21,2021-08-26,False,Unknown,Unknown
+c4bfa231-98f9-456b-8de7-edd876c4878d,2023-02-07,2023-02-15,False,Unknown,Unknown
+c4bfa231-98f9-456b-8de7-edd876c4878d,2023-02-16,2024-02-29,False,Unknown,Unknown
+b5ff4843-829e-4fec-ad25-04896301feab,2020-11-14,2021-06-05,True,True,Infection management
+a066582c-e390-4a2d-b0eb-4b6f0e712e48,2022-10-24,2023-02-27,False,Unknown,Unknown
+01d5857e-aa8a-4537-8738-c9b8072922cb,2020-06-27,2020-06-29,True,True,HF Admission
+01d5857e-aa8a-4537-8738-c9b8072922cb,2021-01-07,2021-02-10,True,True,HF Admission
+70feeb23-ebab-4da8-90cb-498d933f8bce,2020-01-18,2020-02-09,True,True,HF decompensation needing iv. Diuretic-inotropes
+3ab5d9ca-f66a-4021-9ef7-e85e191ddd66,2022-12-08,2023-05-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+59d26875-7256-41b1-b0fc-70de68f074c0,2021-09-19,2021-11-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+59d26875-7256-41b1-b0fc-70de68f074c0,2022-06-17,2022-09-25,False,Unknown,Unknown
+3657357c-f653-48a0-93ff-3c56f5cccfed,2021-07-19,2022-09-18,True,True,HF decompensation needing iv. Diuretic-inotropes
+3657357c-f653-48a0-93ff-3c56f5cccfed,2023-02-10,2023-08-02,False,Unknown,Unknown
+3657357c-f653-48a0-93ff-3c56f5cccfed,2024-01-05,2024-03-29,False,Unknown,Unknown
+3657357c-f653-48a0-93ff-3c56f5cccfed,2024-06-11,2024-07-04,False,Unknown,Unknown
+43c12f3f-69a1-4272-b29b-a37b19b96a24,2021-08-04,2022-04-29,True,True,HF decompensation needing iv. Diuretic-inotropes
+43c12f3f-69a1-4272-b29b-a37b19b96a24,2022-10-20,2023-01-25,True,True,HF Admission
+43c12f3f-69a1-4272-b29b-a37b19b96a24,2024-01-10,2024-02-18,True,True,HF decompensation needing iv. Diuretic-inotropes
+1b7905c0-e53c-4870-a032-8aff203ab385,2021-06-20,2021-10-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+1b7905c0-e53c-4870-a032-8aff203ab385,2021-11-22,2021-12-11,False,Unknown,Unknown
+1b7905c0-e53c-4870-a032-8aff203ab385,2022-07-08,2022-09-09,False,Unknown,Unknown
+1b7905c0-e53c-4870-a032-8aff203ab385,2022-12-12,2023-01-15,False,Unknown,Unknown
+c90572a2-9d74-405d-87d2-479a86dea766,2024-03-29,2024-04-07,False,Unknown,Unknown
+28bb30ce-9e57-4e0f-b4ec-6c5762f615a7,2020-02-17,2020-03-23,True,True,HF decompensation needing iv. Diuretic-inotropes
+28bb30ce-9e57-4e0f-b4ec-6c5762f615a7,2022-10-12,2022-11-21,True,True,HF decompensation needing iv. Diuretic-inotropes
+23406aa8-1b20-4417-ac6f-0f8f67a56ce3,2022-05-19,2022-07-26,True,True,HF decompensation needing iv. Diuretic-inotropes
+23406aa8-1b20-4417-ac6f-0f8f67a56ce3,2022-08-01,2023-06-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+b6a008c7-41b2-4118-8bd3-4821d52c61d0,2020-04-24,2023-02-10,False,Unknown,Unknown
+b6a008c7-41b2-4118-8bd3-4821d52c61d0,2024-01-11,2024-02-16,True,True,Rejection episode
+a8eceddc-d770-4e33-beef-470ce2fbce64,2020-06-29,2020-11-27,False,Unknown,Unknown
+a8eceddc-d770-4e33-beef-470ce2fbce64,2022-03-30,2023-05-27,False,Unknown,Unknown
+7824822a-f19b-4e23-add5-2d4860df5730,2020-10-01,2020-10-03,True,True,CV admission other than HF
+7824822a-f19b-4e23-add5-2d4860df5730,2021-01-12,2023-01-01,False,Unknown,Unknown
+7824822a-f19b-4e23-add5-2d4860df5730,2023-06-03,2023-06-05,True,False,Unknown
+7824822a-f19b-4e23-add5-2d4860df5730,2023-08-25,2023-11-20,True,True,CV admission other than HF
+7f3c1d97-bc73-4779-90bd-48d4cfcb3f04,2020-02-05,2021-05-25,True,True,Other non-CV admissions
+7f3c1d97-bc73-4779-90bd-48d4cfcb3f04,2022-03-15,2022-12-19,True,True,Infection management
+46173bb2-6719-43f1-8291-8edaae633a59,2019-12-10,2019-12-21,False,Unknown,Unknown
+46173bb2-6719-43f1-8291-8edaae633a59,2019-12-23,2020-04-21,False,Unknown,Unknown
+46173bb2-6719-43f1-8291-8edaae633a59,2020-06-27,2020-08-11,True,True,CV admission other than HF
+46173bb2-6719-43f1-8291-8edaae633a59,2020-09-10,2021-08-25,False,Unknown,Unknown
+0e832a6c-578a-49fb-b82e-a35e49ed5b62,2021-04-22,2021-07-14,True,True,HF decompensation needing iv. Diuretic-inotropes
+0e832a6c-578a-49fb-b82e-a35e49ed5b62,2023-07-24,2023-08-19,True,True,Device-related complications
+0e832a6c-578a-49fb-b82e-a35e49ed5b62,2023-09-02,2023-09-10,True,True,CV admission other than HF
+0e832a6c-578a-49fb-b82e-a35e49ed5b62,2023-09-18,2024-01-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+01a8a5a1-4a60-447e-9517-afe43d229928,2020-01-18,2022-02-14,False,Unknown,Unknown
+01a8a5a1-4a60-447e-9517-afe43d229928,2022-10-20,2023-05-09,True,True,CV admission other than HF
+01a8a5a1-4a60-447e-9517-afe43d229928,2023-08-05,2023-10-11,True,True,Infection management
+a784199d-6579-4aa7-8189-e427aa7495a1,2023-07-21,2023-10-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+e7c70ca3-cfb8-4ceb-b0d9-09adae0fefb6,2021-03-20,2021-04-27,False,Unknown,Unknown
+93fd0476-1d36-4000-a82e-1d8e8b4add96,2020-11-03,2021-01-19,True,True,HF Admission
+93fd0476-1d36-4000-a82e-1d8e8b4add96,2021-06-01,2023-03-15,False,Unknown,Unknown
+f2cedf84-52e2-4ffa-9172-8d006c178dad,2020-12-17,2020-12-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+df89a164-e235-4b11-b657-27b270f0881e,2022-01-27,2022-03-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+df89a164-e235-4b11-b657-27b270f0881e,2023-09-09,2023-12-22,False,Unknown,Unknown
+10a8498f-4a16-4e01-9619-190c6108b1c2,2020-10-03,2021-02-13,True,False,Unknown
+10a8498f-4a16-4e01-9619-190c6108b1c2,2021-08-12,2021-10-17,True,True,Device-related complications
+10a8498f-4a16-4e01-9619-190c6108b1c2,2021-11-13,2022-10-22,False,Unknown,Unknown
+bb04ac1f-21d3-4943-b5a9-180384d6ab92,2021-03-05,2022-03-27,True,True,HF Admission
+bb04ac1f-21d3-4943-b5a9-180384d6ab92,2022-12-17,2023-02-04,False,Unknown,Unknown
+2c9e896f-3a92-4220-809c-c8f98dc6041a,2021-07-16,2021-11-17,True,True,HF Admission
+ccfd069d-90a5-486b-bfc5-79c22859cd74,2022-04-16,2022-05-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+ccfd069d-90a5-486b-bfc5-79c22859cd74,2022-10-12,2023-05-12,True,True,HF Admission
+ccfd069d-90a5-486b-bfc5-79c22859cd74,2024-02-08,2024-03-27,True,True,HF Admission
+967dbcb8-c89f-4282-8269-0a132f195384,2020-10-05,2022-03-20,False,Unknown,Unknown
+1f9e9125-2223-4161-94ce-57a8634fb983,2020-08-19,2020-11-11,False,Unknown,Unknown
+8920606b-c308-4509-9fb9-8fb1e415c503,2021-06-01,2022-03-04,False,Unknown,Unknown
+8937b523-d801-4235-b2b5-9fba5a8013cd,2022-03-11,2022-05-01,False,Unknown,Unknown
+8937b523-d801-4235-b2b5-9fba5a8013cd,2024-05-03,2024-10-14,True,True,HF Admission
+4d06a5e5-80e2-43de-88ad-9a79378a4c4e,2020-02-22,2020-04-01,False,Unknown,Unknown
+498e19b8-7461-49a5-85e5-b4b7d12d6c5c,2020-02-16,2020-05-12,False,Unknown,Unknown
+498e19b8-7461-49a5-85e5-b4b7d12d6c5c,2022-08-21,2022-09-19,True,True,Device-related complications
+fc27bb39-cd63-456d-991c-c9ac06d24c1b,2020-04-09,2022-05-10,True,True,Device-related complications
+fc27bb39-cd63-456d-991c-c9ac06d24c1b,2022-06-08,2022-07-02,True,False,Unknown
+fc27bb39-cd63-456d-991c-c9ac06d24c1b,2022-12-14,2023-01-23,False,Unknown,Unknown
+6c3db4cc-d659-40c6-87d6-22884a8fb89f,2021-11-30,2021-12-01,False,Unknown,Unknown
+ccf98755-24f8-4a78-8842-74f0ade83692,2021-06-13,2021-06-14,False,Unknown,Unknown
+ccf98755-24f8-4a78-8842-74f0ade83692,2021-06-23,2021-09-10,False,Unknown,Unknown
+e7f1fbf4-cfda-40e9-97b0-15ab1769c589,2020-01-09,2020-06-30,True,True,HF Admission
+e7f1fbf4-cfda-40e9-97b0-15ab1769c589,2021-10-12,2021-10-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+e7f1fbf4-cfda-40e9-97b0-15ab1769c589,2021-11-16,2023-01-30,False,Unknown,Unknown
+97dcd425-95b0-4ebd-ace3-4380cba5d495,2020-07-27,2020-11-24,False,Unknown,Unknown
+97dcd425-95b0-4ebd-ace3-4380cba5d495,2021-02-23,2022-03-04,True,False,Unknown
+f0259bcd-6d07-40a0-a43e-ff21c09c4418,2019-12-09,2020-01-30,False,Unknown,Unknown
+f0259bcd-6d07-40a0-a43e-ff21c09c4418,2022-11-05,2023-05-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+c83c3b8e-bbcd-4f0d-9cb9-6ed304b5d5bd,2020-07-19,2021-04-18,True,True,CV admission other than HF
+48f84b3b-f931-4b4b-bd2a-e01bf80d8c77,2022-03-20,2022-09-30,True,True,HF decompensation needing iv. Diuretic-inotropes
+48f84b3b-f931-4b4b-bd2a-e01bf80d8c77,2023-02-28,2023-03-23,False,Unknown,Unknown
+48f84b3b-f931-4b4b-bd2a-e01bf80d8c77,2023-03-27,2023-07-24,False,Unknown,Unknown
+3f1038af-1659-45a6-ad97-2c851c24df82,2020-11-02,2021-02-09,False,Unknown,Unknown
+3f1038af-1659-45a6-ad97-2c851c24df82,2021-05-09,2021-06-11,True,True,HF Admission
+3f1038af-1659-45a6-ad97-2c851c24df82,2021-09-03,2021-09-23,False,Unknown,Unknown
+c9fb0a1c-06cd-4c29-9a26-faef362663f7,2020-09-23,2020-11-06,True,False,Unknown
+c9fb0a1c-06cd-4c29-9a26-faef362663f7,2021-04-06,2021-05-18,True,True,Rejection episode
+c9fb0a1c-06cd-4c29-9a26-faef362663f7,2022-06-20,2023-01-06,False,Unknown,Unknown
+0d7ee0f1-a601-4dcd-bcf1-10f80b3fccf8,2020-08-06,2020-08-09,False,Unknown,Unknown
+0d7ee0f1-a601-4dcd-bcf1-10f80b3fccf8,2022-01-23,2022-05-27,False,Unknown,Unknown
+ce03eab1-682d-4f7d-8a6a-3931517c3ca0,2020-01-02,2020-10-19,True,True,HF Admission
+ce03eab1-682d-4f7d-8a6a-3931517c3ca0,2020-12-28,2021-05-20,False,Unknown,Unknown
+ce03eab1-682d-4f7d-8a6a-3931517c3ca0,2021-05-26,2022-09-30,False,Unknown,Unknown
+ce03eab1-682d-4f7d-8a6a-3931517c3ca0,2024-05-21,2024-06-09,False,Unknown,Unknown
+8165f50e-b7e3-4486-9d3e-afc50f080542,2020-01-01,2020-06-07,True,False,Unknown
+8165f50e-b7e3-4486-9d3e-afc50f080542,2020-06-15,2022-04-15,True,False,Unknown
+24041b4e-cde1-46f9-9fa3-c8516497f705,2021-04-15,2022-07-26,False,Unknown,Unknown
+24041b4e-cde1-46f9-9fa3-c8516497f705,2022-12-03,2023-03-02,False,Unknown,Unknown
+24041b4e-cde1-46f9-9fa3-c8516497f705,2024-01-28,2024-09-19,True,True,Device-related complications
+3fc17900-af80-4d01-a325-5d2ed6eeb75d,2023-06-11,2023-06-12,True,True,HF decompensation needing iv. Diuretic-inotropes
+3fc17900-af80-4d01-a325-5d2ed6eeb75d,2023-08-27,2024-10-07,False,Unknown,Unknown
+06af087a-5ab6-4b5a-a4a7-2f7975b9f10d,2022-03-26,2022-04-07,False,Unknown,Unknown
+06af087a-5ab6-4b5a-a4a7-2f7975b9f10d,2022-11-05,2022-12-18,True,False,Unknown
+06af087a-5ab6-4b5a-a4a7-2f7975b9f10d,2023-04-09,2023-04-22,True,True,Infection management
+6d23ec5c-da95-4be0-83fc-4e47bb93822d,2022-02-08,2022-02-24,True,False,Unknown
+6d23ec5c-da95-4be0-83fc-4e47bb93822d,2024-01-18,2024-02-08,False,Unknown,Unknown
+548ba28b-88df-4b88-a0d0-072b8ad83245,2021-08-30,2021-11-27,False,Unknown,Unknown
+548ba28b-88df-4b88-a0d0-072b8ad83245,2022-01-10,2022-01-30,True,False,Unknown
+32dfcebd-d059-4a22-a123-4357d3f7bc7d,2022-06-12,2023-02-07,False,Unknown,Unknown
+bbc38dcb-3cf0-492c-a0a8-fee7bc1d3581,2021-10-04,2022-09-28,True,True,HF Admission
+5ef4b3a3-ee6f-4f6c-bc57-8aa5a6b90b93,2021-05-24,2022-03-27,False,Unknown,Unknown
+cca4d288-d121-43c0-9dc0-10c40b8c59e7,2020-01-21,2020-10-21,False,Unknown,Unknown
+cca4d288-d121-43c0-9dc0-10c40b8c59e7,2020-11-18,2021-08-13,True,True,HF Admission
+cca4d288-d121-43c0-9dc0-10c40b8c59e7,2023-02-05,2023-02-17,False,Unknown,Unknown
+cca4d288-d121-43c0-9dc0-10c40b8c59e7,2023-03-14,2023-12-01,True,True,HF Admission
+1cc5bdfd-d2e7-4375-a261-9f86c35232cc,2023-01-06,2024-03-21,True,False,Unknown
+2b3af856-6f00-4fe9-a0e4-941ed71b195d,2020-02-23,2020-04-24,False,Unknown,Unknown
+2b3af856-6f00-4fe9-a0e4-941ed71b195d,2022-04-08,2023-09-09,False,Unknown,Unknown
+ddd5d75c-b73a-4776-b504-37cac3769aad,2023-11-13,2023-12-17,False,Unknown,Unknown
+1bf3dd68-2281-4cf0-9888-1d7dcfb6e81f,2020-01-04,2020-07-02,True,True,HF Admission
+1bf3dd68-2281-4cf0-9888-1d7dcfb6e81f,2023-02-09,2023-03-16,True,True,HF decompensation needing iv. Diuretic-inotropes
+586913ac-e8a1-4b67-b5da-07d7f9556cf6,2020-05-21,2021-03-06,True,False,Unknown
+21eaf993-1d26-4fef-9cc7-0599f98b8bc9,2021-12-07,2021-12-20,False,Unknown,Unknown
+5bfedbca-d803-44ed-848a-26c33264c9c5,2022-05-18,2024-05-18,True,True,HF Admission
+a5904080-b5f9-40b0-8b53-464667ee62cb,2019-12-24,2020-01-26,False,Unknown,Unknown
+a5904080-b5f9-40b0-8b53-464667ee62cb,2020-02-28,2020-05-21,True,True,HF Admission
+a5904080-b5f9-40b0-8b53-464667ee62cb,2021-07-05,2021-07-19,False,Unknown,Unknown
+9c2056de-8f30-4f31-95b6-a270b5c86d14,2022-10-29,2023-07-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+9c2056de-8f30-4f31-95b6-a270b5c86d14,2023-08-10,2023-08-23,True,True,HF Admission
+34903db7-7b99-4b26-803c-d31f04c64538,2020-03-10,2020-04-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+34903db7-7b99-4b26-803c-d31f04c64538,2021-06-09,2021-11-22,True,True,HF decompensation needing iv. Diuretic-inotropes
+1dedc117-c9cf-4f7e-be44-2a891c7eb341,2021-06-30,2021-11-05,True,True,Other non-CV admissions
+1dedc117-c9cf-4f7e-be44-2a891c7eb341,2022-02-02,2022-08-05,False,Unknown,Unknown
+adb7cfd8-66b4-4122-8730-ab5889a57db3,2021-09-24,2022-01-07,True,True,CV admission other than HF
+adb7cfd8-66b4-4122-8730-ab5889a57db3,2023-03-10,2023-03-15,True,False,Unknown
+051be1a1-15b5-41ae-8965-ebc8527806c5,2021-11-16,2021-12-20,False,Unknown,Unknown
+051be1a1-15b5-41ae-8965-ebc8527806c5,2021-12-24,2022-01-20,True,False,Unknown
+051be1a1-15b5-41ae-8965-ebc8527806c5,2022-10-27,2022-11-14,False,Unknown,Unknown
+e7cf2cd0-cdec-4ffa-a4ff-a58b17e32bc2,2020-11-17,2021-03-06,False,Unknown,Unknown
+e7cf2cd0-cdec-4ffa-a4ff-a58b17e32bc2,2021-07-06,2021-12-01,False,Unknown,Unknown
+e7cf2cd0-cdec-4ffa-a4ff-a58b17e32bc2,2022-10-15,2023-03-18,True,True,Other non-CV admissions
+e7cf2cd0-cdec-4ffa-a4ff-a58b17e32bc2,2023-07-13,2023-08-19,True,True,Rejection episode
+895a9b5b-8024-449b-a7b4-b19274dd90b3,2021-03-21,2021-05-12,False,Unknown,Unknown
+895a9b5b-8024-449b-a7b4-b19274dd90b3,2021-09-17,2021-10-14,False,Unknown,Unknown
+895a9b5b-8024-449b-a7b4-b19274dd90b3,2023-05-11,2023-07-08,False,Unknown,Unknown
+a7ea1948-d369-4c69-9cf7-c7ca8b77b000,2021-03-20,2022-12-07,True,True,HF Admission
+6c173cf3-56f0-4061-b2fd-a247d1638097,2022-10-08,2022-10-14,False,Unknown,Unknown
+6c173cf3-56f0-4061-b2fd-a247d1638097,2022-11-25,2022-12-21,False,Unknown,Unknown
+6c173cf3-56f0-4061-b2fd-a247d1638097,2023-06-19,2023-07-19,False,Unknown,Unknown
+280e2870-cc49-411e-8c78-844be2dbfbdb,2021-05-07,2021-07-29,True,False,Unknown
+280e2870-cc49-411e-8c78-844be2dbfbdb,2022-05-02,2022-05-04,False,Unknown,Unknown
+64bc5b0a-b2e5-470d-b20d-1148c41674ed,2021-10-05,2021-11-10,False,Unknown,Unknown
+64bc5b0a-b2e5-470d-b20d-1148c41674ed,2021-11-14,2024-03-09,False,Unknown,Unknown
+64bc5b0a-b2e5-470d-b20d-1148c41674ed,2024-05-05,2024-05-28,False,Unknown,Unknown
+0b28cc6a-0d6f-44a2-b8d5-29272a8a852b,2022-02-26,2022-06-28,True,False,Unknown
+0b28cc6a-0d6f-44a2-b8d5-29272a8a852b,2023-07-27,2023-10-14,False,Unknown,Unknown
+0b28cc6a-0d6f-44a2-b8d5-29272a8a852b,2023-11-20,2023-12-14,True,False,Unknown
+f701e02a-2da6-4b51-8af6-cd73f976e230,2020-07-08,2021-06-10,False,Unknown,Unknown
+3dc0c9de-b8d8-445e-a5e7-69dcab50ee10,2022-04-12,2022-06-01,False,Unknown,Unknown
+3dc0c9de-b8d8-445e-a5e7-69dcab50ee10,2023-03-08,2023-06-04,True,True,CV admission other than HF
+91649485-e919-4098-a811-5e12f2165056,2020-11-01,2021-01-27,True,True,HF decompensation needing iv. Diuretic-inotropes
+91649485-e919-4098-a811-5e12f2165056,2021-07-27,2022-02-04,False,Unknown,Unknown
+91649485-e919-4098-a811-5e12f2165056,2022-03-06,2022-10-18,True,True,CV admission other than HF
+91119c9c-b4c6-493d-995e-4b53a4b8ab35,2021-12-04,2022-06-23,False,Unknown,Unknown
+91119c9c-b4c6-493d-995e-4b53a4b8ab35,2022-08-24,2022-10-06,True,False,Unknown
+2ef7886a-a17e-4173-9aad-e9c3174b8b65,2020-07-08,2021-09-02,True,True,HF decompensation needing iv. Diuretic-inotropes
+2ef7886a-a17e-4173-9aad-e9c3174b8b65,2021-10-15,2022-05-31,False,Unknown,Unknown
+2ef7886a-a17e-4173-9aad-e9c3174b8b65,2022-06-21,2022-08-08,False,Unknown,Unknown
+2ef7886a-a17e-4173-9aad-e9c3174b8b65,2024-01-22,2024-10-07,True,False,Unknown
+8bfab08b-6563-40e1-8481-9cc832ff17bd,2021-11-10,2022-05-09,False,Unknown,Unknown
+8bfab08b-6563-40e1-8481-9cc832ff17bd,2022-11-04,2022-11-09,False,Unknown,Unknown
+6f73ac21-84ce-47cb-a4bc-acfa3833ede1,2020-06-03,2020-06-21,False,Unknown,Unknown
+142a6990-8b3e-42e2-bc51-97a6c2ce1fe9,2020-01-16,2020-04-03,True,True,HF decompensation needing iv. Diuretic-inotropes
+142a6990-8b3e-42e2-bc51-97a6c2ce1fe9,2022-01-18,2022-07-08,True,True,HF decompensation needing iv. Diuretic-inotropes
+142a6990-8b3e-42e2-bc51-97a6c2ce1fe9,2023-08-02,2023-11-06,False,Unknown,Unknown
+5800d8b1-6a3f-43f6-bfba-6e9122654bcc,2022-05-31,2022-06-14,False,Unknown,Unknown
+5800d8b1-6a3f-43f6-bfba-6e9122654bcc,2022-07-11,2022-12-08,False,Unknown,Unknown
+df591026-5970-418d-8ca3-33a0a3ab93ec,2020-03-06,2020-03-23,True,True,HF Admission
+6b552caa-7a7b-4a4e-8a1c-d86ed415dea6,2020-12-07,2021-03-31,True,False,Unknown
+6b552caa-7a7b-4a4e-8a1c-d86ed415dea6,2021-08-23,2022-12-31,True,True,Device-related complications
+970b1c62-0535-4d0f-81b2-1e7b24cbd23b,2024-02-22,2024-03-23,False,Unknown,Unknown
+eb1ebb47-1747-495f-872a-2a31789c494c,2021-08-05,2021-12-28,False,Unknown,Unknown
+eb1ebb47-1747-495f-872a-2a31789c494c,2023-01-28,2023-05-08,False,Unknown,Unknown
+eb1ebb47-1747-495f-872a-2a31789c494c,2023-06-17,2023-10-03,False,Unknown,Unknown
+56bc3fdd-3d1c-4883-8483-fb48c5aa772a,2021-04-05,2021-07-29,False,Unknown,Unknown
+406fc329-ba7a-41ab-8cca-514115945dca,2021-05-20,2021-10-28,True,False,Unknown
+406fc329-ba7a-41ab-8cca-514115945dca,2022-01-03,2023-02-22,True,False,Unknown
+406fc329-ba7a-41ab-8cca-514115945dca,2023-05-12,2023-09-01,True,False,Unknown
+406fc329-ba7a-41ab-8cca-514115945dca,2023-09-19,2023-10-09,False,Unknown,Unknown
+cc73fd36-2816-4dae-8929-e625bd9d7213,2021-05-01,2021-05-02,False,Unknown,Unknown
+cc73fd36-2816-4dae-8929-e625bd9d7213,2021-07-03,2022-11-23,True,False,Unknown
+cc73fd36-2816-4dae-8929-e625bd9d7213,2023-03-16,2023-06-23,True,True,Device-related complications
+4216ed5b-de7e-4fb5-ab99-3748c6ae824e,2020-08-12,2021-03-28,False,Unknown,Unknown
+4216ed5b-de7e-4fb5-ab99-3748c6ae824e,2022-12-07,2023-11-26,False,Unknown,Unknown
+4216ed5b-de7e-4fb5-ab99-3748c6ae824e,2024-06-09,2024-10-23,True,True,HF Admission
+162d68d9-954f-4339-ba23-3375392ac971,2021-04-09,2021-12-30,True,False,Unknown
+971df624-e7b6-4de4-9908-c9304be5feca,2020-02-04,2020-09-30,True,True,CV admission other than HF
+971df624-e7b6-4de4-9908-c9304be5feca,2020-10-20,2021-01-31,False,Unknown,Unknown
+971df624-e7b6-4de4-9908-c9304be5feca,2021-06-13,2021-08-21,False,Unknown,Unknown
+5f7d3b8e-29a5-4b5b-91e4-29d2b3a56cab,2020-02-02,2020-09-02,True,False,Unknown
+5f7d3b8e-29a5-4b5b-91e4-29d2b3a56cab,2021-11-25,2022-06-01,True,True,HF decompensation needing iv. Diuretic-inotropes
+c4222ac4-26f6-4511-85df-7f9d4f4d4e90,2023-06-27,2023-07-02,True,False,Unknown
+4462c40f-c85c-40e4-b30d-8db0325c5cc9,2022-10-05,2023-05-12,False,Unknown,Unknown
+4462c40f-c85c-40e4-b30d-8db0325c5cc9,2024-03-09,2024-03-10,False,Unknown,Unknown
+5c9dae7a-0b36-4486-ad11-be1cbbe17128,2020-11-14,2020-11-20,False,Unknown,Unknown
+5c9dae7a-0b36-4486-ad11-be1cbbe17128,2022-10-22,2022-10-29,False,Unknown,Unknown
+5c9dae7a-0b36-4486-ad11-be1cbbe17128,2023-03-17,2023-05-03,False,Unknown,Unknown
+7329cdd3-81e0-4ad6-8168-09d430b8b170,2020-06-19,2021-07-27,False,Unknown,Unknown
+7329cdd3-81e0-4ad6-8168-09d430b8b170,2021-10-29,2021-11-26,True,True,HF Admission
+8d830ad1-d8f1-4d9c-a439-e656818762ef,2020-04-21,2022-03-24,False,Unknown,Unknown
+8d830ad1-d8f1-4d9c-a439-e656818762ef,2022-04-22,2022-08-15,True,False,Unknown
+8d830ad1-d8f1-4d9c-a439-e656818762ef,2022-12-26,2023-08-07,False,Unknown,Unknown
+71302097-fe95-460a-a80f-aa78d7262eac,2020-07-01,2020-11-06,False,Unknown,Unknown
+71302097-fe95-460a-a80f-aa78d7262eac,2022-04-11,2022-07-01,False,Unknown,Unknown
+0bd46a8e-1db4-490e-bcb6-7f507a6f00ee,2020-01-23,2020-09-08,True,True,HF Admission
+0bd46a8e-1db4-490e-bcb6-7f507a6f00ee,2021-01-30,2021-02-13,True,True,HF decompensation needing iv. Diuretic-inotropes
+c4a663d1-f350-4ad6-aa44-e15f92f30ce7,2024-04-26,2024-05-03,False,Unknown,Unknown
+e9c1f368-ef08-4eef-b233-97f62adc5789,2021-10-09,2022-08-11,True,True,HF Admission
+e9c1f368-ef08-4eef-b233-97f62adc5789,2023-05-06,2023-05-24,False,Unknown,Unknown
+4bb54172-0e1d-49ef-82c8-ff82614e8f5e,2023-03-09,2023-11-04,True,True,HF decompensation needing iv. Diuretic-inotropes
+4bb54172-0e1d-49ef-82c8-ff82614e8f5e,2023-11-08,2024-01-20,False,Unknown,Unknown
+4bb54172-0e1d-49ef-82c8-ff82614e8f5e,2024-02-17,2024-03-07,True,False,Unknown
+4bb54172-0e1d-49ef-82c8-ff82614e8f5e,2024-04-17,2024-05-10,False,Unknown,Unknown
+60dfb6ee-67aa-442b-aa23-fb2c4081829a,2021-11-18,2022-01-05,False,Unknown,Unknown
+5fe78602-8074-4a42-bf95-6fdf4f975db8,2021-06-07,2022-01-05,True,True,HF decompensation needing iv. Diuretic-inotropes
+3fa01b4b-2a63-451a-bd97-e782da477cd7,2023-06-10,2023-11-19,False,Unknown,Unknown
+06cff27d-9a8d-4ab8-b454-c95941a40ec8,2020-05-16,2020-10-08,False,Unknown,Unknown
+06cff27d-9a8d-4ab8-b454-c95941a40ec8,2020-12-26,2021-12-28,True,True,HF decompensation needing iv. Diuretic-inotropes
+06cff27d-9a8d-4ab8-b454-c95941a40ec8,2022-05-02,2022-09-28,True,True,HF Admission
+7bb573df-a2be-4d4c-aafc-ace77ceef2b3,2019-11-25,2020-01-05,False,Unknown,Unknown
+7bb573df-a2be-4d4c-aafc-ace77ceef2b3,2023-08-25,2023-12-28,False,Unknown,Unknown
+66fd561c-8f7d-40c9-b48d-ef9ce8c1c1d0,2022-12-03,2023-05-17,True,True,HF Admission
+66fd561c-8f7d-40c9-b48d-ef9ce8c1c1d0,2023-08-20,2023-10-12,False,Unknown,Unknown
+cd6c4f26-3ebd-4795-b968-933fa7887315,2021-06-03,2021-07-25,False,Unknown,Unknown
+cd6c4f26-3ebd-4795-b968-933fa7887315,2021-10-02,2022-02-07,True,False,Unknown
+cd6c4f26-3ebd-4795-b968-933fa7887315,2022-08-23,2022-10-06,False,Unknown,Unknown
+1a87d89e-f5ab-4d63-940f-3339a6d73421,2020-11-07,2021-08-30,True,False,Unknown
+1a87d89e-f5ab-4d63-940f-3339a6d73421,2021-10-15,2022-06-11,True,False,Unknown
+39ba9bd1-8766-4b7a-9b01-a5530e6d8751,2020-03-06,2020-03-27,False,Unknown,Unknown
+39ba9bd1-8766-4b7a-9b01-a5530e6d8751,2022-01-19,2022-03-20,True,False,Unknown
+2d921c5a-e2d4-4995-ac6d-fa958c85fd34,2021-11-17,2023-08-04,False,Unknown,Unknown
+2d921c5a-e2d4-4995-ac6d-fa958c85fd34,2024-01-31,2024-02-01,False,Unknown,Unknown
+d6e2f896-d64c-4cb6-a400-336cd1503188,2020-12-23,2021-12-30,False,Unknown,Unknown
+d6e2f896-d64c-4cb6-a400-336cd1503188,2022-06-29,2022-10-04,True,True,HF Admission
+3813ea47-0d45-4286-88c7-ef692cd5a1e9,2020-10-17,2021-03-27,False,Unknown,Unknown
+3813ea47-0d45-4286-88c7-ef692cd5a1e9,2022-01-18,2022-09-04,False,Unknown,Unknown
+3813ea47-0d45-4286-88c7-ef692cd5a1e9,2023-09-28,2023-11-14,True,False,Unknown
+21d46803-d561-4097-b0d1-05171852c6d6,2021-07-10,2021-12-10,True,True,Device-related complications
+21d46803-d561-4097-b0d1-05171852c6d6,2022-04-19,2022-07-16,False,Unknown,Unknown
+1e2b2280-0b06-41d8-b06a-1cb55505e2e0,2023-02-08,2023-02-23,False,Unknown,Unknown
+b8276da6-c423-4528-aa14-a7233bb928a9,2021-01-17,2021-05-21,False,Unknown,Unknown
+b8276da6-c423-4528-aa14-a7233bb928a9,2022-07-06,2022-11-20,True,True,HF Admission
+b8276da6-c423-4528-aa14-a7233bb928a9,2022-12-17,2023-05-27,True,True,HF Admission
+98dba6ac-d811-473f-9441-22ff157266a0,2022-07-10,2022-08-24,False,Unknown,Unknown
+98dba6ac-d811-473f-9441-22ff157266a0,2022-08-31,2023-01-12,False,Unknown,Unknown
+98dba6ac-d811-473f-9441-22ff157266a0,2023-08-21,2023-09-18,False,Unknown,Unknown
+3dd0a4d0-ab44-4997-ad4d-b04aa07e6bda,2023-11-27,2023-12-22,True,True,HF Admission
+8da3fe4d-8db3-4266-85cb-40ba66ea67d5,2020-06-22,2020-08-23,True,True,HF Admission
+8da3fe4d-8db3-4266-85cb-40ba66ea67d5,2020-09-22,2021-09-19,True,True,HF decompensation needing iv. Diuretic-inotropes
+8da3fe4d-8db3-4266-85cb-40ba66ea67d5,2022-01-28,2023-03-21,False,Unknown,Unknown
+4a89aa3d-f1e3-4a00-9b57-8134be282fa9,2021-04-17,2021-08-05,True,True,HF Admission
+4a89aa3d-f1e3-4a00-9b57-8134be282fa9,2022-07-09,2022-07-12,False,Unknown,Unknown
+ba3fe8a8-e1bf-4a73-b6d9-7ce5354655cb,2020-04-11,2020-04-12,False,Unknown,Unknown
+ba3fe8a8-e1bf-4a73-b6d9-7ce5354655cb,2020-04-12,2020-07-02,False,Unknown,Unknown
+ba3fe8a8-e1bf-4a73-b6d9-7ce5354655cb,2020-08-22,2022-05-02,False,Unknown,Unknown
+1308e1cb-7a18-414d-b9d5-b9a01d9d22ad,2020-05-22,2020-09-19,False,Unknown,Unknown
+1308e1cb-7a18-414d-b9d5-b9a01d9d22ad,2020-10-02,2021-01-07,True,False,Unknown
+1308e1cb-7a18-414d-b9d5-b9a01d9d22ad,2021-09-03,2021-09-23,False,Unknown,Unknown
+1308e1cb-7a18-414d-b9d5-b9a01d9d22ad,2021-11-18,2022-01-14,False,Unknown,Unknown
+fd629634-3b37-4181-97b6-79bc0c656d25,2020-06-04,2020-07-03,False,Unknown,Unknown
+fd629634-3b37-4181-97b6-79bc0c656d25,2021-04-30,2022-03-06,True,True,HF decompensation needing iv. Diuretic-inotropes
+fd629634-3b37-4181-97b6-79bc0c656d25,2024-05-03,2024-05-11,False,Unknown,Unknown
+598f6dad-4871-4993-a0f2-3ae503be3668,2020-08-21,2021-07-24,False,Unknown,Unknown
+70527050-eb53-478f-93e4-5c69d453b587,2020-09-13,2020-10-10,False,Unknown,Unknown
+70527050-eb53-478f-93e4-5c69d453b587,2021-11-12,2023-07-17,False,Unknown,Unknown
+70527050-eb53-478f-93e4-5c69d453b587,2024-01-23,2024-10-06,False,Unknown,Unknown
+95eb97bd-72af-4071-aaa4-741f9dc4bed3,2020-07-25,2020-09-18,False,Unknown,Unknown
+56e68783-c69e-4062-b17d-e05a320cc864,2020-03-16,2020-05-06,False,Unknown,Unknown
+56e68783-c69e-4062-b17d-e05a320cc864,2020-11-23,2021-02-15,True,True,HF decompensation needing iv. Diuretic-inotropes
+56e68783-c69e-4062-b17d-e05a320cc864,2022-08-05,2022-08-09,False,Unknown,Unknown
