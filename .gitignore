@@ -1,0 +1,18 @@
+# ── Secrets ──────────────────────────────────────────────────────────────────
+.env
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ── Large binary model weights (tracked via Git LFS or stored separately) ────
+models_seg_dig/*.pth
+
+# ── Trained ML model/pipeline pickles ────────────────────────────────────────
+data-gender/*.pkl
+
+# ── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
