@@ -74,6 +74,12 @@ MYOPS_COLOURS = {
 }
 MYOPS_OPACITY = {1: 0.12, 2: 0.12, 3: 0.18, 4: 0.85, 5: 0.55}
 
+LASC_MODEL   = os.path.join(_MODELS_DIR, "lasc_best.pth")
+LASC_CLASSES = {0: "Background", 1: "LA Cavity", 2: "LA Wall"}
+LASC_COLORS_RGB = {1: (0.39, 0.58, 0.93), 2: (0.86, 0.31, 0.31)}
+LASC_COLORS_HEX = {1: "#6495ED", 2: "#DC4F4F"}
+LASC_NUM_CLASSES = 3
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Shared utilities
 # ─────────────────────────────────────────────────────────────────────────────
@@ -768,7 +774,7 @@ def _render_acdc_tab():
     <p style='color:#BDC3C7;margin:.4rem 0 0'>
     ResBlock U-Net with attention-pooling classification head.<br>
     Classifies 6 cardiac pathologies from short-axis MRI (ED frame required).<br>
-    Upload an ES frame as well to compute left-ventricular ejection fraction.
+    Upload an ES frame as well to compute LV &amp; RV volumes (mL) and ejection fraction.
     </p></div>""", unsafe_allow_html=True)
 
     ok = os.path.isfile(ACDC_MODEL)
@@ -873,12 +879,19 @@ def _render_acdc_tab():
         )
         st.altair_chart(chart, width="stretch")
 
-        # Voxel counts
-        mc1, mc2, mc3 = st.columns(3)
-        for col, (c, name) in zip([mc1, mc2, mc3], [(1, "RV Cavity"), (2, "Myocardium"), (3, "LV Cavity")]):
-            col.metric(name, f"{int(np.sum(preds_ed == c)):,} vox")
+        # ── ED volumes in mL (using real voxel spacing from NIfTI header) ──────
+        vx, vy, vz   = zooms
+        voxel_ml     = (vx * vy * vz) / 1000.0   # mm³ → mL
+        rv_ed_ml     = int(np.sum(preds_ed == 1)) * voxel_ml
+        myo_ed_ml    = int(np.sum(preds_ed == 2)) * voxel_ml
+        lv_edv_ml    = int(np.sum(preds_ed == 3)) * voxel_ml
 
-        # Optional EF
+        mc1, mc2, mc3 = st.columns(3)
+        mc1.metric("RV Volume (ED)", f"{rv_ed_ml:.1f} mL")
+        mc2.metric("Myocardium (ED)", f"{myo_ed_ml:.1f} mL")
+        mc3.metric("LV EDV", f"{lv_edv_ml:.1f} mL", help="End-Diastolic Volume — normal range 100–150 mL")
+
+        # ── Ejection Fraction panel ───────────────────────────────────────────
         if es_file:
             with st.spinner("Computing ejection fraction…"):
                 tmp_es = _save_nifti_tmp(es_file)
@@ -886,20 +899,145 @@ def _render_acdc_tab():
                 if vol_es.ndim == 4:
                     vol_es = vol_es[:, :, :, 0]
                 preds_es, _ = _acdc_infer(model, vol_es, device, tta=False)
-                lv_ed = int(np.sum(preds_ed == 3))
-                lv_es = int(np.sum(preds_es == 3))
-                if lv_ed > 0:
-                    ef = (lv_ed - lv_es) / lv_ed * 100
-                    ef_col = "#E74C3C" if ef < 40 else "#F39C12" if ef > 75 else "#2ECC71"
-                    interp  = ("Low EF — likely DCM / Infarction" if ef < 40
-                               else "High EF — possible HCM" if ef > 75
-                               else "Normal EF (40–75%)")
-                    st.markdown(f"""
-                    <div style='background:{ef_col}22;border:1px solid {ef_col};
-                                border-radius:8px;padding:.75rem 1rem;margin:.5rem 0'>
-                    <b style='color:{ef_col}'>Ejection Fraction: {ef:.1f}%</b><br>
-                    <span style='color:#BDC3C7'>{interp}</span>
-                    </div>""", unsafe_allow_html=True)
+
+                lv_esv_ml   = int(np.sum(preds_es == 3)) * voxel_ml
+                rv_esv_ml   = int(np.sum(preds_es == 1)) * voxel_ml
+
+                lv_ef = (lv_edv_ml - lv_esv_ml) / lv_edv_ml * 100 if lv_edv_ml > 0 else 0.0
+                rv_ef = (rv_ed_ml  - rv_esv_ml)  / rv_ed_ml  * 100 if rv_ed_ml  > 0 else 0.0
+
+                if lv_ef < 40:
+                    ef_col, ef_status, ef_interp, ef_icon = (
+                        "#E74C3C", "Reduced EF",
+                        "Severely reduced — consistent with DCM / Infarction", "🔴")
+                elif lv_ef < 50:
+                    ef_col, ef_status, ef_interp, ef_icon = (
+                        "#E67E22", "Mildly Reduced",
+                        "Mildly reduced EF — borderline systolic dysfunction", "🟠")
+                elif lv_ef <= 70:
+                    ef_col, ef_status, ef_interp, ef_icon = (
+                        "#2ECC71", "Normal",
+                        "Normal LV systolic function", "🟢")
+                else:
+                    ef_col, ef_status, ef_interp, ef_icon = (
+                        "#F39C12", "Hyperdynamic",
+                        "High EF — possible HCM or dynamic outflow obstruction", "🟡")
+
+                rv_ef_col    = "#E74C3C" if rv_ef < 45 else "#2ECC71"
+                rv_ef_status = "Normal" if rv_ef >= 45 else "Reduced"
+                ef_bar_pct   = min(lv_ef, 100)
+
+                components.html(f"""
+                <div style='background:#1a2535;border-radius:12px;padding:1.4rem 1.6rem;
+                            margin:.9rem 0;border:1px solid #2a3f5f;font-family:sans-serif'>
+
+                  <h4 style='color:#1ABC9C;margin:0 0 1.1rem;font-size:1rem;
+                              letter-spacing:.03em'>
+                    Cardiac Volumes &amp; Ejection Fraction
+                  </h4>
+
+                  <!-- LV row -->
+                  <div style='color:#8899aa;font-size:.72rem;text-transform:uppercase;
+                              letter-spacing:.08em;margin-bottom:.55rem'>Left Ventricle</div>
+                  <div style='display:flex;gap:.8rem;margin-bottom:.6rem'>
+
+                    <div style='flex:1;background:#273241;border-radius:8px;
+                                padding:.7rem;text-align:center'>
+                      <div style='color:#8899aa;font-size:.72rem;margin-bottom:.2rem'>EDV</div>
+                      <div style='color:#ECF0F1;font-size:1.45rem;font-weight:700;
+                                  line-height:1'>{lv_edv_ml:.1f}</div>
+                      <div style='color:#5D6D7E;font-size:.68rem;margin-top:.2rem'>
+                        mL &nbsp;·&nbsp; <span style='color:#4a6070'>norm 100–150</span>
+                      </div>
+                    </div>
+
+                    <div style='flex:1;background:#273241;border-radius:8px;
+                                padding:.7rem;text-align:center'>
+                      <div style='color:#8899aa;font-size:.72rem;margin-bottom:.2rem'>ESV</div>
+                      <div style='color:#ECF0F1;font-size:1.45rem;font-weight:700;
+                                  line-height:1'>{lv_esv_ml:.1f}</div>
+                      <div style='color:#5D6D7E;font-size:.68rem;margin-top:.2rem'>
+                        mL &nbsp;·&nbsp; <span style='color:#4a6070'>norm 35–60</span>
+                      </div>
+                    </div>
+
+                    <div style='flex:2;background:{ef_col}18;
+                                border:1.5px solid {ef_col}66;
+                                border-radius:8px;padding:.7rem;text-align:center'>
+                      <div style='color:{ef_col};font-size:.78rem;font-weight:600;
+                                  margin-bottom:.1rem'>LVEF {ef_icon}</div>
+                      <div style='color:{ef_col};font-size:2.1rem;font-weight:800;
+                                  line-height:1'>{lv_ef:.1f}%</div>
+                      <div style='color:#BDC3C7;font-size:.72rem;margin-top:.25rem'>
+                        {ef_status}
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- EF progress bar -->
+                  <div style='background:#273241;border-radius:6px;height:9px;
+                              overflow:hidden;margin-bottom:.18rem'>
+                    <div style='width:{ef_bar_pct:.1f}%;background:linear-gradient(
+                                  90deg,#E74C3C 0%,#E67E22 38%,#2ECC71 48%,
+                                  #2ECC71 70%,#F39C12 82%,#F39C12 100%);
+                                height:100%;border-radius:6px'></div>
+                  </div>
+                  <div style='display:flex;justify-content:space-between;
+                              color:#4a6070;font-size:.65rem;margin-bottom:1.1rem'>
+                    <span>0%</span>
+                    <span style='color:#E74C3C'>40%</span>
+                    <span style='color:#2ECC71'>50% – 70%</span>
+                    <span style='color:#F39C12'>100%</span>
+                  </div>
+
+                  <!-- RV row -->
+                  <div style='border-top:1px solid #2a3f5f;padding-top:1rem'>
+                    <div style='color:#8899aa;font-size:.72rem;text-transform:uppercase;
+                                letter-spacing:.08em;margin-bottom:.55rem'>Right Ventricle</div>
+                    <div style='display:flex;gap:.8rem'>
+
+                      <div style='flex:1;background:#273241;border-radius:8px;
+                                  padding:.7rem;text-align:center'>
+                        <div style='color:#8899aa;font-size:.72rem;margin-bottom:.2rem'>EDV</div>
+                        <div style='color:#ECF0F1;font-size:1.45rem;font-weight:700;
+                                    line-height:1'>{rv_ed_ml:.1f}</div>
+                        <div style='color:#5D6D7E;font-size:.68rem;margin-top:.2rem'>mL</div>
+                      </div>
+
+                      <div style='flex:1;background:#273241;border-radius:8px;
+                                  padding:.7rem;text-align:center'>
+                        <div style='color:#8899aa;font-size:.72rem;margin-bottom:.2rem'>ESV</div>
+                        <div style='color:#ECF0F1;font-size:1.45rem;font-weight:700;
+                                    line-height:1'>{rv_esv_ml:.1f}</div>
+                        <div style='color:#5D6D7E;font-size:.68rem;margin-top:.2rem'>mL</div>
+                      </div>
+
+                      <div style='flex:2;background:{rv_ef_col}18;
+                                  border:1.5px solid {rv_ef_col}66;
+                                  border-radius:8px;padding:.7rem;text-align:center'>
+                        <div style='color:{rv_ef_col};font-size:.78rem;font-weight:600;
+                                    margin-bottom:.1rem'>RVEF</div>
+                        <div style='color:{rv_ef_col};font-size:2.1rem;font-weight:800;
+                                    line-height:1'>{rv_ef:.1f}%</div>
+                        <div style='color:#BDC3C7;font-size:.72rem;margin-top:.25rem'>
+                          {rv_ef_status}
+                          <span style='color:#4a6070'> · norm ≥45%</span>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+
+                  <!-- Clinical note -->
+                  <div style='background:{ef_col}15;border-left:3px solid {ef_col};
+                              border-radius:0 6px 6px 0;padding:.6rem .9rem;
+                              margin-top:1rem'>
+                    <span style='color:{ef_col};font-weight:600'>Clinical Note: </span>
+                    <span style='color:#BDC3C7'>{ef_interp}</span>
+                  </div>
+
+                </div>""", height=480)
 
         # Slice visualisation
         with st.spinner("Rendering slice preview…"):
@@ -1578,6 +1716,664 @@ def _render_myops_tab():
 
 
 # ═════════════════════════════════════════════════════════════════════════════
+# SECTION 2C — LASC 2018  Left Atrial Segmentation
+# ═════════════════════════════════════════════════════════════════════════════
+
+@st.cache_resource(show_spinner="Loading LASC Left-Atrial model…")
+def _load_lasc():
+    import torch
+    import torch.nn as nn
+
+    device = _device()
+
+    class ResBlock(nn.Module):
+        # Attribute names MUST match the checkpoint: s.c (conv path), s.sk (skip)
+        def __init__(s, ic, oc, drop=0.1):
+            super().__init__()
+            s.c = nn.Sequential(
+                nn.Conv2d(ic, oc, 3, padding=1, bias=False), nn.BatchNorm2d(oc), nn.ReLU(True),
+                nn.Conv2d(oc, oc, 3, padding=1, bias=False), nn.BatchNorm2d(oc), nn.Dropout2d(drop),
+            )
+            s.sk = nn.Conv2d(ic, oc, 1, bias=False) if ic != oc else nn.Identity()
+        def forward(s, x): return torch.relu(s.c(x) + s.sk(x))
+
+    class ASPP(nn.Module):
+        # bias=False on all branches — matches how the checkpoint was trained
+        def __init__(s, ch):
+            super().__init__()
+            q = ch // 4
+            s.b0 = nn.Conv2d(ch, q, 1,  bias=False)
+            s.b1 = nn.Conv2d(ch, q, 3,  padding=6,  dilation=6,  bias=False)
+            s.b2 = nn.Conv2d(ch, q, 3,  padding=12, dilation=12, bias=False)
+            s.b3 = nn.Conv2d(ch, q, 3,  padding=18, dilation=18, bias=False)
+            s.proj = nn.Sequential(nn.Conv2d(ch, ch, 1, bias=False), nn.BatchNorm2d(ch), nn.ReLU(True))
+        def forward(s, x): return s.proj(torch.cat([s.b0(x), s.b1(x), s.b2(x), s.b3(x)], 1))
+
+    class LASCNet(nn.Module):
+        def __init__(s, n_cls=3, ch=32):
+            super().__init__()
+            s.e1 = ResBlock(1,    ch);    s.e2 = ResBlock(ch,   ch*2)
+            s.e3 = ResBlock(ch*2, ch*4); s.e4 = ResBlock(ch*4, ch*8)
+            s.pool = nn.MaxPool2d(2)
+            s.bot_pre  = ResBlock(ch*8,  ch*16)
+            s.aspp     = ASPP(ch*16)
+            s.bot_post = ResBlock(ch*16, ch*16)
+            s.u4 = nn.ConvTranspose2d(ch*16, ch*8,  2, stride=2); s.d4 = ResBlock(ch*16, ch*8)
+            s.u3 = nn.ConvTranspose2d(ch*8,  ch*4,  2, stride=2); s.d3 = ResBlock(ch*8,  ch*4)
+            s.u2 = nn.ConvTranspose2d(ch*4,  ch*2,  2, stride=2); s.d2 = ResBlock(ch*4,  ch*2)
+            s.u1 = nn.ConvTranspose2d(ch*2,  ch,    2, stride=2); s.d1 = ResBlock(ch*2,  ch)
+            s.seg_out = nn.Conv2d(ch, n_cls, 1)
+            s.aux_out = nn.Conv2d(ch*4, n_cls, 1)
+        def forward(s, x):
+            e1 = s.e1(x); e2 = s.e2(s.pool(e1))
+            e3 = s.e3(s.pool(e2)); e4 = s.e4(s.pool(e3))
+            b  = s.bot_post(s.aspp(s.bot_pre(s.pool(e4))))
+            d4 = s.d4(torch.cat([s.u4(b),  e4], 1))
+            d3 = s.d3(torch.cat([s.u3(d4), e3], 1))
+            d2 = s.d2(torch.cat([s.u2(d3), e2], 1))
+            d1 = s.d1(torch.cat([s.u1(d2), e1], 1))
+            return s.seg_out(d1), s.aux_out(d3)
+
+    model = LASCNet(LASC_NUM_CLASSES, ch=32)
+    ckpt  = torch.load(LASC_MODEL, map_location=device, weights_only=False)
+    state = ckpt.get("state", ckpt)
+    model.load_state_dict(state)
+    model.eval().to(device)
+    return model, device
+
+
+def _lasc_load_volume(path: str):
+    """Load a 3D LGE-MRI volume from .nrrd or .nii/.nii.gz.
+    Returns (volume_ndarray, voxel_spacing_mm_tuple)."""
+    ext = path.lower()
+    if ext.endswith(".nrrd"):
+        try:
+            import nrrd
+            data, hdr = nrrd.read(path)
+            sp = hdr.get("spacings", hdr.get("space directions", None))
+            if sp is None:
+                spacing = (1.0, 1.0, 1.0)
+            else:
+                sp = np.array(sp, dtype=float)
+                if sp.ndim == 2:
+                    spacing = tuple(float(np.linalg.norm(sp[i])) for i in range(3))
+                else:
+                    spacing = tuple(float(v) for v in sp[:3])
+        except ImportError:
+            st.error("pynrrd not installed — rebuild the Docker image to add it.")
+            return None, None
+    else:
+        import nibabel as nib
+        nii     = nib.load(path)
+        data    = nii.get_fdata(dtype=np.float32)
+        spacing = tuple(float(v) for v in nii.header.get_zooms()[:3])
+    if data.ndim == 4:
+        data = data[..., 0]
+    return data.astype(np.float32), spacing
+
+
+def _lasc_infer(model, vol: np.ndarray, device: str, crop_size: int = 128):
+    """Slice-by-slice TTA inference.  Returns full-resolution prediction map."""
+    import torch, torch.nn.functional as F
+
+    H, W, nz = vol.shape
+    cx, cy   = H // 2, W // 2
+    x0 = max(0, cx - crop_size // 2);  x1 = min(H, x0 + crop_size)
+    y0 = max(0, cy - crop_size // 2);  y1 = min(W, y0 + crop_size)
+
+    preds_full = np.zeros((H, W, nz), dtype=np.int32)
+
+    for z in range(nz):
+        slc = _percentile_norm(vol[x0:x1, y0:y1, z])
+        t   = torch.from_numpy(slc).unsqueeze(0).unsqueeze(0).float().to(device)
+        _, _, h, w = t.shape
+        nh = ((h + 31) // 32) * 32;  nw = ((w + 31) // 32) * 32
+        tp = F.pad(t, (0, nw - w, 0, nh - h))
+        with torch.no_grad():
+            lg1, _ = model(tp)
+            lg2, _ = model(torch.flip(tp, [3]))
+            lg2    = torch.flip(lg2, [3])
+            pred   = ((torch.softmax(lg1, 1) + torch.softmax(lg2, 1)) / 2
+                      ).argmax(1).squeeze().cpu().numpy()
+        preds_full[x0:x1, y0:y1, z] = pred[:h, :w]
+
+    return preds_full
+
+
+def _la_volumes(preds: np.ndarray, spacing=(1.0, 1.0, 1.0)):
+    vox_ml  = (spacing[0] * spacing[1] * spacing[2]) / 1000.0
+    cav_ml  = float(np.sum(preds == 1) * vox_ml)
+    wall_ml = float(np.sum(preds == 2) * vox_ml)
+    return cav_ml, wall_ml
+
+
+def _la_size_label(cav_ml: float):
+    if cav_ml < 100:
+        return "Normal",              "#2ECC71", "🟢", \
+               "LA size is within normal range. Low AFib risk."
+    elif cav_ml < 130:
+        return "Mildly Enlarged",     "#F39C12", "🟡", \
+               "Mild enlargement detected. Monitor for paroxysmal AFib."
+    elif cav_ml < 160:
+        return "Moderately Enlarged", "#E67E22", "🟠", \
+               "Moderate enlargement. Elevated AFib risk. Consider further workup."
+    else:
+        return "Severely Enlarged",   "#E74C3C", "🔴", \
+               "Severe enlargement. High AFib recurrence risk. Urgent cardiology review."
+
+
+def _lasc_figure(vol: np.ndarray, preds: np.ndarray):
+    """Matplotlib figure — 6 evenly-spaced LA slices with colour overlay."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib.patches import Patch
+
+    nz = vol.shape[2]
+    la_slices = [z for z in range(nz) if np.any(preds[:, :, z] > 0)]
+    if not la_slices:
+        la_slices = list(range(0, nz, max(1, nz // 6)))
+    step   = max(1, len(la_slices) // 6)
+    idxs   = la_slices[::step][:6]
+    n_show = len(idxs)
+
+    fig, axes = plt.subplots(
+        1, n_show,
+        figsize=(2.8 * n_show, 3.4),
+        facecolor="#0d1117",
+    )
+    if n_show == 1:
+        axes = [axes]
+
+    for ax, z in zip(axes, idxs):
+        raw = vol[:, :, z].astype(np.float32)
+        fg  = raw[raw > 0]
+        if len(fg):
+            p1, p99 = np.percentile(fg, [1, 99])
+            raw = np.clip((raw - p1) / max(p99 - p1, 1e-8), 0, 1)
+
+        pred = preds[:, :, z]
+        rgb  = np.stack([raw] * 3, axis=-1)
+        for cls, col in LASC_COLORS_RGB.items():
+            mask = pred == cls
+            if mask.any():
+                for c, v in enumerate(col):
+                    rgb[:, :, c][mask] = 0.35 * raw[mask] + 0.65 * v
+
+        ax.imshow(rgb)
+        ax.set_title(f"slice {z}", color="#8899aa", fontsize=7.5, pad=4)
+        ax.axis("off")
+        for sp in ax.spines.values():
+            sp.set_visible(False)
+
+    legend = [
+        Patch(color=LASC_COLORS_RGB[1], label="LA Cavity"),
+        Patch(color=LASC_COLORS_RGB[2], label="LA Wall"),
+    ]
+    fig.legend(
+        handles=legend, loc="lower center", ncol=2,
+        facecolor="#0d1117", edgecolor="#2a3f5f",
+        labelcolor="white", fontsize=9, framealpha=0.9,
+        bbox_to_anchor=(0.5, -0.02),
+    )
+    fig.suptitle(
+        "Left Atrial Segmentation  ·  LGE-MRI",
+        color="#1ABC9C", fontsize=11, fontweight="bold", y=1.03,
+    )
+    fig.tight_layout(rect=[0, 0.08, 1, 1])
+    return fig
+
+
+def _build_lasc_3d_html(preds: np.ndarray, spacing: tuple,
+                        cav_ml: float, size_lbl: str, sz_col: str) -> str:
+    """Build a self-contained HTML/Plotly 3D viewer for the LA segmentation.
+    Includes the patient mesh (cavity + wall) AND a semi-transparent reference
+    ghost mesh representing a ~100 ml 'Normal' LA for direct size comparison."""
+    import json
+
+    traces   = []
+    meta     = {}
+
+    # ── 1. Patient meshes (cavity + wall) ────────────────────────────────────
+    layer_cfg = {
+        1: {"color": "#6495ED", "name": "LA Cavity",  "opacity": 0.55, "sigma": 2.0},
+        2: {"color": "#DC4F4F", "name": "LA Wall",    "opacity": 0.80, "sigma": 1.5},
+    }
+    global_center = np.zeros(3)
+    n_centers = 0
+    for cls, cfg in layer_cfg.items():
+        verts, faces, _ = _extract_smooth_mesh(preds, cls,
+                                               sigma=cfg["sigma"],
+                                               spacing=spacing)
+        if verts is None:
+            continue
+        verts, faces = _decimate(verts, faces, max_faces=18000)
+        c = verts.mean(axis=0)
+        global_center += c; n_centers += 1
+        dists = np.linalg.norm(verts - c, axis=1)
+        dists_n = (dists - dists.min()) / max(dists.max() - dists.min(), 1e-8)
+        idx = len(traces)
+        traces.append({
+            "type": "mesh3d",
+            "x": verts[:, 0].tolist(), "y": verts[:, 1].tolist(),
+            "z": verts[:, 2].tolist(),
+            "i": faces[:, 0].tolist(), "j": faces[:, 1].tolist(),
+            "k": faces[:, 2].tolist(),
+            "name": cfg["name"], "color": cfg["color"],
+            "opacity": cfg["opacity"], "showlegend": True,
+            "flatshading": False,
+            "lighting": {"ambient": 0.4, "diffuse": 0.7,
+                         "specular": 0.5, "roughness": 0.25, "fresnel": 0.3},
+            "lightposition": {"x": 200, "y": 300, "z": 500},
+            "hovertemplate": (f"<b>{cfg['name']}</b><br>"
+                              "x:%{x:.0f} y:%{y:.0f} z:%{z:.0f}<extra></extra>"),
+        })
+        meta[str(idx)] = {"intensity_values": dists_n.tolist()}
+
+    if n_centers:
+        global_center /= n_centers
+
+    # ── 2. Reference ghost — sphere scaled to 100 ml "Normal" LA ─────────────
+    # Volume of sphere V = 4/3 π r³  →  r = (3V/4π)^(1/3)
+    # 100 ml = 100 000 mm³
+    ref_vol_mm3 = 100_000.0
+    r_mm = (3 * ref_vol_mm3 / (4 * np.pi)) ** (1 / 3)  # ≈ 28.8 mm
+    # Build icosphere-like mesh via UV parametrisation
+    u = np.linspace(0, 2 * np.pi, 40)
+    v = np.linspace(0, np.pi, 20)
+    uu, vv = np.meshgrid(u, v)
+    sx = global_center[0] + r_mm * np.sin(vv) * np.cos(uu)
+    sy = global_center[1] + r_mm * np.sin(vv) * np.sin(uu)
+    sz = global_center[2] + r_mm * np.cos(vv)
+    ref_faces_i, ref_faces_j, ref_faces_k = [], [], []
+    nv, nu = sx.shape
+    for ri in range(nv - 1):
+        for ci in range(nu - 1):
+            a = ri * nu + ci; b = a + 1
+            c_ = (ri + 1) * nu + ci; d = c_ + 1
+            ref_faces_i += [a, a]; ref_faces_j += [b, c_]; ref_faces_k += [c_, d]
+    traces.append({
+        "type": "mesh3d",
+        "x": sx.ravel().tolist(), "y": sy.ravel().tolist(), "z": sz.ravel().tolist(),
+        "i": ref_faces_i, "j": ref_faces_j, "k": ref_faces_k,
+        "name": "Normal LA (100 ml ref.)", "color": "#aaaaaa",
+        "opacity": 0.12, "showlegend": True, "flatshading": True,
+        "hovertemplate": "<b>Normal LA reference</b><br>~100 ml<extra></extra>",
+    })
+    ref_idx = len(traces) - 1
+    meta[str(ref_idx)] = {"intensity_values": [0.5] * len(ref_faces_i)}
+
+    # enlargement ratio badge for overlay
+    ratio = cav_ml / 100.0
+    ratio_str = f"{ratio:.2f}×"
+
+    traces_json = json.dumps(traces)
+    meta_json   = json.dumps(meta)
+
+    return f"""<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+<style>
+*{{margin:0;padding:0;box-sizing:border-box}}
+body{{background:#0d1117;color:#eee;font-family:'Segoe UI',sans-serif;overflow:hidden}}
+#plot{{width:100vw;height:100vh}}
+#panel{{position:fixed;top:14px;left:14px;z-index:100;
+  background:rgba(15,20,35,.93);border-radius:14px;padding:16px 18px;
+  min-width:240px;border:1px solid rgba(255,255,255,.1);
+  backdrop-filter:blur(12px);box-shadow:0 8px 32px rgba(0,0,0,.6)}}
+#panel h2{{font-size:15px;margin-bottom:4px;color:#1ABC9C;font-weight:700}}
+#panel .sub{{font-size:11px;color:#6495ED;margin-bottom:12px}}
+.badge{{display:inline-block;padding:3px 10px;border-radius:20px;
+  font-size:12px;font-weight:700;margin-bottom:12px;
+  background:{sz_col}22;border:1px solid {sz_col}88;color:{sz_col}}}
+.sec{{font-size:10px;color:#556;text-transform:uppercase;
+  letter-spacing:.08em;margin:10px 0 5px}}
+.row{{display:flex;align-items:center;gap:8px;margin:5px 0}}
+.row label{{font-size:12px;min-width:72px;color:#ccc}}
+.row input[type=range]{{flex:1;accent-color:#6495ED;height:4px}}
+.row .v{{font-size:11px;color:#8899aa;min-width:32px;text-align:right}}
+.btn{{display:inline-block;padding:5px 11px;margin:2px 2px 2px 0;
+  background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);
+  border-radius:6px;color:#ccc;font-size:11px;cursor:pointer;transition:all .18s}}
+.btn:hover{{background:rgba(255,255,255,.14);color:#fff}}
+.btn.on{{background:{sz_col}33;border-color:{sz_col}88;color:{sz_col}}}
+.leg{{display:flex;align-items:center;gap:7px;margin:4px 0;font-size:12px;cursor:pointer}}
+.dot{{width:11px;height:11px;border-radius:50%;flex-shrink:0}}
+.tog{{font-size:10px;color:#556;margin-left:auto}}
+</style></head><body>
+<div id="plot"></div>
+<div id="panel">
+  <h2>&#x2764; Left Atrial 3D</h2>
+  <div class="sub">Patient vs. Normal LA (grey ghost)</div>
+  <div class="badge">{size_lbl} &nbsp;·&nbsp; {ratio_str} normal</div>
+
+  <div class="sec">View Mode</div>
+  <div>
+    <span class="btn on"  id="b-solid"   onclick="setMode('solid')">Solid</span>
+    <span class="btn"     id="b-xray"    onclick="setMode('xray')">X-Ray</span>
+    <span class="btn"     id="b-heatmap" onclick="setMode('heatmap')">Heatmap</span>
+  </div>
+
+  <div class="sec">Controls</div>
+  <div class="row"><label>Opacity</label>
+    <input type="range" id="sl-op" min="5" max="100" value="70"
+           oninput="updateOp(this.value)">
+    <span class="v" id="v-op">70%</span></div>
+  <div class="row"><label>Ref ghost</label>
+    <input type="range" id="sl-ref" min="0" max="60" value="12"
+           oninput="updateRef(this.value)">
+    <span class="v" id="v-ref">12%</span></div>
+
+  <div class="sec">Layers</div>
+  <div id="legend"></div>
+</div>
+<script>
+const traces={traces_json};
+const meta={meta_json};
+const refIdx={ref_idx};
+let visMap={{}};
+const layout={{
+  scene:{{
+    xaxis:{{visible:false}},yaxis:{{visible:false}},zaxis:{{visible:false}},
+    aspectmode:'data',bgcolor:'rgb(13,17,23)',
+    camera:{{eye:{{x:1.6,y:0.9,z:0.7}},up:{{x:0,y:0,z:1}}}}
+  }},
+  paper_bgcolor:'rgb(13,17,23)',margin:{{l:0,r:0,t:0,b:0}},showlegend:false
+}};
+Plotly.newPlot('plot',traces,layout,{{responsive:true,displayModeBar:false}});
+// Build legend
+const lg=document.getElementById('legend');
+traces.forEach((t,i)=>{{
+  visMap[i]=true;
+  const d=document.createElement('div'); d.className='leg';
+  d.innerHTML=`<div class="dot" style="background:${{t.color}};opacity:${{t.opacity}}"></div>
+    <span>${{t.name}}</span><span class="tog" id="tog-${{i}}">ON</span>`;
+  d.onclick=()=>toggle(i); lg.appendChild(d);
+}});
+function toggle(i){{
+  visMap[i]=!visMap[i];
+  Plotly.restyle('plot',{{visible:visMap[i]}},[i]);
+  const el=document.getElementById('tog-'+i);
+  el.textContent=visMap[i]?'ON':'OFF';
+  el.style.color=visMap[i]?'#88ff88':'#ff5555';
+}}
+function updateOp(v){{
+  document.getElementById('v-op').textContent=v+'%';
+  const op=v/100;
+  traces.forEach((t,i)=>{{
+    if(i===refIdx) return;
+    Plotly.restyle('plot',{{opacity:[op*t.opacity*1.4]}},[i]);
+  }});
+}}
+function updateRef(v){{
+  document.getElementById('v-ref').textContent=v+'%';
+  Plotly.restyle('plot',{{opacity:[v/100]}},[refIdx]);
+}}
+let mode='solid';
+function setMode(m){{
+  mode=m;
+  ['solid','xray','heatmap'].forEach(x=>document.getElementById('b-'+x).className='btn');
+  document.getElementById('b-'+m).className='btn on';
+  if(m==='solid'){{
+    traces.forEach((t,i)=>{{
+      if(i===refIdx) return;
+      Plotly.restyle('plot',{{color:t.color,intensity:null,
+        opacity:t.opacity,showscale:false}},[i]);
+    }});
+  }} else if(m==='xray'){{
+    traces.forEach((t,i)=>{{
+      if(i===refIdx) return;
+      Plotly.restyle('plot',{{color:t.color,intensity:null,
+        opacity:0.13,showscale:false}},[i]);
+    }});
+  }} else {{
+    traces.forEach((t,i)=>{{
+      if(i===refIdx) return;
+      Plotly.restyle('plot',{{
+        intensity:[meta[String(i)].intensity_values],
+        colorscale:'Portland',color:null,opacity:0.9,showscale:i===0
+      }},[i]);
+    }});
+  }}
+}}
+</script></body></html>"""
+
+
+def _render_lasc_tab():
+    # ── Header ──────────────────────────────────────────────────────────────
+    st.markdown("""
+    <h4 style='color:#1ABC9C;margin:0'>
+        LASC 2018 — Left Atrial Segmentation &amp; Volume Analysis
+    </h4>""", unsafe_allow_html=True)
+
+    badges = (
+        _model_badge("Model",    "ResBlock U-Net + ASPP", "#1ABC9C") +
+        _model_badge("Input",    "LGE-MRI  (.nrrd / .nii)", "#9B59B6") +
+        _model_badge("Classes",  "LA Cavity · LA Wall",   "#3498DB") +
+        _model_badge("Task",     "Segmentation + Volume", "#E67E22")
+    )
+    st.markdown(f"<p style='margin:.45rem 0 1.1rem'>{badges}</p>",
+                unsafe_allow_html=True)
+
+    st.markdown("""
+    <p style='color:#BDC3C7;font-size:.9rem;margin-bottom:1.2rem'>
+    Upload a Late Gadolinium Enhancement MRI (LGE-MRI) volume to automatically segment
+    the <b style='color:#6495ED'>Left Atrial cavity</b> and
+    <b style='color:#DC4F4F'>LA wall</b>, compute EDV-equivalent volumes and assess
+    enlargement severity — a key predictor of <b>atrial fibrillation (AFib)</b> risk.
+    </p>""", unsafe_allow_html=True)
+
+    # ── Model availability check ─────────────────────────────────────────────
+    if not os.path.isfile(LASC_MODEL):
+        st.warning(
+            f"⚠️ Model weights not found at `{LASC_MODEL}`. "
+            "Copy `lasc_best.pth` into the `models_seg_dig/` folder and rebuild the image.",
+            icon="⚠️",
+        )
+        return
+
+    # ── File uploader ────────────────────────────────────────────────────────
+    lge_file = st.file_uploader(
+        "Upload LGE-MRI volume",
+        type=["nrrd", "nii", "gz"],
+        help="Accepts .nrrd (LASC native) or .nii / .nii.gz (NIfTI)",
+    )
+
+    run = st.button("▶ Run LASC Segmentation", type="primary",
+                    disabled=lge_file is None)
+
+    if not run or lge_file is None:
+        # ── Info panel when idle ─────────────────────────────────────────────
+        components.html("""
+        <div style='background:#1a2535;border:1px solid #2a3f5f;border-radius:12px;
+                    padding:1.3rem 1.5rem;font-family:sans-serif;margin-top:.5rem'>
+          <div style='color:#1ABC9C;font-weight:700;font-size:.95rem;
+                      margin-bottom:.9rem'>📐 LA Volume Reference Ranges</div>
+          <div style='display:flex;gap:.7rem'>
+            <div style='flex:1;background:#1e3a1e;border:1px solid #2ECC7155;
+                        border-radius:8px;padding:.8rem;text-align:center'>
+              <div style='color:#2ECC71;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.07em'>Normal</div>
+              <div style='color:#ECF0F1;font-size:1.5rem;font-weight:800;
+                          line-height:1.1;margin:.3rem 0'>&lt; 100 ml</div>
+              <div style='color:#8899aa;font-size:.7rem'>Low AFib risk</div>
+            </div>
+            <div style='flex:1;background:#3a2f10;border:1px solid #F39C1255;
+                        border-radius:8px;padding:.8rem;text-align:center'>
+              <div style='color:#F39C12;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.07em'>Mild</div>
+              <div style='color:#ECF0F1;font-size:1.5rem;font-weight:800;
+                          line-height:1.1;margin:.3rem 0'>100–130 ml</div>
+              <div style='color:#8899aa;font-size:.7rem'>Monitor for AFib</div>
+            </div>
+            <div style='flex:1;background:#3a2010;border:1px solid #E67E2255;
+                        border-radius:8px;padding:.8rem;text-align:center'>
+              <div style='color:#E67E22;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.07em'>Moderate</div>
+              <div style='color:#ECF0F1;font-size:1.5rem;font-weight:800;
+                          line-height:1.1;margin:.3rem 0'>130–160 ml</div>
+              <div style='color:#8899aa;font-size:.7rem'>Elevated risk</div>
+            </div>
+            <div style='flex:1;background:#3a1010;border:1px solid #E74C3C55;
+                        border-radius:8px;padding:.8rem;text-align:center'>
+              <div style='color:#E74C3C;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.07em'>Severe</div>
+              <div style='color:#ECF0F1;font-size:1.5rem;font-weight:800;
+                          line-height:1.1;margin:.3rem 0'>&gt; 160 ml</div>
+              <div style='color:#8899aa;font-size:.7rem'>High AFib recurrence</div>
+            </div>
+          </div>
+        </div>""", height=195)
+        return
+
+    # ── Run inference ────────────────────────────────────────────────────────
+    tmp_path = None
+    try:
+        suffix   = ".nrrd" if lge_file.name.endswith(".nrrd") else \
+                   (".nii.gz" if lge_file.name.endswith(".gz") else ".nii")
+        tmp      = tempfile.NamedTemporaryFile(delete=False, suffix=suffix)
+        lge_file.seek(0)
+        tmp.write(lge_file.read())
+        tmp.close()
+        tmp_path = tmp.name
+
+        with st.spinner("Loading volume…"):
+            vol, spacing = _lasc_load_volume(tmp_path)
+        if vol is None:
+            return
+
+        with st.spinner("Segmenting left atrium slice-by-slice (TTA)…"):
+            model, device = _load_lasc()
+            preds         = _lasc_infer(model, vol, device)
+
+        cav_ml, wall_ml          = _la_volumes(preds, spacing)
+        size_lbl, sz_col, sz_ico, sz_note = _la_size_label(cav_ml)
+        la_slices = [z for z in range(vol.shape[2]) if np.any(preds[:, :, z] > 0)]
+
+        # ── Volume metric cards ──────────────────────────────────────────────
+        components.html(f"""
+        <div style='background:#1a2535;border:1px solid #2a3f5f;border-radius:12px;
+                    padding:1.3rem 1.5rem;font-family:sans-serif;margin-bottom:.5rem'>
+          <div style='color:#1ABC9C;font-weight:700;font-size:.95rem;
+                      margin-bottom:.85rem'>📊 Cardiac Volumes</div>
+          <div style='display:flex;gap:.75rem;margin-bottom:.9rem'>
+
+            <!-- Cavity -->
+            <div style='flex:1;background:#273241;border-radius:10px;
+                        padding:.85rem;text-align:center'>
+              <div style='color:#6495ED;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.08em;
+                          margin-bottom:.25rem'>LA Cavity</div>
+              <div style='color:#ECF0F1;font-size:2rem;font-weight:800;
+                          line-height:1'>{cav_ml:.1f}</div>
+              <div style='color:#5D6D7E;font-size:.7rem;margin-top:.2rem'>
+                mL &nbsp;·&nbsp; <span style='color:#4a6070'>norm &lt; 100</span>
+              </div>
+            </div>
+
+            <!-- Wall -->
+            <div style='flex:1;background:#273241;border-radius:10px;
+                        padding:.85rem;text-align:center'>
+              <div style='color:#DC4F4F;font-size:.72rem;font-weight:700;
+                          text-transform:uppercase;letter-spacing:.08em;
+                          margin-bottom:.25rem'>LA Wall</div>
+              <div style='color:#ECF0F1;font-size:2rem;font-weight:800;
+                          line-height:1'>{wall_ml:.1f}</div>
+              <div style='color:#5D6D7E;font-size:.7rem;margin-top:.2rem'>mL</div>
+            </div>
+
+            <!-- Size classification -->
+            <div style='flex:2;background:{sz_col}18;border:1.5px solid {sz_col}66;
+                        border-radius:10px;padding:.85rem;text-align:center'>
+              <div style='color:{sz_col};font-size:.78rem;font-weight:700;
+                          margin-bottom:.2rem'>LA Enlargement {sz_ico}</div>
+              <div style='color:{sz_col};font-size:1.6rem;font-weight:800;
+                          line-height:1.1'>{size_lbl}</div>
+              <div style='color:#BDC3C7;font-size:.72rem;margin-top:.3rem'>
+                {len(la_slices)} slices with LA tissue
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Progress bar: cavity size -->
+          <div style='background:#273241;border-radius:6px;height:9px;
+                      overflow:hidden;margin-bottom:.18rem'>
+            <div style='width:{min(cav_ml/200*100, 100):.1f}%;
+                        background:linear-gradient(90deg,#2ECC71 0%,#2ECC71 49%,
+                          #F39C12 50%,#E67E22 65%,#E74C3C 80%,#E74C3C 100%);
+                        height:100%;border-radius:6px'></div>
+          </div>
+          <div style='display:flex;justify-content:space-between;
+                      color:#4a6070;font-size:.65rem;margin-bottom:1rem'>
+            <span>0 mL</span>
+            <span style='color:#2ECC71'>100 mL</span>
+            <span style='color:#F39C12'>130 mL</span>
+            <span style='color:#E67E22'>160 mL</span>
+            <span style='color:#E74C3C'>200+ mL</span>
+          </div>
+
+          <!-- Clinical note -->
+          <div style='background:{sz_col}15;border-left:3px solid {sz_col};
+                      border-radius:0 6px 6px 0;padding:.6rem .9rem'>
+            <span style='color:{sz_col};font-weight:700'>⚕ Clinical Note: </span>
+            <span style='color:#BDC3C7'>{sz_note}</span>
+          </div>
+        </div>""", height=365)
+
+        # ── 3D interactive viewer ────────────────────────────────────────────
+        st.markdown(
+            "<p style='color:#8899aa;font-size:.82rem;margin:.8rem 0 .3rem'>"
+            "🫀 Interactive 3D — patient LA vs. normal reference (grey ghost)</p>",
+            unsafe_allow_html=True,
+        )
+        with st.spinner("Building 3D mesh…"):
+            html_3d = _build_lasc_3d_html(preds, spacing, cav_ml, size_lbl, sz_col)
+        components.html(html_3d, height=520, scrolling=False)
+
+        # ── Slice visualisation ──────────────────────────────────────────────
+        st.markdown(
+            "<p style='color:#8899aa;font-size:.82rem;margin:.6rem 0 .3rem'>"
+            "🔬 Segmentation overlay — 6 representative LGE-MRI slices</p>",
+            unsafe_allow_html=True,
+        )
+        with st.spinner("Rendering slice preview…"):
+            fig = _lasc_figure(vol, preds)
+            buf = io.BytesIO()
+            fig.savefig(buf, format="png", dpi=150,
+                        facecolor="#0d1117", bbox_inches="tight")
+            buf.seek(0)
+            import matplotlib.pyplot as plt
+            plt.close(fig)
+
+        st.image(buf, use_container_width=True)
+
+        # ── Download segmentation ────────────────────────────────────────────
+        seg_buf = io.BytesIO()
+        np.save(seg_buf, preds)
+        seg_buf.seek(0)
+        st.download_button(
+            "⬇️ Download segmentation mask (.npy)",
+            data=seg_buf,
+            file_name=f"lasc_seg_{lge_file.name.split('.')[0]}.npy",
+            mime="application/octet-stream",
+        )
+
+        # ── Disclaimer ───────────────────────────────────────────────────────
+        st.markdown("""
+        <div style='background:#2c1a0a;border-radius:8px;padding:.7rem 1rem;
+                    margin-top:1rem;border-left:4px solid #E67E22'>
+          <span style='color:#E67E22;font-weight:700'>⚕ Clinical Disclaimer</span><br>
+          <span style='color:#BDC3C7;font-size:.875rem'>Research tool only. Not validated for
+          clinical use. All decisions must be made by qualified medical professionals.</span>
+        </div>""", unsafe_allow_html=True)
+
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            _safe_unlink(tmp_path)
+
+
+# ═════════════════════════════════════════════════════════════════════════════
 # Entry point
 # ═════════════════════════════════════════════════════════════════════════════
 
@@ -1604,18 +2400,23 @@ def render():
     with tab_diag:
         st.markdown("""
         <p style='color:#BDC3C7;margin-bottom:1rem'>
-        Two complementary tools:<br>
+        Three complementary diagnostic tools:<br>
         <b>ACDC</b> — pathology classification (Normal / MINF / DCM / HCM / ARV / HHD)
         from single short-axis MRI frames, with optional EF estimation.<br>
         <b>MyoPS</b> — scar &amp; edema detection and quantification from three
-        co-registered sequences (C0 + DE + T2).
+        co-registered sequences (C0 + DE + T2).<br>
+        <b>LASC</b> — left atrial cavity &amp; wall segmentation from LGE-MRI with
+        volume-based AFib risk assessment.
         </p>""", unsafe_allow_html=True)
 
-        sub_acdc, sub_myops = st.tabs([
+        sub_acdc, sub_myops, sub_lasc = st.tabs([
             "📋 ACDC — Disease Classification",
             "🔬 MyoPS — Scar & Edema",
+            "🫀 LASC — Left Atrial Analysis",
         ])
         with sub_acdc:
             _render_acdc_tab()
         with sub_myops:
             _render_myops_tab()
+        with sub_lasc:
+            _render_lasc_tab()

@@ -53,6 +53,10 @@ RUN pip install --no-cache-dir \
 RUN pip install --no-cache-dir \
         reportlab==4.2.5
 
+# ── Medical imaging extras ────────────────────────────────────────────────────
+RUN pip install --no-cache-dir \
+        pynrrd==1.0.0
+
 # ── Backend / cloud ──────────────────────────────────────────────────────────
 RUN pip install --no-cache-dir \
         python-dotenv==1.0.1 \
